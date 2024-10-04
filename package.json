@@ -1,0 +1,18 @@
+{
+  "name": "emcc-wasm",
+  "version": "1.0.0",
+  "description": "emcc-wasm",
+  "main": "index.html",
+  "scripts": {
+    "buildHTML": "emcc src/cpp/gol.cpp -o build/gol.html",
+    "buildCWithLibs": "emcc example.c -s LDFLAGS=['-lSDL2'] -o output.html",
+    "buildAccessor": "emcc -o build/gol.js src/js/gol.cpp -s EXPORTED_RUNTIME_METHODS=['ccall'] -s EXPORTED_FUNCTIONS=_main,_myFunction",
+    "buildWASM": "emcc src/cpp/gol.cpp -o build/gol.wasm -s STANDALONE_WASM=1 -s EXPORTED_FUNCTIONS=[_main,_myFunction]",
+    "buildSimple": "emcc src/c/simple.c -o build/simple.wasm -s STANDALONE_WASM=1 -s EXPORT_ALL=1",
+    "buildWAT": "wat2wasm src/wasm/memory.wat -o build/memory.wasm",
+    "buildASC": "asc src/ts-asc/fib.ts --outFile build/assembly.wasm --optimize",
+    "buildVEC": "emcc src/c/vectors.c -o build/vectors.wasm -s STANDALONE_WASM=1 -s EXPORTED_FUNCTIONS=_alloc_vector,_dealloc_vector,_add_vectors,_sub_vectors,_mul_scalar"
+  },
+  "author": "Nathan Potter",
+  "license": "MIT"
+}

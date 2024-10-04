@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WASM Test</title>
+  </head>
+  <body style="background-color: darkslategray">
+    <h1 style="color: beige">WASM Test</h1>
+
+    <!-- buildHTML - use Emscripten provided HTML Rendering -->
+    <!-- See build/gol.html -->
+
+    <!-- buildWAT - Use .WAT to Inform WASM of instructions. -->
+    <!-- <script>
+      const memory = new WebAssembly.Memory({
+        initial: 10,
+        maximum: 100,
+      });
+      WebAssembly.instantiateStreaming(fetch("build/memory.wasm"), {
+        js: { mem: memory },
+      }).then((obj) => {
+        const summands = new DataView(memory.buffer);
+        console.log("Memory:", memory, memory.buffer);
+        for (let i = 0; i < 10; i++) {
+          summands.setUint32(i * 4, i, true);
+        }
+        const sum = obj.instance.exports.accumulate(0, 10);
+        console.log("use asserted export 'accumulate' from .wat : ", sum); // 45
+      });
+    </script> -->
+
+    <!-- buildVEC - Vector Math Benchmarking -->
+    <script>
+      // Create a WebAssembly Memory object
+      const memory = new WebAssembly.Memory({
+        initial: 10,
+        maximum: 100,
+      });
+
+      // Load and instantiate the WASM module
+      WebAssembly.instantiateStreaming(fetch("build/vectorsUnroll.wasm"), {
+        js: { mem: memory },
+      })
+        .then((obj) => {
+          console.log("Module instantiated successfully", obj);
+
+          // Get the exports from the instance
+          const { accumulate } = obj.instance.exports;
+
+          // Create a DataView to manipulate the memory
+          const summands = new DataView(memory.buffer);
+
+          // Populate the memory with some values
+          for (let i = 0; i < 10; i++) {
+            summands.setUint32(i * 4, i, true); // little-endian byte order
+          }
+
+          // Call the accumulate function
+          const result = accumulate(10);
+          console.log("Result:", result);
+
+          // You can also verify the contents of the memory
+          console.log("Memory contents:");
+          for (let i = 0; i < 10; i++) {
+            console.log(`Element ${i}:`, summands.getUint32(i * 4, true));
+          }
+        })
+        .catch((error) => {
+          console.error("Failed to load or instantiate WASM module:", error);
+        });
+    </script>
+
+    <!-- C++ / EMCC -->
+    <!-- <script type="module" src="src/js/vectors.js"></script> -->
+
+    <!-- Normal JS -->
+    <!-- <script type="module" src="src/js/vectorsJS.js"></script> -->
+
+    <!-- buildAccessor - Run Assembled JS Module & use ccall w C++ -->
+    <!-- <script src="build/gol.js"></script> -->
+    <!-- <script>
+      function callCppFunction() {
+        try {
+          console.log("Calling C++ function with the appended Module:", Module);
+          Module.ccall("myFunction", null, [], []);
+        } catch (error) {
+          console.error("Error calling C++ function:", error);
+        }
+      }
+    </script> -->
+    <!-- <button onclick="callCppFunction()">Call C++ Function</button> -->
+
+    <!-- buildWASM - Compile and Instantiate WASM Module (legacy, overloads window. literally.) -->
+    <!-- <script>
+      async function fetchWasm(url) {
+        const response = await fetch(url);
+        return await response.arrayBuffer();
+      }
+
+      async function run() {
+        try {
+          const wasmBuffer = await fetchWasm("build/gol.wasm");
+          const wasmModule = await WebAssembly.compile(wasmBuffer);
+          const wasmInstance = await WebAssembly.instantiate(wasmModule, {
+            wasi_snapshot_preview1: {
+              environ_sizes_get: () => 0,
+              environ_get: () => 0,
+              proc_exit: (exitCode) => {
+                console.log(`Process exited with code ${exitCode}`);
+              },
+              fd_write: () => 0,
+                // have to read stdout's utf8 string from memory. This is a bit tricky using wasm / js memory accessors
+                // because if the memory ever grows, the pointer to the string will change.
+                // should use emcc's cwrap, EM_JS, or EM_ASM to output to console, 
+              fd_seek: () => 0,
+              fd_close: () => 0,
+            },
+            env: {},
+          });
+
+          if (!wasmInstance) {
+            throw new Error("Failed to instantiate WASM module");
+          }
+
+          console.log("Instantiation result:", wasmInstance);
+
+          console.log("Exports:", wasmInstance.exports);
+          console.log("Main Func:", wasmInstance.exports.main()); // 0
+
+          console.log("Custom Function:", wasmInstance.exports.myFunction()); // 1
+        } catch (error) {
+          console.error("Error:", error);
+        }
+      }
+
+      run();
+    </script> -->
+
+    <!-- buildSimple - Print a string from C to JS -->
+    <!-- <script>
+      async function fetchWasm(url) {
+        const response = await fetch(url);
+        return await response.arrayBuffer();
+      }
+
+      async function run() {
+        try {
+          const wasmBuffer = await fetchWasm("build/simple.wasm");
+          const wasmModule = await WebAssembly.compile(wasmBuffer);
+          const wasmInstance = await WebAssembly.instantiate(wasmModule, {
+            wasi_snapshot_preview1: {
+              environ_sizes_get: () => 0,
+              environ_get: () => 0,
+              proc_exit: (exitCode) => {
+                console.log(`Process exited with code ${exitCode}`);
+              },
+              fd_write: () => {
+                console.log("Writing to file descriptor");
+              },
+              fd_seek: () => 0,
+              fd_close: () => 0,
+            },
+            env: {},
+          });
+
+          // Create a Uint8Array view of the linear memory
+          const linearMemory = new Uint8Array(
+            wasmInstance.exports.memory.buffer
+          );
+
+          console.log("Linear Memory:", linearMemory);
+
+          // Get the offset
+          const offset = wasmInstance.exports.getMessage();
+
+          // Extract the message
+          const buffer = linearMemory.slice(offset, offset + 32); // 32 is the char length of the message.
+          let str = "";
+          for (let i = 0; i < buffer.length; i++) {
+            str += String.fromCharCode(buffer[i]);
+          }
+
+          console.log(str);
+        } catch (error) {
+          console.error("Error:", error);
+        }
+      }
+
+      run();
+    </script> -->
+  </body>
+</html>
