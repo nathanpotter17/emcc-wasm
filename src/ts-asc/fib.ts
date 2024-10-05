@@ -1,3 +1,4 @@
+// @ts-expect-error
 export function fib(n: i32): i32 {
   var a = 0,
     b = 1;

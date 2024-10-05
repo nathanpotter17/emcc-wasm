@@ -31,9 +31,10 @@
     </script> -->
 
     <!-- buildVEC - Vector Math Benchmarking -->
-    <script>
-      // Create a WebAssembly Memory object to store vectors. Use .wat.
-    </script>
+    <!-- Use WebAssembly.memory as shared=true -->
+
+    <!-- Using a larger memory structure from C instead of representing the vector as a struct -->
+    <script type="module" src="src/js/vectorsShared.js"></script>
 
     <!-- C++ / EMCC -->
     <!-- <script type="module" src="src/js/vectors.js"></script> -->

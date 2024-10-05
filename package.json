@@ -11,7 +11,8 @@
     "buildSimple": "emcc src/c/simple.c -o build/simple.wasm -s STANDALONE_WASM=1 -s EXPORT_ALL=1",
     "buildWAT": "wat2wasm src/wasm/memory.wat -o build/memory.wasm",
     "buildASC": "asc src/ts-asc/fib.ts --outFile build/assembly.wasm --optimize",
-    "buildVEC": "emcc src/c/vectors.c -o build/vectors.wasm -s STANDALONE_WASM=1 -s EXPORTED_FUNCTIONS=_alloc_vector,_dealloc_vector,_add_vectors,_sub_vectors,_mul_scalar"
+    "buildVEC": "emcc src/c/vectors.c -o build/vectors.wasm -s STANDALONE_WASM=1 -s EXPORT_ALL=1",
+    "buildVECS": "emcc src/c/vectorsShared.c -o build/vectorsShared.wasm -s STANDALONE_WASM=1 -s EXPORT_ALL=1"
   },
   "author": "Nathan Potter",
   "license": "MIT"
