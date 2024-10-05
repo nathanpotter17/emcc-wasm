@@ -32,43 +32,7 @@
 
     <!-- buildVEC - Vector Math Benchmarking -->
     <script>
-      // Create a WebAssembly Memory object
-      const memory = new WebAssembly.Memory({
-        initial: 10,
-        maximum: 100,
-      });
-
-      // Load and instantiate the WASM module
-      WebAssembly.instantiateStreaming(fetch("build/vectorsUnroll.wasm"), {
-        js: { mem: memory },
-      })
-        .then((obj) => {
-          console.log("Module instantiated successfully", obj);
-
-          // Get the exports from the instance
-          const { accumulate } = obj.instance.exports;
-
-          // Create a DataView to manipulate the memory
-          const summands = new DataView(memory.buffer);
-
-          // Populate the memory with some values
-          for (let i = 0; i < 10; i++) {
-            summands.setUint32(i * 4, i, true); // little-endian byte order
-          }
-
-          // Call the accumulate function
-          const result = accumulate(10);
-          console.log("Result:", result);
-
-          // You can also verify the contents of the memory
-          console.log("Memory contents:");
-          for (let i = 0; i < 10; i++) {
-            console.log(`Element ${i}:`, summands.getUint32(i * 4, true));
-          }
-        })
-        .catch((error) => {
-          console.error("Failed to load or instantiate WASM module:", error);
-        });
+      // Create a WebAssembly Memory object to store vectors. Use .wat.
     </script>
 
     <!-- C++ / EMCC -->
