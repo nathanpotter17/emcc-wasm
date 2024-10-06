@@ -32,11 +32,55 @@
 
     <!-- buildVEC - Vector Math Benchmarking -->
     <!-- Use WebAssembly.memory as shared=true -->
+    <!-- <script type="module">
+      // Create the shared memory
+      const memory = new WebAssembly.Memory({
+        initial: 100,
+        maximum: 100,
+        shared: true,
+      });
+
+      // Get the ArrayBuffer view of the memory
+      const buffer = memory.buffer;
+
+      // Create typed arrays for each vector
+      const vec1 = new Uint32Array(buffer, 0 * 4, 50); // First 50 elements
+      const vec2 = new Uint32Array(buffer, 200, 50); // Next 50 elements
+
+      // Helper function to push elements onto a vector
+      function pushVector(vector, value) {
+        let len = vector.length;
+        if (len > 0) {
+          // Check if we haven't exceeded capacity
+          vector[len - 1] = value; // Push to the last element
+          return true; // Successfully pushed
+        }
+        return false; // Vector full
+      }
+
+      // Helper function to get an element from a vector
+      function getVector(vector, index) {
+        if (index >= 0 && index < vector.length) {
+          return vector[index];
+        }
+        return undefined;
+      }
+
+      // Example usage
+      pushVector(vec1, 42);
+      console.log(getVector(vec1, 49)); // Output: 42
+
+      pushVector(vec2, 24);
+      console.log(getVector(vec2, 49)); // Output: 24
+
+      // Accessing shared memory directly
+      console.log(new Int32Array(memory.buffer)[99]); // Output: 24
+    </script> -->
 
     <!-- Using a larger memory structure from C instead of representing the vector as a struct -->
-    <script type="module" src="src/js/vectorsShared.js"></script>
+    <!-- <script type="module" src="src/js/vectorsShared.js"></script> -->
 
-    <!-- C++ / EMCC -->
+    <!-- C / EMCC -->
     <!-- <script type="module" src="src/js/vectors.js"></script> -->
 
     <!-- Normal JS -->
@@ -56,7 +100,7 @@
     </script> -->
     <!-- <button onclick="callCppFunction()">Call C++ Function</button> -->
 
-    <!-- buildWASM - Compile and Instantiate WASM Module (legacy, overloads window. literally.) -->
+    <!-- buildWASM - Compile and Instantiate WASM Module -->
     <!-- <script>
       async function fetchWasm(url) {
         const response = await fetch(url);
