@@ -5,6 +5,11 @@ build_html() {
     emcc src/cpp/gol.cpp -o build/gol.html
 }
 
+# Function to build the shared mem example
+build_sm() {
+    wat2wasm src/wasm/shared_memory.wat -o build/shared_memory.wasm --enable-threads
+}
+
 # Function to build C with libraries
 build_c_with_libs() {
     emcc example.c -s LDFLAGS=['-lSDL2'] -o output.html
@@ -70,6 +75,9 @@ case "$1" in
     wat)
         build_wat
         ;;
+    watshared)
+        build_sm
+        ;;
     asc)
         build_asc
         ;;
@@ -87,6 +95,7 @@ case "$1" in
         echo "  wasm         Build WASM"
         echo "  simple       Build simple WASM (see index.html)"
         echo "  wat          Build WAT"
+        echo "  watshared    Build shared memory example - supports multiple threads"
         echo "  asc          Build ASC (AssemblyScript)"
         echo "  vec          Build VEC (see vectors.js)"
         exit 1

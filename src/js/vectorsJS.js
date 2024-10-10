@@ -6,6 +6,7 @@ function callJSFunc(iterations) {
 
     // create vectors
     const vec1 = [0.00001, 0.00001, 0.00001]; // imitate the C code for float allocation
+
     const vec2 = [0.00001, 0.00001, 0.00001];
 
     // emulate exactly what happens in C;

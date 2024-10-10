@@ -30,61 +30,59 @@
       });
     </script> -->
 
+    <!-- Start Vector Comparisons - one works with simple 3 element allocation, then others 10k+ element allocs -->
     <!-- buildVEC - Vector Math Benchmarking -->
-    <!-- Use WebAssembly.memory as shared=true -->
-    <!-- <script type="module">
-      // Create the shared memory
-      const memory = new WebAssembly.Memory({
-        initial: 100,
-        maximum: 100,
+    <!-- Vec Shared WebAssembly.memory -->
+    <script type="module">
+      // Use Atomic shared memory
+      // Compile the WebAssembly module
+      const wasmModule = await WebAssembly.compileStreaming(
+        fetch("build/shared_memory.wasm")
+      );
+
+      // Create a shared memory with initial size of 1 page (64KB) and maximum size of 1 page
+      const sharedMemory = new WebAssembly.Memory({
+        initial: 1,
+        maximum: 1,
         shared: true,
       });
 
-      // Get the ArrayBuffer view of the memory
-      const buffer = memory.buffer;
+      // Instantiate the module, passing the shared memory
+      const instance = await WebAssembly.instantiate(wasmModule, {
+        env: {
+          memory: sharedMemory,
+        },
+      });
 
-      // Create typed arrays for each vector
-      const vec1 = new Uint32Array(buffer, 0 * 4, 50); // First 50 elements
-      const vec2 = new Uint32Array(buffer, 200, 50); // Next 50 elements
+      console.log("Instance:", instance);
+      console.log("Memory:", sharedMemory); // MDN: WebAssembly.Memory https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Memory
+      console.log("Memory Buffer:", sharedMemory.buffer); // MDN: SharedArrayBuffer https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer
 
-      // Helper function to push elements onto a vector
-      function pushVector(vector, value) {
-        let len = vector.length;
-        if (len > 0) {
-          // Check if we haven't exceeded capacity
-          vector[len - 1] = value; // Push to the last element
-          return true; // Successfully pushed
-        }
-        return false; // Vector full
-      }
+      // Get the memory from the instance
+      const buffer = new Uint8Array(sharedMemory.buffer);
 
-      // Helper function to get an element from a vector
-      function getVector(vector, index) {
-        if (index >= 0 && index < vector.length) {
-          return vector[index];
-        }
-        return undefined;
-      }
+      // Read the initial value set by WebAssembly
+      console.log(buffer[0]); // Should print 69
 
-      // Example usage
-      pushVector(vec1, 42);
-      console.log(getVector(vec1, 49)); // Output: 42
+      // Modify the value from JavaScript
+      buffer[0] = 100;
 
-      pushVector(vec2, 24);
-      console.log(getVector(vec2, 49)); // Output: 24
+      // Read the modified value
+      console.log(buffer[0]); // Should print 100
+    </script>
 
-      // Accessing shared memory directly
-      console.log(new Int32Array(memory.buffer)[99]); // Output: 24
-    </script> -->
-
-    <!-- Using a larger memory structure from C instead of representing the vector as a struct -->
+    <!-- Vec Shared C - Using a larger memory structure from C instead of representing the vector as a struct -->
     <!-- <script type="module" src="src/js/vectorsShared.js"></script> -->
+
+    <!-- Vec Shared Normal JS -->
+    <!-- <script type="module" src="src/js/vectorsSharedJS.js"></script> -->
 
     <!-- C / EMCC -->
     <!-- <script type="module" src="src/js/vectors.js"></script> -->
 
     <!-- Normal JS -->
     <!-- <script type="module" src="src/js/vectorsJS.js"></script> -->
+    <!-- End Vector Comparisons -->
 
     <!-- buildAccessor - Run Assembled JS Module & use ccall w C++ -->
     <!-- <script src="build/gol.js"></script> -->
