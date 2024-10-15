@@ -4,6 +4,7 @@ async function init() {
     fetch("build/vectorsShared.wasm"),
     {
       wasi_snapshot_preview1: {
+        // this is provided because the module is exported to support WASI as well via STANDALONE_WASM=true from EMCC.
         environ_sizes_get: () => 0,
         environ_get: () => 0,
         proc_exit: (exitCode) => {

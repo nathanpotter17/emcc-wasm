@@ -15,20 +15,24 @@ cmd admin - `emsdk install activate` || `emsdk install activate --permanent`
 ## Start Building Examples
 
 Mac / Linux / Windows: `bash build.sh`
-Archive: `cat package.json`
 
 Run using Live Server or any other server, to serve the HTML file.
 
 Note: If you are using Windows, using Wasmtime to run files requires .msi installation from https://github.com/bytecodealliance/wasmtime/releases.
-Note: If you are using Windows, wat2wasm requires the WABT package from https://github.com/WebAssembly/wabt/releases and then ran via cmd.
+
+Note: If you are using Windows, wat2wasm requires the WABT package from https://github.com/WebAssembly/wabt/releases and then ran via cmd. Ensure all path variables are set correctly.
 
 Mac / Linux: `curl https://wasmtime.dev/install.sh -sSf | bash`
 
 Otherwise, follow this guide: https://docs.wasmtime.dev/introduction.html for the most up-to-date usage of WASI.
 
-## Get Started with Emscripten Compiler - emcc will output a.out.js & a.out.wasm, which can be run with node.
+## Get Started with Emscripten Compiler - emcc will output a.out.js & a.out.wasm, which can be run with Node.
 
 Emscripten is a compiler that allows you to compile multi-lingual code to WebAssembly by being tightly coupled with LLVM, Clang, Binaryen, and Closure Compiler.
+
+For using EMCC in production, consider EMCC's compiler options and build flags, such as:
+
+https://emscripten.org/docs/tools_reference/settings_reference.html?highlight=wasi#minimal-runtime-streaming-wasm-compilation
 
 See https://emscripten.org/docs/getting_started/Tutorial.html#running-emscripten for more detail.
 
@@ -41,6 +45,10 @@ See https://emscripten.org/docs/getting_started/Tutorial.html#running-emscripten
 `"buildHTML": "emcc src/gol.cpp -o build/gol.html"`
 
 See gol.html for example.
+
+Note: It is recommended to pass optimization flags (O1-O3) and MINIFY_HTML=1 to reduce the size of the output.
+
+`"buildHTML": "emcc src/gol.cpp -o build/gol.html -O3 -s MINIFY_HTML=1"`
 
 ## Build JS - embeddable, access to modules via window. access to ccall.
 
@@ -74,16 +82,7 @@ https://www.assemblyscript.org/ uses https://github.com/WebAssembly/binaryen und
 
 ## Run Standalone WASM - use wasmer or wasmtime - both use the WASI (WebAssembly System Interface) to interact with the host OS. Both have multilingual support. Allows WASM Apps to run as a web 'plugin', cmd line app, or anywhere JS isn't available, acting as capability based security between the OS and WASM's shared memory.
 
-See information about using WASI here, and on the V8 Dev Blog: https://github.com/bytecodealliance/wasmtime/blob/main/docs/WASI-tutorial.md - https://v8.dev/blog/emscripten-standalone-wasm
-
-Wasmtime - https://wasmtime.dev/ - Can execute WASM and WAT files.
-
-`wasmtime demo.wasm`
-`wasmtime demo.wat`
-
-Wasmer - https://docs.wasmer.io/install
-
-`wasmer run demo.wasm`
+See the `src/wasi` directory for more information on WASI.
 
 ## Build from WAT Only - wat2wasm - WebAssembly Text Format
 
