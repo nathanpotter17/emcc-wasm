@@ -18,7 +18,7 @@ build_wasiPure() {
 }
 
 run_wasmtime() {
-    wasmtime build/gol.wasm
+    wasmtime build/clock.wasm
 }
 
 # Function to build the shared mem example
@@ -132,7 +132,7 @@ case "$1" in
         echo "  wasmtime     Run WASM with Wasmtime, via EMCC emitted standalone WASM (C based)"
         echo "  wasi         Build WASI example (C based)"
         echo "  wasiPure     Build WASI example with emcc's experimental pure WASI (C based)"
-        echo "  wasiClock    Build WASI clock example using wat2wasm"
+        echo "  wasiClock    Build WASI clock example using wat2wasm - run anywhere WASI bindings are available"
         echo "  wat          Build WAT"
         echo "  watshared    Build shared memory example - supports multiple threads"
         echo "  asc          Build ASC (AssemblyScript)"

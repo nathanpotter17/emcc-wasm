@@ -3,36 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WASM Test</title>
+    <title>WASM + WASI</title>
   </head>
-  <body style="background-color: darkslategray">
-    <h1 style="color: beige">WASM Test</h1>
+  <body style="background-color: darkslategray;">
+    <h1 style="color: beige; font-size: 36px;">WASM + WASI</h1>
+    <p style="color: beige; font-size: 20px">
+      This is a repository covering all
+      <code
+        style="
+          padding-left: 4px;
+          padding-right: 4px;
+          background: #2e2e2e94;
+          color: white;
+        "
+        >WASM</code
+      >
+      and
+      <code
+        style="
+          padding-left: 4px;
+          padding-right: 4px;
+          background: #2e2e2e94;
+          color: white;
+        "
+        >WASI</code
+      >
+      related build outputs for a variety of languages. See the
+      <code
+        style="
+          padding-left: 4px;
+          padding-right: 4px;
+          background: #2e2e2e94;
+          color: white;
+        "
+        >/src</code
+      >
+      folder to view the languages used. See the
+      <code
+        style="
+          padding-left: 4px;
+          padding-right: 4px;
+          background: #2e2e2e94;
+          color: white;
+        "
+        >README.md</code
+      >
+      at the root, and in the
+      <code
+        style="
+          padding-left: 4px;
+          padding-right: 4px;
+          background: #2e2e2e94;
+          color: white;
+        "
+        >WASI</code
+      >
+      subdirectory for more information.<br></br>All output will appear in the browser
+      console, unless using external runners, like
+      <code
+        style="
+          padding-left: 4px;
+          padding-right: 4px;
+          background: #2e2e2e94;
+          color: white;
+        "
+        >wasmtime</code
+      >.
+    </p>
 
     <!-- buildHTML - use Emscripten provided HTML Rendering -->
     <!-- See build/gol.html -->
 
-    <!-- buildWAT - Use .WAT to Inform WASM of instructions. -->
-    <!-- <script>
-      const memory = new WebAssembly.Memory({
-        initial: 10,
-        maximum: 100,
-      });
-      WebAssembly.instantiateStreaming(fetch("build/memory.wasm"), {
-        js: { mem: memory },
-      }).then((obj) => {
-        const summands = new DataView(memory.buffer);
-        console.log("Memory:", memory, memory.buffer);
-        for (let i = 0; i < 10; i++) {
-          summands.setUint32(i * 4, i, true);
-        }
-        const sum = obj.instance.exports.accumulate(0, 10);
-        console.log("use asserted export 'accumulate' from .wat : ", sum); // 45
-      });
-    </script> -->
-
-    <!-- Start Vector Comparisons - one works with simple 3 element allocation, then others 10k+ element allocs (see buildVEC) -->
     <!-- Shared WebAssembly.memory -->
-    <script type="module">
+    <!-- <script type="module">
       // Use Atomic shared memory
       // Compile the WebAssembly module
       const wasmModule = await WebAssembly.compileStreaming(
@@ -68,7 +111,32 @@
 
       // Read the modified value
       console.log(buffer[0]); // Should print 100
-    </script>
+    </script> -->
+
+    <!-- buildWAT - Use .WAT to Inform WASM of instructions. -->
+    <!-- <script>
+      const memory = new WebAssembly.Memory({
+        initial: 10,
+        maximum: 100,
+      });
+      WebAssembly.instantiateStreaming(fetch("build/memory.wasm"), {
+        js: { mem: memory },
+      }).then((obj) => {
+        const summands = new DataView(memory.buffer);
+        console.log("Memory:", memory, memory.buffer);
+        for (let i = 0; i < 10; i++) {
+          summands.setUint32(i * 4, i, true);
+        }
+        const sum = obj.instance.exports.accumulate(0, 10);
+        console.log("use asserted export 'accumulate' from .wat : ", sum); // 45
+      });
+    </script> -->
+
+    <!-- WASI Pure and Standalone Files - Use WASI Preview Snapshot and WASI Bindings from W3C WASI ABI -->
+    <!-- Because the intended use of these files is to be run anywhere, most WASM examples are WASI enabled using emcc's STANDALONE_WASM -->
+    <!-- <script type="module" src="src/wasi/wasi.js"></script> -->
+
+    <!-- Start Vector Comparisons - one works with simple 3 element allocation, then others 10k+ element allocs (see buildVEC) -->
 
     <!-- Vec Shared C - Using a larger memory structure from C instead of representing the vector as a struct -->
     <!-- <script type="module" src="src/js/vectorsShared.js"></script> -->
