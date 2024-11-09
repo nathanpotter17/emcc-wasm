@@ -1,0 +1,17 @@
+C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/package.dir
+C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/package_source.dir
+C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/edit_cache.dir
+C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/rebuild_cache.dir
+C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/list_install_components.dir
+C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/install.dir
+C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/install/local.dir
+C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/install/strip.dir
+C:/Users/natha/Desktop/statics/dlib/static_build/dlib/CMakeFiles/dlib.dir
+C:/Users/natha/Desktop/statics/dlib/static_build/dlib/CMakeFiles/package.dir
+C:/Users/natha/Desktop/statics/dlib/static_build/dlib/CMakeFiles/package_source.dir
+C:/Users/natha/Desktop/statics/dlib/static_build/dlib/CMakeFiles/edit_cache.dir
+C:/Users/natha/Desktop/statics/dlib/static_build/dlib/CMakeFiles/rebuild_cache.dir
+C:/Users/natha/Desktop/statics/dlib/static_build/dlib/CMakeFiles/list_install_components.dir
+C:/Users/natha/Desktop/statics/dlib/static_build/dlib/CMakeFiles/install.dir
+C:/Users/natha/Desktop/statics/dlib/static_build/dlib/CMakeFiles/install/local.dir
+C:/Users/natha/Desktop/statics/dlib/static_build/dlib/CMakeFiles/install/strip.dir

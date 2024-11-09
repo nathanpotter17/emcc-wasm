@@ -5,6 +5,31 @@ build_html() {
     emcc src/cpp/gol.cpp -o build/gol.html
 }
 
+help() {
+    echo
+    echo "Usage: $0 [command]"
+    echo 
+    echo "For building libraries with emcmake, see /src/library for an example."
+    echo 
+    echo "Available commands:"
+    echo "  html         Build HTML"
+    echo "  c-libs       Build C with libraries"
+    echo "  accessor     Build accessor (see index.html)"
+    echo "  simple       Build simple WASM (see index.html)"
+    echo "  wasm         Build WASM"
+    echo "  wasmtime     Run WASM with Wasmtime, via EMCC emitted standalone WASM (C based)"
+    echo "  wasi         Build WASI example (C based)"
+    echo "  wasiPure     Build WASI example with emcc's experimental pure WASI (C based)"
+    echo "  wasiClock    Build WASI clock example using wat2wasm - run anywhere WASI bindings are available"
+    echo "  wat          Build WAT"
+    echo "  watshared    Build shared memory example - supports multiple threads"
+    echo "  asc          Build ASC (AssemblyScript)"
+    echo "  vec          Build VEC (see vectors.js)"
+    echo "  vecs         Build VEC Shared (see vectorsShared.js)"
+    echo "  help         Show a command list"
+    exit 1
+}
+
 build_wat2wasi() {
     wat2wasm src/wasi/sysclock.wat -o build/wasiClock.wasm
 }
@@ -123,6 +148,8 @@ case "$1" in
         echo
         echo "Usage: $0 [command]"
         echo 
+        echo "For building libraries with emcmake, see /src/library for an example."
+        echo 
         echo "Available commands:"
         echo "  html         Build HTML"
         echo "  c-libs       Build C with libraries"
@@ -138,6 +165,7 @@ case "$1" in
         echo "  asc          Build ASC (AssemblyScript)"
         echo "  vec          Build VEC (see vectors.js)"
         echo "  vecs         Build VEC Shared (see vectorsShared.js)"
+        echo "  help         Show a command list"
         exit 1
         ;;
 esac

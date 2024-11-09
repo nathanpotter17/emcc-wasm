@@ -1,0 +1,247 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The target system is: Emscripten - 1 - x86
+      The host system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "dlib/CMakeLists.txt:342 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CMakeScratch/TryCompile-rl3ohm"
+      binary: "C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CMakeScratch/TryCompile-rl3ohm"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CMakeScratch/TryCompile-rl3ohm'
+        
+        Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_b3234
+        [1/2] C:\\Users\\natha\\emsdk\\upstream\\emscripten\\emcc.bat -DCMAKE_HAVE_LIBC_PTHREAD   -MD -MT CMakeFiles/cmTC_b3234.dir/src.c.o -MF CMakeFiles\\cmTC_b3234.dir\\src.c.o.d -o CMakeFiles/cmTC_b3234.dir/src.c.o -c C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CMakeScratch/TryCompile-rl3ohm/src.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\natha\\emsdk\\upstream\\emscripten\\emcc.bat   CMakeFiles/cmTC_b3234.dir/src.c.o -o cmTC_b3234.js   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "dlib/cmake_utils/check_if_neon_available.cmake:14 (try_compile)"
+      - "dlib/CMakeLists.txt:492 (include)"
+    directories:
+      source: "C:/Users/natha/Desktop/statics/dlib/dlib/cmake_utils/test_for_neon"
+      binary: "C:/Users/natha/Desktop/statics/dlib/static_build/dlib/neon_test_build"
+    buildResult:
+      variable: "test_for_neon_worked"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/natha/Desktop/statics/dlib/static_build/dlib/neon_test_build'
+        
+        Run Build Command(s): C:/ninja-win/ninja.exe -v
+        [1/2] C:\\Users\\natha\\emsdk\\upstream\\emscripten\\em++.bat    -MD -MT CMakeFiles/neon_test.dir/neon_test.cpp.o -MF CMakeFiles\\neon_test.dir\\neon_test.cpp.o.d -o CMakeFiles/neon_test.dir/neon_test.cpp.o -c C:/Users/natha/Desktop/statics/dlib/dlib/cmake_utils/test_for_neon/neon_test.cpp
+        FAILED: CMakeFiles/neon_test.dir/neon_test.cpp.o 
+        C:\\Users\\natha\\emsdk\\upstream\\emscripten\\em++.bat    -MD -MT CMakeFiles/neon_test.dir/neon_test.cpp.o -MF CMakeFiles\\neon_test.dir\\neon_test.cpp.o.d -o CMakeFiles/neon_test.dir/neon_test.cpp.o -c C:/Users/natha/Desktop/statics/dlib/dlib/cmake_utils/test_for_neon/neon_test.cpp
+        C:/Users/natha/Desktop/statics/dlib/dlib/cmake_utils/test_for_neon/neon_test.cpp:3:2: error: "No NEON"\x0d
+            3 | #error "No NEON"\x0d
+              |  ^\x0d
+        1 error generated.\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "dlib/cmake_utils/find_blas.cmake:73 (CHECK_FUNCTION_EXISTS)"
+      - "dlib/CMakeLists.txt:612 (include)"
+    checks:
+      - "Looking for cblas_ddot"
+    directories:
+      source: "C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CMakeScratch/TryCompile-gofp4h"
+      binary: "C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CMakeScratch/TryCompile-gofp4h"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules"
+    buildResult:
+      variable: "PKGCFG_HAVE_CBLAS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CMakeScratch/TryCompile-gofp4h'
+        
+        Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_64dcc
+        [1/2] C:\\Users\\natha\\emsdk\\upstream\\emscripten\\emcc.bat   -DCHECK_FUNCTION_EXISTS=cblas_ddot -MD -MT CMakeFiles/cmTC_64dcc.dir/CheckFunctionExists.c.o -MF CMakeFiles\\cmTC_64dcc.dir\\CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_64dcc.dir/CheckFunctionExists.c.o -c C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CMakeScratch/TryCompile-gofp4h/CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\natha\\emsdk\\upstream\\emscripten\\emcc.bat -DCHECK_FUNCTION_EXISTS=cblas_ddot  CMakeFiles/cmTC_64dcc.dir/CheckFunctionExists.c.o -o cmTC_64dcc.js   && cd ."
+        FAILED: cmTC_64dcc.js 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\natha\\emsdk\\upstream\\emscripten\\emcc.bat -DCHECK_FUNCTION_EXISTS=cblas_ddot  CMakeFiles/cmTC_64dcc.dir/CheckFunctionExists.c.o -o cmTC_64dcc.js   && cd ."
+        wasm-ld: error: CMakeFiles/cmTC_64dcc.dir/CheckFunctionExists.c.o: undefined symbol: cblas_ddot
+        emcc: error: 'C:/Users/natha/emsdk/upstream/bin\\wasm-ld.exe -o cmTC_64dcc.wasm -LC:\\Users\\natha\\emsdk\\upstream\\emscripten\\cache\\sysroot\\lib\\wasm32-emscripten CMakeFiles/cmTC_64dcc.dir/CheckFunctionExists.c.o -lGL-getprocaddr -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc -lcompiler_rt -lc++-noexcept -lc++abi-debug-noexcept -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr C:\\Users\\natha\\AppData\\Local\\Temp\\tmpj7d8c5tilibemscripten_js_symbols.so --strip-debug --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=_emscripten_stack_alloc --export=__get_temp_ret --export=__set_temp_ret --export=__wasm_call_ctors --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=main --export-if-defined=__main_argc_argv --export-if-defined=fflush --export-table -z stack-size=65536 --no-growable-memory --initial-heap=16777216 --no-entry --stack-first --table-base=1' failed (returned 1)\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:223 (check_include_file)"
+      - "dlib/cmake_utils/find_blas.cmake:85 (check_type_size)"
+      - "dlib/CMakeLists.txt:612 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CMakeScratch/TryCompile-mn9vqv"
+      binary: "C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CMakeScratch/TryCompile-mn9vqv"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CMakeScratch/TryCompile-mn9vqv'
+        
+        Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_4d810
+        [1/2] C:\\Users\\natha\\emsdk\\upstream\\emscripten\\emcc.bat    -MD -MT CMakeFiles/cmTC_4d810.dir/CheckIncludeFile.c.o -MF CMakeFiles\\cmTC_4d810.dir\\CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_4d810.dir/CheckIncludeFile.c.o -c C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CMakeScratch/TryCompile-mn9vqv/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\natha\\emsdk\\upstream\\emscripten\\emcc.bat   CMakeFiles/cmTC_4d810.dir/CheckIncludeFile.c.o -o cmTC_4d810.js   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:224 (check_include_file)"
+      - "dlib/cmake_utils/find_blas.cmake:85 (check_type_size)"
+      - "dlib/CMakeLists.txt:612 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CMakeScratch/TryCompile-qluoew"
+      binary: "C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CMakeScratch/TryCompile-qluoew"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CMakeScratch/TryCompile-qluoew'
+        
+        Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_edcc9
+        [1/2] C:\\Users\\natha\\emsdk\\upstream\\emscripten\\emcc.bat    -MD -MT CMakeFiles/cmTC_edcc9.dir/CheckIncludeFile.c.o -MF CMakeFiles\\cmTC_edcc9.dir\\CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_edcc9.dir/CheckIncludeFile.c.o -c C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CMakeScratch/TryCompile-qluoew/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\natha\\emsdk\\upstream\\emscripten\\emcc.bat   CMakeFiles/cmTC_edcc9.dir/CheckIncludeFile.c.o -o cmTC_edcc9.js   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:225 (check_include_file)"
+      - "dlib/cmake_utils/find_blas.cmake:85 (check_type_size)"
+      - "dlib/CMakeLists.txt:612 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CMakeScratch/TryCompile-0401r8"
+      binary: "C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CMakeScratch/TryCompile-0401r8"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CMakeScratch/TryCompile-0401r8'
+        
+        Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_d5c4e
+        [1/2] C:\\Users\\natha\\emsdk\\upstream\\emscripten\\emcc.bat    -MD -MT CMakeFiles/cmTC_d5c4e.dir/CheckIncludeFile.c.o -MF CMakeFiles\\cmTC_d5c4e.dir\\CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_d5c4e.dir/CheckIncludeFile.c.o -c C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CMakeScratch/TryCompile-0401r8/CheckIncludeFile.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\natha\\emsdk\\upstream\\emscripten\\emcc.bat   CMakeFiles/cmTC_d5c4e.dir/CheckIncludeFile.c.o -o cmTC_d5c4e.js   && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:114 (try_compile)"
+      - "C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules/CheckTypeSize.cmake:239 (__check_type_size_impl)"
+      - "dlib/cmake_utils/find_blas.cmake:85 (check_type_size)"
+      - "dlib/CMakeLists.txt:612 (include)"
+    directories:
+      source: "C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CMakeTmp"
+      binary: "C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules"
+    buildResult:
+      variable: "HAVE_SIZE_OF_VOID_PTR"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_e06d9
+        [1/2] C:\\Users\\natha\\emsdk\\upstream\\emscripten\\emcc.bat    -MD -MT CMakeFiles/cmTC_e06d9.dir/SIZE_OF_VOID_PTR.c.o -MF CMakeFiles\\cmTC_e06d9.dir\\SIZE_OF_VOID_PTR.c.o.d -o CMakeFiles/cmTC_e06d9.dir/SIZE_OF_VOID_PTR.c.o -c C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\natha\\emsdk\\upstream\\emscripten\\emcc.bat   CMakeFiles/cmTC_e06d9.dir/SIZE_OF_VOID_PTR.c.o -o cmTC_e06d9.js  --oformat=wasm  -sWASM=1 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindBLAS.cmake:379 (check_function_exists)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindBLAS.cmake:423 (check_blas_libraries)"
+      - "dlib/cmake_utils/find_blas.cmake:433 (find_package)"
+      - "dlib/CMakeLists.txt:612 (include)"
+    directories:
+      source: "C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CMakeScratch/TryCompile-y3svl3"
+      binary: "C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CMakeScratch/TryCompile-y3svl3"
+    cmakeVariables:
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules"
+    buildResult:
+      variable: "BLAS_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CMakeScratch/TryCompile-y3svl3'
+        
+        Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_08d27
+        [1/2] C:\\Users\\natha\\emsdk\\upstream\\emscripten\\emcc.bat   -DCHECK_FUNCTION_EXISTS=sgemm_ -MD -MT CMakeFiles/cmTC_08d27.dir/CheckFunctionExists.c.o -MF CMakeFiles\\cmTC_08d27.dir\\CheckFunctionExists.c.o.d -o CMakeFiles/cmTC_08d27.dir/CheckFunctionExists.c.o -c C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CMakeScratch/TryCompile-y3svl3/CheckFunctionExists.c
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\natha\\emsdk\\upstream\\emscripten\\emcc.bat -DCHECK_FUNCTION_EXISTS=sgemm_  CMakeFiles/cmTC_08d27.dir/CheckFunctionExists.c.o -o cmTC_08d27.js   && cd ."
+        FAILED: cmTC_08d27.js 
+        C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\natha\\emsdk\\upstream\\emscripten\\emcc.bat -DCHECK_FUNCTION_EXISTS=sgemm_  CMakeFiles/cmTC_08d27.dir/CheckFunctionExists.c.o -o cmTC_08d27.js   && cd ."
+        wasm-ld: error: CMakeFiles/cmTC_08d27.dir/CheckFunctionExists.c.o: undefined symbol: sgemm_
+        emcc: error: 'C:/Users/natha/emsdk/upstream/bin\\wasm-ld.exe -o cmTC_08d27.wasm -LC:\\Users\\natha\\emsdk\\upstream\\emscripten\\cache\\sysroot\\lib\\wasm32-emscripten CMakeFiles/cmTC_08d27.dir/CheckFunctionExists.c.o -lGL-getprocaddr -lal -lhtml5 -lstubs-debug -lnoexit -lc-debug -ldlmalloc -lcompiler_rt -lc++-noexcept -lc++abi-debug-noexcept -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr C:\\Users\\natha\\AppData\\Local\\Temp\\tmpjtx5n07xlibemscripten_js_symbols.so --strip-debug --export=emscripten_stack_get_end --export=emscripten_stack_get_free --export=emscripten_stack_get_base --export=emscripten_stack_get_current --export=emscripten_stack_init --export=_emscripten_stack_alloc --export=__get_temp_ret --export=__set_temp_ret --export=__wasm_call_ctors --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=main --export-if-defined=__main_argc_argv --export-if-defined=fflush --export-table -z stack-size=65536 --no-growable-memory --initial-heap=16777216 --no-entry --stack-first --table-base=1' failed (returned 1)\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+...

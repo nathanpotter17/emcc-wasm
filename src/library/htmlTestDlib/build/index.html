@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DLIB LIBRARY TEST</title>
+  </head>
+  <body style="background-color: darkslategray">
+    <h1 style="color: beige; font-size: 36px">DLIB WASM</h1>
+    <p style="color: beige; font-size: 20px"></p>
+    <!-- JS / CCALL -->
+    <script src="cargo/ccall/face.js"></script>
+    <script>
+      // Wait until the WASM module is fully initialized.
+      Module.onRuntimeInitialized = function () {
+        console.log("WASM Module loaded and ready.");
+        window.Module = Module; // Bind Module to window for global access
+        console.log("Module", Module);
+
+        if (window.Module) {
+          try {
+            const numFaces = Module.ccall(
+              "detect_faces", // C++ function name
+              "number", // Return type
+              [],
+              []
+            );
+
+            console.log(`Number of faces detected: ${numFaces}`);
+          } catch (error) {
+            console.error("Error calling detect_faces:", error);
+          }
+        } else {
+          console.error(
+            "Module is not initialized yet. Cannot call detect_faces."
+          );
+        }
+      };
+    </script>
+
+    <!-- WASM -->
+    <!-- A lot more is needed to be passed as a ENV handler function. Also includes for stack operations and inline js
+      are necessary. Those can be found in the emscripten cache/sysroot/include directory. Every needed
+      function will likely need a counterpart or equivalent function declaration. -->
+    <!-- <script type="module">
+      async function init() {
+        const wasmModule = await WebAssembly.instantiateStreaming(
+          fetch("cargo/ccall/face.wasm"),
+          {
+            wasi_snapshot_preview1: {
+              environ_sizes_get: () => 0,
+              environ_get: () => 0,
+              proc_exit: (exitCode) => {
+                console.log(`Process exited with code ${exitCode}`);
+              },
+              fd_write: () => 0,
+              fd_seek: () => 0,
+              fd_close: () => 0,
+            },
+            env: {
+              // reimplement required missing functions in equivalent js, or pass them as a handler
+              // function to the wasm module here.
+            },
+          }
+        );
+        console.log("wasmModule", wasmModule);
+
+        const dlib = wasmModule.instance.exports;
+
+        window.dlib = dlib;
+
+        console.log("dlib", dlib);
+      }
+
+      init();
+    </script> -->
+  </body>
+</html>

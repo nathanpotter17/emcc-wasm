@@ -1,0 +1,9 @@
+Determining size of void* passed with the following output:
+Change Dir: 'C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_e06d9
+[1/2] C:\Users\natha\emsdk\upstream\emscripten\emcc.bat    -MD -MT CMakeFiles/cmTC_e06d9.dir/SIZE_OF_VOID_PTR.c.o -MF CMakeFiles\cmTC_e06d9.dir\SIZE_OF_VOID_PTR.c.o.d -o CMakeFiles/cmTC_e06d9.dir/SIZE_OF_VOID_PTR.c.o -c C:/Users/natha/Desktop/statics/dlib/static_build/CMakeFiles/CheckTypeSize/SIZE_OF_VOID_PTR.c
+[2/2] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\Users\natha\emsdk\upstream\emscripten\emcc.bat   CMakeFiles/cmTC_e06d9.dir/SIZE_OF_VOID_PTR.c.o -o cmTC_e06d9.js  --oformat=wasm  -sWASM=1 && cd ."
+
+
+

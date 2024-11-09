@@ -1,0 +1,3 @@
+C:/Users/natha/Desktop/statics/dlib/static_build/dlib/neon_test_build/CMakeFiles/neon_test.dir
+C:/Users/natha/Desktop/statics/dlib/static_build/dlib/neon_test_build/CMakeFiles/edit_cache.dir
+C:/Users/natha/Desktop/statics/dlib/static_build/dlib/neon_test_build/CMakeFiles/rebuild_cache.dir
