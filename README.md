@@ -97,6 +97,8 @@ use wat2wasm to convert wat text file to wasm binaries. https://github.com/webas
 
 See /src/library/buildRules & htmlTestDlib/test.cpp for more information.
 
+![dlib](dlib.png)
+
 ## Community Maintained Examples
 
 To see more examples, visit https://github.com/emscripten-core/emscripten/wiki/Porting-Examples-and-Demos
