@@ -4,7 +4,7 @@ This section of the repository contains the WebAssembly System Interface (WASI) 
 
 ### Requirements
 
-clang / cmake or emcc
+clang / cmake / emcc
 
 wasmtime or wasmer
 
@@ -31,7 +31,9 @@ Next, you will need to build the WASI example in this repository. You can do thi
 
 If you need a more aggressive example, here is an example command to build a simple C file for WASI:
 
-`emcc src/c/hello.c -o build/hello.wasm -s PURE_WASI=1 -s EXPORT_ALL=1`
+`emcc src/c/hello.c -o build/demo.wasm -s PURE_WASI=1 -s EXPORT_ALL=1`
+
+`wat2wasm src/wasm/demo.wat -o build/demo.wasm`
 
 ### Running the Example
 
