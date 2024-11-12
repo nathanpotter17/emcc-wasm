@@ -47,7 +47,7 @@ See https://emscripten.org/docs/getting_started/Tutorial.html#running-emscripten
 
 `"buildHTML": "emcc src/gol.cpp -o build/gol.html"`
 
-See gol.html for example.
+See `build/gol.html` for example.
 
 Note: It is recommended to pass optimization flags (O1-O3) and MINIFY_HTML=1 to reduce the size of the output.
 
@@ -55,7 +55,7 @@ Note: It is recommended to pass optimization flags (O1-O3) and MINIFY_HTML=1 to 
 
 ## Build JS - embeddable, access to modules via Module.isRuntimeInitialized
 
-See gol.js for example - https://webassembly.github.io/spec/js-api/#sample
+See `build/gol.js` for example - https://webassembly.github.io/spec/js-api/#sample
 
 `"buildAccessor": "emcc -o build/gol.js src/gol.cpp -s EXPORTED_RUNTIME_METHODS=['ccall'] -s EXPORTED_FUNCTIONS=\_main,\_myFunction"`
 
@@ -63,7 +63,7 @@ See gol.js for example - https://webassembly.github.io/spec/js-api/#sample
 
 More information about building WASM standalone using emcc, in relation to V8 - https://v8.dev/blog/emscripten-standalone-wasm
 
-Use wasm-dis to view the binaries in text format. https://github.com/WebAssembly/binaryen/blob/main/src/tools/wasm-dis.cpp
+Use wasm-dis or wasm2wat to view the binaries in text format. https://github.com/WebAssembly/binaryen/blob/main/src/tools/wasm-dis.cpp
 
 `"buildWASM": "emcc src/gol.cpp -o build/gol.wasm -s STANDALONE_WASM=1 -s EXPORTED_FUNCTIONS=[_main,_myFunction]"`
 
@@ -72,6 +72,8 @@ Use wasm-dis to view the binaries in text format. https://github.com/WebAssembly
 `"buildWAT": "wat2wasm src/wasm/memory.wat -o build/memory.wasm"`
 
 ## Example Vector Math Library - Comparison between C -> WASM Module vs Native JS (10, 50, and 100k Iterations)
+
+See `/src/js/*.js` for examples.
 
 `"buildVec": "emcc src/c/vectors.c -o build/vectors.wasm -s STANDALONE_WASM=1 -s EXPORTED_FUNCTIONS=_alloc_vector,_dealloc_vector,_add_vectors,_sub_vectors,_mul_scalar"`
 
@@ -89,13 +91,17 @@ See the `src/wasi` directory for more information on WASI.
 
 ## Build from WAT Only - wat2wasm - WebAssembly Text Format
 
-use wat2wasm to convert wat text file to wasm binaries. https://github.com/webassembly/wabt / https://github.com/xtuc/webassemblyjs/tree/master/packages/wast-loader
+Use wat2wasm to convert wat text file to wasm binaries. https://github.com/webassembly/wabt / https://github.com/xtuc/webassemblyjs/tree/master/packages/wast-loader
 
 `"buildWASMOnly": "wat2wasm src/simple.wat -o build/simple.wasm"`
 
 ## Compile a library using the EMCC Toolchain and use it in a separate file
 
-See /src/library/buildRules & htmlTestDlib/test.cpp for more information.
+See `/src/library/README.md` & `/src/library/htmlTestDlib/test.cpp` for more information.
+
+![compilediagram](./src/library/htmlTestDlib/readmeFiles/dlibemcc.png)
+
+Output:
 
 ![dlib](dlib.png)
 
