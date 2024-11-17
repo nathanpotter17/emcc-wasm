@@ -1,0 +1,662 @@
+Compilation failed:
+    source file: 'C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_f0cad
+[1/2] C:\Users\natha\emsdk\upstream\emscripten\em++.bat   -O3 -DNDEBUG -std=c++11 -fPIE -MD -MT CMakeFiles/cmTC_f0cad.dir/cpu_sse.cpp.o -MF CMakeFiles\cmTC_f0cad.dir\cpu_sse.cpp.o.d -o CMakeFiles/cmTC_f0cad.dir/cpu_sse.cpp.o -c C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse.cpp
+FAILED: CMakeFiles/cmTC_f0cad.dir/cpu_sse.cpp.o 
+C:\Users\natha\emsdk\upstream\emscripten\em++.bat   -O3 -DNDEBUG -std=c++11 -fPIE -MD -MT CMakeFiles/cmTC_f0cad.dir/cpu_sse.cpp.o -MF CMakeFiles\cmTC_f0cad.dir\cpu_sse.cpp.o.d -o CMakeFiles/cmTC_f0cad.dir/cpu_sse.cpp.o -c C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse.cpp
+In file included from C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse.cpp:1:
+C:\Users\natha\emsdk\upstream\emscripten\cache\sysroot/include\compat\xmmintrin.h:16:2: error: "SSE instruction set not enabled"
+   16 | #error "SSE instruction set not enabled"
+      |  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+===== END =====
+
+Compilation failed:
+    source file: 'C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse.cpp'
+    check option: ' -msse'
+===== BUILD LOG =====
+Change Dir: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_7875b
+[1/2] C:\Users\natha\emsdk\upstream\emscripten\em++.bat   -O3 -DNDEBUG -std=c++11 -fPIE    -msse -MD -MT CMakeFiles/cmTC_7875b.dir/cpu_sse.cpp.o -MF CMakeFiles\cmTC_7875b.dir\cpu_sse.cpp.o.d -o CMakeFiles/cmTC_7875b.dir/cpu_sse.cpp.o -c C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse.cpp
+FAILED: CMakeFiles/cmTC_7875b.dir/cpu_sse.cpp.o 
+C:\Users\natha\emsdk\upstream\emscripten\em++.bat   -O3 -DNDEBUG -std=c++11 -fPIE    -msse -MD -MT CMakeFiles/cmTC_7875b.dir/cpu_sse.cpp.o -MF CMakeFiles\cmTC_7875b.dir\cpu_sse.cpp.o.d -o CMakeFiles/cmTC_7875b.dir/cpu_sse.cpp.o -c C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse.cpp
+em++: error: passing any of -msse, -msse2, -msse3, -mssse3, -msse4.1, -msse4.2, -msse4, -mavx, -mfpu=neon flags also requires passing -msimd128 (or -mrelaxed-simd)!
+ninja: build stopped: subcommand failed.
+
+
+===== END =====
+
+Compilation failed:
+    source file: 'C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse2.cpp'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_74b8d
+[1/2] C:\Users\natha\emsdk\upstream\emscripten\em++.bat   -O3 -DNDEBUG -std=c++11 -fPIE -MD -MT CMakeFiles/cmTC_74b8d.dir/cpu_sse2.cpp.o -MF CMakeFiles\cmTC_74b8d.dir\cpu_sse2.cpp.o.d -o CMakeFiles/cmTC_74b8d.dir/cpu_sse2.cpp.o -c C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse2.cpp
+FAILED: CMakeFiles/cmTC_74b8d.dir/cpu_sse2.cpp.o 
+C:\Users\natha\emsdk\upstream\emscripten\em++.bat   -O3 -DNDEBUG -std=c++11 -fPIE -MD -MT CMakeFiles/cmTC_74b8d.dir/cpu_sse2.cpp.o -MF CMakeFiles\cmTC_74b8d.dir\cpu_sse2.cpp.o.d -o CMakeFiles/cmTC_74b8d.dir/cpu_sse2.cpp.o -c C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse2.cpp
+In file included from C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse2.cpp:1:
+C:\Users\natha\emsdk\upstream\emscripten\cache\sysroot/include\compat\emmintrin.h:11:2: error: "SSE2 instruction set not enabled"
+   11 | #error "SSE2 instruction set not enabled"
+      |  ^
+In file included from C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse2.cpp:1:
+In file included from C:\Users\natha\emsdk\upstream\emscripten\cache\sysroot/include\compat\emmintrin.h:14:
+C:\Users\natha\emsdk\upstream\emscripten\cache\sysroot/include\compat\xmmintrin.h:16:2: error: "SSE instruction set not enabled"
+   16 | #error "SSE instruction set not enabled"
+      |  ^
+2 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+===== END =====
+
+Compilation failed:
+    source file: 'C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse2.cpp'
+    check option: ' -msse2'
+===== BUILD LOG =====
+Change Dir: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_afa5a
+[1/2] C:\Users\natha\emsdk\upstream\emscripten\em++.bat   -O3 -DNDEBUG -std=c++11 -fPIE    -msse2 -MD -MT CMakeFiles/cmTC_afa5a.dir/cpu_sse2.cpp.o -MF CMakeFiles\cmTC_afa5a.dir\cpu_sse2.cpp.o.d -o CMakeFiles/cmTC_afa5a.dir/cpu_sse2.cpp.o -c C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse2.cpp
+FAILED: CMakeFiles/cmTC_afa5a.dir/cpu_sse2.cpp.o 
+C:\Users\natha\emsdk\upstream\emscripten\em++.bat   -O3 -DNDEBUG -std=c++11 -fPIE    -msse2 -MD -MT CMakeFiles/cmTC_afa5a.dir/cpu_sse2.cpp.o -MF CMakeFiles\cmTC_afa5a.dir\cpu_sse2.cpp.o.d -o CMakeFiles/cmTC_afa5a.dir/cpu_sse2.cpp.o -c C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse2.cpp
+em++: error: passing any of -msse, -msse2, -msse3, -mssse3, -msse4.1, -msse4.2, -msse4, -mavx, -mfpu=neon flags also requires passing -msimd128 (or -mrelaxed-simd)!
+ninja: build stopped: subcommand failed.
+
+
+===== END =====
+
+Compilation failed:
+    source file: 'C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse3.cpp'
+    check option: ' -msse3'
+===== BUILD LOG =====
+Change Dir: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_6ff02
+[1/2] C:\Users\natha\emsdk\upstream\emscripten\em++.bat   -O3 -DNDEBUG -std=c++11 -fPIE    -msse3 -MD -MT CMakeFiles/cmTC_6ff02.dir/cpu_sse3.cpp.o -MF CMakeFiles\cmTC_6ff02.dir\cpu_sse3.cpp.o.d -o CMakeFiles/cmTC_6ff02.dir/cpu_sse3.cpp.o -c C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse3.cpp
+FAILED: CMakeFiles/cmTC_6ff02.dir/cpu_sse3.cpp.o 
+C:\Users\natha\emsdk\upstream\emscripten\em++.bat   -O3 -DNDEBUG -std=c++11 -fPIE    -msse3 -MD -MT CMakeFiles/cmTC_6ff02.dir/cpu_sse3.cpp.o -MF CMakeFiles\cmTC_6ff02.dir\cpu_sse3.cpp.o.d -o CMakeFiles/cmTC_6ff02.dir/cpu_sse3.cpp.o -c C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse3.cpp
+em++: error: passing any of -msse, -msse2, -msse3, -mssse3, -msse4.1, -msse4.2, -msse4, -mavx, -mfpu=neon flags also requires passing -msimd128 (or -mrelaxed-simd)!
+ninja: build stopped: subcommand failed.
+
+
+===== END =====
+
+Compilation failed:
+    source file: 'C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_ssse3.cpp'
+    check option: ' -mssse3'
+===== BUILD LOG =====
+Change Dir: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_e6a27
+[1/2] C:\Users\natha\emsdk\upstream\emscripten\em++.bat   -O3 -DNDEBUG -std=c++11 -fPIE    -mssse3 -MD -MT CMakeFiles/cmTC_e6a27.dir/cpu_ssse3.cpp.o -MF CMakeFiles\cmTC_e6a27.dir\cpu_ssse3.cpp.o.d -o CMakeFiles/cmTC_e6a27.dir/cpu_ssse3.cpp.o -c C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_ssse3.cpp
+FAILED: CMakeFiles/cmTC_e6a27.dir/cpu_ssse3.cpp.o 
+C:\Users\natha\emsdk\upstream\emscripten\em++.bat   -O3 -DNDEBUG -std=c++11 -fPIE    -mssse3 -MD -MT CMakeFiles/cmTC_e6a27.dir/cpu_ssse3.cpp.o -MF CMakeFiles\cmTC_e6a27.dir\cpu_ssse3.cpp.o.d -o CMakeFiles/cmTC_e6a27.dir/cpu_ssse3.cpp.o -c C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_ssse3.cpp
+em++: error: passing any of -msse, -msse2, -msse3, -mssse3, -msse4.1, -msse4.2, -msse4, -mavx, -mfpu=neon flags also requires passing -msimd128 (or -mrelaxed-simd)!
+ninja: build stopped: subcommand failed.
+
+
+===== END =====
+
+Compilation failed:
+    source file: 'C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse41.cpp'
+    check option: ' -msse4.1'
+===== BUILD LOG =====
+Change Dir: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_8caa0
+[1/2] C:\Users\natha\emsdk\upstream\emscripten\em++.bat   -O3 -DNDEBUG -std=c++11 -fPIE    -msse4.1 -MD -MT CMakeFiles/cmTC_8caa0.dir/cpu_sse41.cpp.o -MF CMakeFiles\cmTC_8caa0.dir\cpu_sse41.cpp.o.d -o CMakeFiles/cmTC_8caa0.dir/cpu_sse41.cpp.o -c C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse41.cpp
+FAILED: CMakeFiles/cmTC_8caa0.dir/cpu_sse41.cpp.o 
+C:\Users\natha\emsdk\upstream\emscripten\em++.bat   -O3 -DNDEBUG -std=c++11 -fPIE    -msse4.1 -MD -MT CMakeFiles/cmTC_8caa0.dir/cpu_sse41.cpp.o -MF CMakeFiles\cmTC_8caa0.dir\cpu_sse41.cpp.o.d -o CMakeFiles/cmTC_8caa0.dir/cpu_sse41.cpp.o -c C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse41.cpp
+em++: error: passing any of -msse, -msse2, -msse3, -mssse3, -msse4.1, -msse4.2, -msse4, -mavx, -mfpu=neon flags also requires passing -msimd128 (or -mrelaxed-simd)!
+ninja: build stopped: subcommand failed.
+
+
+===== END =====
+
+Compilation failed:
+    source file: 'C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_popcnt.cpp'
+    check option: ' -mpopcnt'
+===== BUILD LOG =====
+Change Dir: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_d3f5d
+[1/2] C:\Users\natha\emsdk\upstream\emscripten\em++.bat   -O3 -DNDEBUG -std=c++11 -fPIE    -mpopcnt -MD -MT CMakeFiles/cmTC_d3f5d.dir/cpu_popcnt.cpp.o -MF CMakeFiles\cmTC_d3f5d.dir\cpu_popcnt.cpp.o.d -o CMakeFiles/cmTC_d3f5d.dir/cpu_popcnt.cpp.o -c C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_popcnt.cpp
+FAILED: CMakeFiles/cmTC_d3f5d.dir/cpu_popcnt.cpp.o 
+C:\Users\natha\emsdk\upstream\emscripten\em++.bat   -O3 -DNDEBUG -std=c++11 -fPIE    -mpopcnt -MD -MT CMakeFiles/cmTC_d3f5d.dir/cpu_popcnt.cpp.o -MF CMakeFiles\cmTC_d3f5d.dir\cpu_popcnt.cpp.o.d -o CMakeFiles/cmTC_d3f5d.dir/cpu_popcnt.cpp.o -c C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_popcnt.cpp
+clang++: error: unsupported option '-mpopcnt' for target 'wasm32-unknown-emscripten'
+ninja: build stopped: subcommand failed.
+
+
+===== END =====
+
+Compilation failed:
+    source file: 'C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse42.cpp'
+    check option: ' -msse4.2'
+===== BUILD LOG =====
+Change Dir: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_0d3d7
+[1/2] C:\Users\natha\emsdk\upstream\emscripten\em++.bat   -O3 -DNDEBUG -std=c++11 -fPIE    -msse4.2 -MD -MT CMakeFiles/cmTC_0d3d7.dir/cpu_sse42.cpp.o -MF CMakeFiles\cmTC_0d3d7.dir\cpu_sse42.cpp.o.d -o CMakeFiles/cmTC_0d3d7.dir/cpu_sse42.cpp.o -c C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse42.cpp
+FAILED: CMakeFiles/cmTC_0d3d7.dir/cpu_sse42.cpp.o 
+C:\Users\natha\emsdk\upstream\emscripten\em++.bat   -O3 -DNDEBUG -std=c++11 -fPIE    -msse4.2 -MD -MT CMakeFiles/cmTC_0d3d7.dir/cpu_sse42.cpp.o -MF CMakeFiles\cmTC_0d3d7.dir\cpu_sse42.cpp.o.d -o CMakeFiles/cmTC_0d3d7.dir/cpu_sse42.cpp.o -c C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse42.cpp
+em++: error: passing any of -msse, -msse2, -msse3, -mssse3, -msse4.1, -msse4.2, -msse4, -mavx, -mfpu=neon flags also requires passing -msimd128 (or -mrelaxed-simd)!
+ninja: build stopped: subcommand failed.
+
+
+===== END =====
+
+Compilation failed:
+    source file: 'C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_avx.cpp'
+    check option: ' -mavx'
+===== BUILD LOG =====
+Change Dir: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_e7244
+[1/2] C:\Users\natha\emsdk\upstream\emscripten\em++.bat   -O3 -DNDEBUG -std=c++11 -fPIE    -mavx -MD -MT CMakeFiles/cmTC_e7244.dir/cpu_avx.cpp.o -MF CMakeFiles\cmTC_e7244.dir\cpu_avx.cpp.o.d -o CMakeFiles/cmTC_e7244.dir/cpu_avx.cpp.o -c C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_avx.cpp
+FAILED: CMakeFiles/cmTC_e7244.dir/cpu_avx.cpp.o 
+C:\Users\natha\emsdk\upstream\emscripten\em++.bat   -O3 -DNDEBUG -std=c++11 -fPIE    -mavx -MD -MT CMakeFiles/cmTC_e7244.dir/cpu_avx.cpp.o -MF CMakeFiles\cmTC_e7244.dir\cpu_avx.cpp.o.d -o CMakeFiles/cmTC_e7244.dir/cpu_avx.cpp.o -c C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_avx.cpp
+em++: error: passing any of -msse, -msse2, -msse3, -mssse3, -msse4.1, -msse4.2, -msse4, -mavx, -mfpu=neon flags also requires passing -msimd128 (or -mrelaxed-simd)!
+ninja: build stopped: subcommand failed.
+
+
+===== END =====
+
+Compilation failed:
+    source file: 'C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_fp16.cpp'
+    check option: ' -mf16c'
+===== BUILD LOG =====
+Change Dir: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_37f9a
+[1/2] C:\Users\natha\emsdk\upstream\emscripten\em++.bat   -O3 -DNDEBUG -std=c++11 -fPIE    -mf16c -MD -MT CMakeFiles/cmTC_37f9a.dir/cpu_fp16.cpp.o -MF CMakeFiles\cmTC_37f9a.dir\cpu_fp16.cpp.o.d -o CMakeFiles/cmTC_37f9a.dir/cpu_fp16.cpp.o -c C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_fp16.cpp
+FAILED: CMakeFiles/cmTC_37f9a.dir/cpu_fp16.cpp.o 
+C:\Users\natha\emsdk\upstream\emscripten\em++.bat   -O3 -DNDEBUG -std=c++11 -fPIE    -mf16c -MD -MT CMakeFiles/cmTC_37f9a.dir/cpu_fp16.cpp.o -MF CMakeFiles\cmTC_37f9a.dir\cpu_fp16.cpp.o.d -o CMakeFiles/cmTC_37f9a.dir/cpu_fp16.cpp.o -c C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_fp16.cpp
+clang++: error: unsupported option '-mf16c' for target 'wasm32-unknown-emscripten'
+ninja: build stopped: subcommand failed.
+
+
+===== END =====
+
+Compilation failed:
+    source file: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections   -mfpmath=387'
+===== BUILD LOG =====
+Change Dir: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_56635
+[1/2] C:\Users\natha\emsdk\upstream\emscripten\em++.bat   -O3 -DNDEBUG -std=c++11 -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections   -mfpmath=387 -MD -MT CMakeFiles/cmTC_56635.dir/src.cxx.o -MF CMakeFiles\cmTC_56635.dir\src.cxx.o.d -o CMakeFiles/cmTC_56635.dir/src.cxx.o -c C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp/src.cxx
+FAILED: CMakeFiles/cmTC_56635.dir/src.cxx.o 
+C:\Users\natha\emsdk\upstream\emscripten\em++.bat   -O3 -DNDEBUG -std=c++11 -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections   -mfpmath=387 -MD -MT CMakeFiles/cmTC_56635.dir/src.cxx.o -MF CMakeFiles\cmTC_56635.dir\src.cxx.o.d -o CMakeFiles/cmTC_56635.dir/src.cxx.o -c C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp/src.cxx
+error: unknown FP unit '387'
+ninja: build stopped: subcommand failed.
+
+
+===== END =====
+
+Compilation failed:
+    source file: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections   -mfpmath=387'
+===== BUILD LOG =====
+Change Dir: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_5512c
+[1/2] C:\Users\natha\emsdk\upstream\emscripten\emcc.bat   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections   -mfpmath=387 -MD -MT CMakeFiles/cmTC_5512c.dir/src.c.o -MF CMakeFiles\cmTC_5512c.dir\src.c.o.d -o CMakeFiles/cmTC_5512c.dir/src.c.o -c C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp/src.c
+FAILED: CMakeFiles/cmTC_5512c.dir/src.c.o 
+C:\Users\natha\emsdk\upstream\emscripten\emcc.bat   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections   -mfpmath=387 -MD -MT CMakeFiles/cmTC_5512c.dir/src.c.o -MF CMakeFiles\cmTC_5512c.dir\src.c.o.d -o CMakeFiles/cmTC_5512c.dir/src.c.o -c C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp/src.c
+error: unknown FP unit '387'
+ninja: build stopped: subcommand failed.
+
+
+===== END =====
+
+Compilation failed:
+    source file: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ''
+===== BUILD LOG =====
+Change Dir: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_f7b46
+[1/2] C:\Users\natha\emsdk\upstream\emscripten\em++.bat   -O3 -DNDEBUG -std=c++11 -fPIE -MD -MT CMakeFiles/cmTC_f7b46.dir/src.cxx.o -MF CMakeFiles\cmTC_f7b46.dir\src.cxx.o.d -o CMakeFiles/cmTC_f7b46.dir/src.cxx.o -c C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp/src.cxx
+[2/2] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\Users\natha\emsdk\upstream\emscripten\em++.bat -O3 -DNDEBUG -Wl,--no-undefined CMakeFiles/cmTC_f7b46.dir/src.cxx.o -o cmTC_f7b46.js   && cd ."
+FAILED: cmTC_f7b46.js 
+C:\WINDOWS\system32\cmd.exe /C "cd . && C:\Users\natha\emsdk\upstream\emscripten\em++.bat -O3 -DNDEBUG -Wl,--no-undefined CMakeFiles/cmTC_f7b46.dir/src.cxx.o -o cmTC_f7b46.js   && cd ."
+wasm-ld: error: unknown argument: --no-undefined
+em++: error: 'C:/Users/natha/emsdk/upstream/bin\wasm-ld.exe -o cmTC_f7b46.wasm --no-undefined -LC:\Users\natha\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten CMakeFiles/cmTC_f7b46.dir/src.cxx.o -lGL-getprocaddr -lal -lhtml5 -lstubs -lnoexit -lc -ldlmalloc -lcompiler_rt -lc++-noexcept -lc++abi-noexcept -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr C:\Users\natha\AppData\Local\Temp\tmpf9mklc6dlibemscripten_js_symbols.so --strip-debug --export=_emscripten_stack_alloc --export=__get_temp_ret --export=__set_temp_ret --export=__wasm_call_ctors --export=emscripten_stack_get_current --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=main --export-if-defined=__main_argc_argv --export-table -z stack-size=65536 --no-growable-memory --initial-heap=16777216 --no-entry --table-base=1 --global-base=1024' failed (returned 1)
+ninja: build stopped: subcommand failed.
+
+
+===== END =====
+
+Determining size of off64_t failed with the following output:
+Change Dir: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_d4b29
+[1/2] C:\Users\natha\emsdk\upstream\emscripten\emcc.bat   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_d4b29.dir/OFF64_T.c.o -MF CMakeFiles\cmTC_d4b29.dir\OFF64_T.c.o.d -o CMakeFiles/cmTC_d4b29.dir/OFF64_T.c.o -c C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/OFF64_T.c
+FAILED: CMakeFiles/cmTC_d4b29.dir/OFF64_T.c.o 
+C:\Users\natha\emsdk\upstream\emscripten\emcc.bat   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_d4b29.dir/OFF64_T.c.o -MF CMakeFiles\cmTC_d4b29.dir\OFF64_T.c.o.d -o CMakeFiles/cmTC_d4b29.dir/OFF64_T.c.o -c C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/OFF64_T.c
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/OFF64_T.c:25:12: error: use of undeclared identifier 'off64_t'
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+   23 | #define SIZE (sizeof(off64_t))
+      |                      ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/OFF64_T.c:26:12: error: use of undeclared identifier 'off64_t'
+   26 |   ('0' + ((SIZE / 1000)%10)),
+      |            ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+   23 | #define SIZE (sizeof(off64_t))
+      |                      ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/OFF64_T.c:27:12: error: use of undeclared identifier 'off64_t'
+   27 |   ('0' + ((SIZE / 100)%10)),
+      |            ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+   23 | #define SIZE (sizeof(off64_t))
+      |                      ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/OFF64_T.c:28:12: error: use of undeclared identifier 'off64_t'
+   28 |   ('0' + ((SIZE / 10)%10)),
+      |            ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+   23 | #define SIZE (sizeof(off64_t))
+      |                      ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/OFF64_T.c:29:12: error: use of undeclared identifier 'off64_t'
+   29 |   ('0' +  (SIZE    % 10)),
+      |            ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/OFF64_T.c:23:22: note: expanded from macro 'SIZE'
+   23 | #define SIZE (sizeof(off64_t))
+      |                      ^
+5 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT8 failed with the following output:
+Change Dir: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_ca30a
+[1/2] C:\Users\natha\emsdk\upstream\emscripten\emcc.bat   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_ca30a.dir/int8.c.o -MF CMakeFiles\cmTC_ca30a.dir\int8.c.o.d -o CMakeFiles/cmTC_ca30a.dir/int8.c.o -c C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int8.c
+FAILED: CMakeFiles/cmTC_ca30a.dir/int8.c.o 
+C:\Users\natha\emsdk\upstream\emscripten\emcc.bat   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_ca30a.dir/int8.c.o -MF CMakeFiles\cmTC_ca30a.dir\int8.c.o.d -o CMakeFiles/cmTC_ca30a.dir/int8.c.o -c C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int8.c
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int8.c:25:12: error: use of undeclared identifier 'INT8'
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int8.c:23:22: note: expanded from macro 'SIZE'
+   23 | #define SIZE (sizeof(INT8))
+      |                      ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int8.c:26:12: error: use of undeclared identifier 'INT8'
+   26 |   ('0' + ((SIZE / 1000)%10)),
+      |            ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int8.c:23:22: note: expanded from macro 'SIZE'
+   23 | #define SIZE (sizeof(INT8))
+      |                      ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int8.c:27:12: error: use of undeclared identifier 'INT8'
+   27 |   ('0' + ((SIZE / 100)%10)),
+      |            ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int8.c:23:22: note: expanded from macro 'SIZE'
+   23 | #define SIZE (sizeof(INT8))
+      |                      ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int8.c:28:12: error: use of undeclared identifier 'INT8'
+   28 |   ('0' + ((SIZE / 10)%10)),
+      |            ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int8.c:23:22: note: expanded from macro 'SIZE'
+   23 | #define SIZE (sizeof(INT8))
+      |                      ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int8.c:29:12: error: use of undeclared identifier 'INT8'
+   29 |   ('0' +  (SIZE    % 10)),
+      |            ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int8.c:23:22: note: expanded from macro 'SIZE'
+   23 | #define SIZE (sizeof(INT8))
+      |                      ^
+5 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT16 failed with the following output:
+Change Dir: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_9efcf
+[1/2] C:\Users\natha\emsdk\upstream\emscripten\emcc.bat   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_9efcf.dir/int16.c.o -MF CMakeFiles\cmTC_9efcf.dir\int16.c.o.d -o CMakeFiles/cmTC_9efcf.dir/int16.c.o -c C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int16.c
+FAILED: CMakeFiles/cmTC_9efcf.dir/int16.c.o 
+C:\Users\natha\emsdk\upstream\emscripten\emcc.bat   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_9efcf.dir/int16.c.o -MF CMakeFiles\cmTC_9efcf.dir\int16.c.o.d -o CMakeFiles/cmTC_9efcf.dir/int16.c.o -c C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int16.c
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int16.c:25:12: error: use of undeclared identifier 'INT16'
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int16.c:23:22: note: expanded from macro 'SIZE'
+   23 | #define SIZE (sizeof(INT16))
+      |                      ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int16.c:26:12: error: use of undeclared identifier 'INT16'
+   26 |   ('0' + ((SIZE / 1000)%10)),
+      |            ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int16.c:23:22: note: expanded from macro 'SIZE'
+   23 | #define SIZE (sizeof(INT16))
+      |                      ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int16.c:27:12: error: use of undeclared identifier 'INT16'
+   27 |   ('0' + ((SIZE / 100)%10)),
+      |            ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int16.c:23:22: note: expanded from macro 'SIZE'
+   23 | #define SIZE (sizeof(INT16))
+      |                      ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int16.c:28:12: error: use of undeclared identifier 'INT16'
+   28 |   ('0' + ((SIZE / 10)%10)),
+      |            ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int16.c:23:22: note: expanded from macro 'SIZE'
+   23 | #define SIZE (sizeof(INT16))
+      |                      ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int16.c:29:12: error: use of undeclared identifier 'INT16'
+   29 |   ('0' +  (SIZE    % 10)),
+      |            ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int16.c:23:22: note: expanded from macro 'SIZE'
+   23 | #define SIZE (sizeof(INT16))
+      |                      ^
+5 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of INT32 failed with the following output:
+Change Dir: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_99ee2
+[1/2] C:\Users\natha\emsdk\upstream\emscripten\emcc.bat   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_99ee2.dir/int32.c.o -MF CMakeFiles\cmTC_99ee2.dir\int32.c.o.d -o CMakeFiles/cmTC_99ee2.dir/int32.c.o -c C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int32.c
+FAILED: CMakeFiles/cmTC_99ee2.dir/int32.c.o 
+C:\Users\natha\emsdk\upstream\emscripten\emcc.bat   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -fPIE -MD -MT CMakeFiles/cmTC_99ee2.dir/int32.c.o -MF CMakeFiles\cmTC_99ee2.dir\int32.c.o.d -o CMakeFiles/cmTC_99ee2.dir/int32.c.o -c C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int32.c
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int32.c:25:12: error: use of undeclared identifier 'INT32'
+   25 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int32.c:23:22: note: expanded from macro 'SIZE'
+   23 | #define SIZE (sizeof(INT32))
+      |                      ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int32.c:26:12: error: use of undeclared identifier 'INT32'
+   26 |   ('0' + ((SIZE / 1000)%10)),
+      |            ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int32.c:23:22: note: expanded from macro 'SIZE'
+   23 | #define SIZE (sizeof(INT32))
+      |                      ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int32.c:27:12: error: use of undeclared identifier 'INT32'
+   27 |   ('0' + ((SIZE / 100)%10)),
+      |            ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int32.c:23:22: note: expanded from macro 'SIZE'
+   23 | #define SIZE (sizeof(INT32))
+      |                      ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int32.c:28:12: error: use of undeclared identifier 'INT32'
+   28 |   ('0' + ((SIZE / 10)%10)),
+      |            ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int32.c:23:22: note: expanded from macro 'SIZE'
+   23 | #define SIZE (sizeof(INT32))
+      |                      ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int32.c:29:12: error: use of undeclared identifier 'INT32'
+   29 |   ('0' +  (SIZE    % 10)),
+      |            ^
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int32.c:23:22: note: expanded from macro 'SIZE'
+   23 | #define SIZE (sizeof(INT32))
+      |                      ^
+5 errors generated.
+ninja: build stopped: subcommand failed.
+
+
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CheckTypeSize/int32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(INT32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-maybe-uninitialized', did you mean '-Wno-uninitialized'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' -Wno-maybe-uninitialized'
+===== BUILD LOG =====
+Change Dir: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_9c31b
+[1/2] C:\Users\natha\emsdk\upstream\emscripten\emcc.bat   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow  -O3 -DNDEBUG  -DNDEBUG -fPIE    -Wno-maybe-uninitialized -MD -MT CMakeFiles/cmTC_9c31b.dir/src.c.o -MF CMakeFiles\cmTC_9c31b.dir\src.c.o.d -o CMakeFiles/cmTC_9c31b.dir/src.c.o -c C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp/src.c
+warning: unknown warning option '-Wno-maybe-uninitialized'; did you mean '-Wno-uninitialized'? [-Wunknown-warning-option]
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+    1 | #pragma
+      |        ^
+2 warnings generated.
+[2/2] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\Users\natha\emsdk\upstream\emscripten\emcc.bat -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-unused-but-set-variable -Wno-missing-prototypes -Wno-missing-declarations -Wno-undef -Wno-unused -Wno-sign-compare -Wno-cast-align -Wno-shadow  -O3 -DNDEBUG  -DNDEBUG -Wl,--gc-sections CMakeFiles/cmTC_9c31b.dir/src.c.o -o cmTC_9c31b.js   && cd ."
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-stringop-overflow', did you mean '-Wno-shift-overflow'? [-Wunknown-warning-option]'
+Compilation failed:
+    source file: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-stringop-overflow'
+===== BUILD LOG =====
+Change Dir: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_e5916
+[1/2] C:\Users\natha\emsdk\upstream\emscripten\em++.bat   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-prototypes -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-tautological-undefined-compare -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-shorten-64-to-32 -Wno-invalid-offsetof -Wno-enum-compare-switch -Wno-suggest-override -Wno-inconsistent-missing-override -Wno-implicit-fallthrough -Wno-array-bounds  -O3 -DNDEBUG  -DNDEBUG -std=c++11 -fPIE    -Wno-stringop-overflow -MD -MT CMakeFiles/cmTC_e5916.dir/src.cxx.o -MF CMakeFiles\cmTC_e5916.dir\src.cxx.o.d -o CMakeFiles/cmTC_e5916.dir/src.cxx.o -c C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-stringop-overflow'; did you mean '-Wno-shift-overflow'? [-Wunknown-warning-option]
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp/src.cxx:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+    1 | #pragma
+      |        ^
+2 warnings generated.
+[2/2] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\Users\natha\emsdk\upstream\emscripten\em++.bat -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-prototypes -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-tautological-undefined-compare -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-shorten-64-to-32 -Wno-invalid-offsetof -Wno-enum-compare-switch -Wno-suggest-override -Wno-inconsistent-missing-override -Wno-implicit-fallthrough -Wno-array-bounds  -O3 -DNDEBUG  -DNDEBUG -Wl,--gc-sections CMakeFiles/cmTC_e5916.dir/src.cxx.o -o cmTC_e5916.js   && cd ."
+
+
+===== END =====
+
+Build output check failed:
+    Regex: 'unknown .*option'
+    Output line: 'warning: unknown warning option '-Wno-stringop-overread' [-Wunknown-warning-option]'
+Compilation failed:
+    source file: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp/src.cxx'
+    check option: ' -Wno-stringop-overread'
+===== BUILD LOG =====
+Change Dir: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_ed216
+[1/2] C:\Users\natha\emsdk\upstream\emscripten\em++.bat   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-prototypes -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-tautological-undefined-compare -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-shorten-64-to-32 -Wno-invalid-offsetof -Wno-enum-compare-switch -Wno-suggest-override -Wno-inconsistent-missing-override -Wno-implicit-fallthrough -Wno-array-bounds  -O3 -DNDEBUG  -DNDEBUG -std=c++11 -fPIE    -Wno-stringop-overread -MD -MT CMakeFiles/cmTC_ed216.dir/src.cxx.o -MF CMakeFiles\cmTC_ed216.dir\src.cxx.o.d -o CMakeFiles/cmTC_ed216.dir/src.cxx.o -c C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wno-stringop-overread' [-Wunknown-warning-option]
+C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp/src.cxx:1:8: warning: unknown pragma ignored [-Wunknown-pragmas]
+    1 | #pragma
+      |        ^
+2 warnings generated.
+[2/2] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\Users\natha\emsdk\upstream\emscripten\em++.bat -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wstrict-prototypes -Winit-self -Wpointer-arith -Wuninitialized -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden -Wno-deprecated -Wno-missing-prototypes -Wno-missing-declarations -Wno-shadow -Wno-unused-parameter -Wno-unused-local-typedefs -Wno-sign-compare -Wno-sign-promo -Wno-undef -Wno-tautological-undefined-compare -Wno-ignored-qualifiers -Wno-extra -Wno-unused-function -Wno-unused-const-variable -Wno-shorten-64-to-32 -Wno-invalid-offsetof -Wno-enum-compare-switch -Wno-suggest-override -Wno-inconsistent-missing-override -Wno-implicit-fallthrough -Wno-array-bounds  -O3 -DNDEBUG  -DNDEBUG -Wl,--gc-sections CMakeFiles/cmTC_ed216.dir/src.cxx.o -o cmTC_ed216.js   && cd ."
+
+
+===== END =====
+

@@ -1,25 +1,16 @@
-//  Begin License Agreement
-//
-//  By downloading, copying, installing or using the software you agree to this license.
-//  If you do not agree to this license, do not download, install,
-//  copy or use the software.
-//
-//                           License Agreement
-//             For Example Library Build System using Emscripten
-//
-// Redistribution and use in source and binary forms, with or without modification,
-// are permitted provided that the following conditions are met:
-//
-//  * Attribution, you must give the original author credit.
-//  * Redistribution of source code must retain the above license notice,
-//    this list of conditions and the following disclaimer.
-//  * This file is provided 'as is' with no expressed or implied warranty, the author is not
-//    responsible for any damage it may cause.
-//
-// THIS FILE WAS CREATED BY NATHAN POTTER. IT IS PROVIDED AS IS AND IS NOT TO BE USED FOR COMMERCIAL PURPOSES.
-// LAST UPDATED: 2024-11-08
-//
-// End License Agreement
+// TUTORIAL - BUILD COMMAND
+
+// INCLUDES
+// -I"C:/Users/natha/emsdk/upstream/emscripten/cache/sysroot/include"
+// C:/Users/natha/Desktop/DLIBEMC/install/include
+
+// Ensure we preload files. emscripten will generate a .data file that it will then look for. pay
+// attention to the browser console for which path it expects the file to be at. move the .data file.
+// in order to use ccall effectively, we need to export the function. we can do this by using the extern "C"
+// keyword in C++ or by using the EMSCRIPTEN_KEEPALIVE macro.
+
+// CCALL Build command
+// emcc test.cpp -o build/ccall/face.js -I"../cmake/DLIBEMC/install/include" -I"C:/emsdk/upstream/emscripten/cache/sysroot/include" -L"../cmake/DLIBEMC/static_build/dlib" -ldlib -s EXPORT_ALL=1 -s EXPORTED_RUNTIME_METHODS=["ccall"] -s WASM=1 -s STACK_OVERFLOW_CHECK=2 -s ENVIRONMENT=web -s DISABLE_EXCEPTION_CATCHING=0 -s ASSERTIONS=1 --preload-file "C:/Users/natha/Documents/Work/Refactor Games/Eye Tracking/pyTrack/webapp/cpp/build/htmlTestDlib/build/monalisa.jpg@/monalisa.jpg"
 
 #include <dlib/image_processing/frontal_face_detector.h>
 #include <dlib/image_io.h>

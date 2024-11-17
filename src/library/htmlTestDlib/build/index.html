@@ -57,10 +57,7 @@
               fd_seek: () => 0,
               fd_close: () => 0,
             },
-            env: {
-              // reimplement required missing functions in equivalent js, or pass them as a handler
-              // function to the wasm module here.
-            },
+            env: {},
           }
         );
         console.log("wasmModule", wasmModule);

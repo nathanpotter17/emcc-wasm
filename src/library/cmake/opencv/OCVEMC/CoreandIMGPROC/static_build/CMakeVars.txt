@@ -1,0 +1,2831 @@
+3P_LIBRARY_OUTPUT_PATH=C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/lib
+ADE_include=C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/communication/callback_connector.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/communication/comm_buffer.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/communication/comm_interface.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/edge.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/execution_engine/backend.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/execution_engine/executable.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/execution_engine/execution_engine.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/graph.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/graph_listener.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/handle.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/helpers/search.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/helpers/subgraphs.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/memory/alloc.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/memory/memory_access_listener.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/memory/memory_accessor.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/memory/memory_descriptor.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/memory/memory_descriptor_ref.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/memory/memory_descriptor_view.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/memory/memory_types.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/metatypes/metatypes.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/node.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/passes/check_cycles.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/passes/communications.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/passes/pass_base.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/passes/topological_sort.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/passmanager.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/typed_graph.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/typed_metadata.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/util/algorithm.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/util/assert.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/util/chain_range.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/util/checked_cast.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/util/container_helper.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/util/filter_range.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/util/func_ref.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/util/hash.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/util/intrusive_list.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/util/iota_range.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/util/map_range.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/util/math.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/util/md_cast.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/util/md_io.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/util/md_size.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/util/md_span.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/util/md_view.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/util/memory_range.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/util/range.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/util/range_iterator.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/util/tuple.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/util/type_traits.hpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/include/ade/util/zip_range.hpp
+ADE_root=C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade
+ADE_sources=C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/source/alloc.cpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/source/assert.cpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/source/check_cycles.cpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/source/edge.cpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/source/execution_engine.cpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/source/graph.cpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/source/memory_accessor.cpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/source/memory_descriptor.cpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/source/memory_descriptor_ref.cpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/source/memory_descriptor_view.cpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/source/metadata.cpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/source/metatypes.cpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/source/node.cpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/source/passes/communications.cpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/source/search.cpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/source/subgraphs.cpp;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade/ade-0.1.2e/sources/ade/source/topological_sort.cpp
+ARGC=3
+ARGN=;TOFILE;CMakeVars.txt
+ARGV=;TOFILE;CMakeVars.txt
+ARGV0=
+ARGV1=TOFILE
+ARGV2=CMakeVars.txt
+ATLAS_FOUND=FALSE
+AVIF_FOUND=FALSE
+AVIF_INCLUDE_DIR=AVIF_INCLUDE_DIR-NOTFOUND
+AVIF_INCLUDE_DIRS=AVIF_INCLUDE_DIR-NOTFOUND
+AVIF_LIBRARIES=AVIF_LIBRARY-NOTFOUND
+AVIF_LIBRARY=AVIF_LIBRARY-NOTFOUND
+Atlas_BLAS_LIBRARY=Atlas_BLAS_LIBRARY-NOTFOUND
+Atlas_CBLAS_INCLUDE_DIR=Atlas_CBLAS_INCLUDE_DIR-NOTFOUND
+Atlas_CBLAS_LIBRARY=Atlas_CBLAS_LIBRARY-NOTFOUND
+Atlas_CLAPACK_INCLUDE_DIR=Atlas_CLAPACK_INCLUDE_DIR-NOTFOUND
+Atlas_FOUND=FALSE
+Atlas_INCLUDE_SEARCH_PATHS=/usr/include/atlas;/usr/include/atlas-base;/include
+Atlas_LAPACK_LIBRARY=Atlas_LAPACK_LIBRARY-NOTFOUND
+Atlas_LIB_SEARCH_PATHS=/usr/lib/atlas;/usr/lib/atlas-base;/lib
+BLAS_Accelerate_LIBRARY=BLAS_Accelerate_LIBRARY-NOTFOUND
+BLAS_FOUND=FALSE
+BLAS_LIBRARIES=FALSE
+BLAS_SEARCH_LIBS=mkl_intel mkl_intel_thread mkl_core guide; mkl_intel mkl_intel_thread mkl_core  iomp5;mkl_intel_lp64 mkl_intel_thread mkl_core guide; mkl_intel_lp64 mkl_intel_thread mkl_core  iomp5; mkl_intel_lp64 mkl_sequential mkl_core ;mkl;mkl_ia32;mkl_em64t;mkl_rt
+BLAS_WORKS=
+BLAS_acml_LIBRARY=BLAS_acml_LIBRARY-NOTFOUND
+BLAS_acml_mp_LIBRARY=BLAS_acml_mp_LIBRARY-NOTFOUND
+BLAS_armpl_lp64_LIBRARY=BLAS_armpl_lp64_LIBRARY-NOTFOUND
+BLAS_blas_LIBRARY=BLAS_blas_LIBRARY-NOTFOUND
+BLAS_blastrampoline_LIBRARY=BLAS_blastrampoline_LIBRARY-NOTFOUND
+BLAS_blis_LIBRARY=BLAS_blis_LIBRARY-NOTFOUND
+BLAS_complib_sgimath_LIBRARY=BLAS_complib_sgimath_LIBRARY-NOTFOUND
+BLAS_cxml_LIBRARY=BLAS_cxml_LIBRARY-NOTFOUND
+BLAS_dxml_LIBRARY=BLAS_dxml_LIBRARY-NOTFOUND
+BLAS_eml_LIBRARY=BLAS_eml_LIBRARY-NOTFOUND
+BLAS_essl_LIBRARY=BLAS_essl_LIBRARY-NOTFOUND
+BLAS_fjlapack_LIBRARY=BLAS_fjlapack_LIBRARY-NOTFOUND
+BLAS_flexiblas_LIBRARY=BLAS_flexiblas_LIBRARY-NOTFOUND
+BLAS_goto2_LIBRARY=BLAS_goto2_LIBRARY-NOTFOUND
+BLAS_mkl_END_GROUP=
+BLAS_mkl_LIBRARY=BLAS_mkl_LIBRARY-NOTFOUND
+BLAS_mkl_SEARCH_SYMBOL=sgemm
+BLAS_mkl_START_GROUP=
+BLAS_mkl_em64t_LIBRARY=BLAS_mkl_em64t_LIBRARY-NOTFOUND
+BLAS_mkl_ia32_LIBRARY=BLAS_mkl_ia32_LIBRARY-NOTFOUND
+BLAS_mkl_intel_LIBRARY=BLAS_mkl_intel_LIBRARY-NOTFOUND
+BLAS_mkl_intel_lp64_LIBRARY=BLAS_mkl_intel_lp64_LIBRARY-NOTFOUND
+BLAS_mkl_rt_LIBRARY=BLAS_mkl_rt_LIBRARY-NOTFOUND
+BLAS_openblas_LIBRARY=BLAS_openblas_LIBRARY-NOTFOUND
+BLAS_scs_LIBRARY=BLAS_scs_LIBRARY-NOTFOUND
+BLAS_sgemm_LIBRARY=BLAS_sgemm_LIBRARY-NOTFOUND
+BLAS_sunperf_LIBRARY=BLAS_sunperf_LIBRARY-NOTFOUND
+BLAS_vecLib_LIBRARY=BLAS_vecLib_LIBRARY-NOTFOUND
+BLA_VENDOR=All
+BUILD_CUDA_STUBS=OFF
+BUILD_DOCS=OFF
+BUILD_EXAMPLES=OFF
+BUILD_FAT_JAVA_LIB=OFF
+BUILD_IPP_IW=OFF
+BUILD_ITT=OFF
+BUILD_JASPER=OFF
+BUILD_JAVA=OFF
+BUILD_JPEG=OFF
+BUILD_LIST=core,imgproc
+BUILD_OPENEXR=OFF
+BUILD_OPENJPEG=OFF
+BUILD_PACKAGE=ON
+BUILD_PERF_TESTS=OFF
+BUILD_PNG=OFF
+BUILD_PROTOBUF=ON
+BUILD_SHARED_LIBS=OFF
+BUILD_TBB=OFF
+BUILD_TESTS=OFF
+BUILD_TIFF=OFF
+BUILD_USE_SYMLINKS=OFF
+BUILD_WASM_INTRIN_TESTS=OFF
+BUILD_WEBP=OFF
+BUILD_WITH_DEBUG_INFO=OFF
+BUILD_WITH_DYNAMIC_IPP=OFF
+BUILD_ZLIB=OFF
+BUILD_opencv_apps=ON
+BUILD_opencv_calib3d=ON
+BUILD_opencv_core=ON
+BUILD_opencv_dnn=ON
+BUILD_opencv_features2d=ON
+BUILD_opencv_flann=ON
+BUILD_opencv_gapi=ON
+BUILD_opencv_highgui=ON
+BUILD_opencv_imgcodecs=ON
+BUILD_opencv_imgproc=ON
+BUILD_opencv_java_bindings_generator=ON
+BUILD_opencv_js=OFF
+BUILD_opencv_js_bindings_generator=ON
+BUILD_opencv_ml=ON
+BUILD_opencv_objc_bindings_generator=ON
+BUILD_opencv_objdetect=ON
+BUILD_opencv_photo=ON
+BUILD_opencv_python_bindings_generator=ON
+BUILD_opencv_python_tests=ON
+BUILD_opencv_stitching=ON
+BUILD_opencv_video=ON
+BUILD_opencv_videoio=ON
+BUILD_opencv_world=OFF
+CACHED_CPU_BASELINE_FLAGS= -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections 
+CAN_BUILD_ANDROID_PROJECTS=FALSE
+CCACHE_PROGRAM=CCACHE_PROGRAM-NOTFOUND
+CHECK_INCLUDE_FILE_VAR=linux/videodev2.h
+CLAMDBLAS_INCLUDE_DIR=CLAMDBLAS_INCLUDE_DIR-NOTFOUND
+CLAMDBLAS_ROOT_DIR=CLAMDBLAS_ROOT_DIR-NOTFOUND
+CLAMDFFT_INCLUDE_DIR=CLAMDFFT_INCLUDE_DIR-NOTFOUND
+CLAMDFFT_ROOT_DIR=CLAMDFFT_ROOT_DIR-NOTFOUND
+CMAKE_ADDR2LINE=C:/msys64/ucrt64/bin/addr2line.exe
+CMAKE_AR=C:/Users/natha/emsdk/upstream/emscripten/emar.bat
+CMAKE_ASM_NASM_COMPILER=NOTFOUND
+CMAKE_AUTOGEN_ORIGIN_DEPENDS=ON
+CMAKE_AUTOMOC_COMPILER_PREDEFINES=ON
+CMAKE_AUTOMOC_MACRO_NAMES=Q_OBJECT;Q_GADGET;Q_NAMESPACE;Q_NAMESPACE_EXPORT
+CMAKE_AUTOMOC_PATH_PREFIX=OFF
+CMAKE_BASE_NAME=emcc
+CMAKE_BINARY_DIR=C:/Users/natha/Desktop/statics/opencv/static_build
+CMAKE_BUILD_TOOL=C:/ninja-win/ninja.exe
+CMAKE_BUILD_TYPE=Release
+CMAKE_C11_COMPILE_FEATURES=c_std_11;c_static_assert
+CMAKE_C11_EXTENSION_COMPILE_OPTION=-std=gnu11
+CMAKE_C11_STANDARD_COMPILE_OPTION=-std=c11
+CMAKE_C11_STANDARD__HAS_FULL_SUPPORT=ON
+CMAKE_C17_COMPILE_FEATURES=c_std_17
+CMAKE_C17_EXTENSION_COMPILE_OPTION=-std=gnu17
+CMAKE_C17_STANDARD_COMPILE_OPTION=-std=c17
+CMAKE_C23_COMPILE_FEATURES=c_std_23
+CMAKE_C23_EXTENSION_COMPILE_OPTION=-std=gnu23
+CMAKE_C23_STANDARD_COMPILE_OPTION=-std=c23
+CMAKE_C90_COMPILE_FEATURES=c_std_90;c_function_prototypes
+CMAKE_C90_EXTENSION_COMPILE_OPTION=-std=gnu90
+CMAKE_C90_STANDARD_COMPILE_OPTION=-std=c90
+CMAKE_C90_STANDARD__HAS_FULL_SUPPORT=ON
+CMAKE_C99_COMPILE_FEATURES=c_std_99;c_restrict;c_variadic_macros
+CMAKE_C99_EXTENSION_COMPILE_OPTION=-std=gnu99
+CMAKE_C99_STANDARD_COMPILE_OPTION=-std=c99
+CMAKE_C99_STANDARD__HAS_FULL_SUPPORT=ON
+CMAKE_CFG_INTDIR=.
+CMAKE_COMMAND=C:/Program Files/CMake/bin/cmake.exe
+CMAKE_CONFIGURATION_TYPES=Debug;Release
+CMAKE_CPACK_COMMAND=C:/Program Files/CMake/bin/cpack.exe
+CMAKE_CROSSCOMPILING=TRUE
+CMAKE_CROSSCOMPILING_EMULATOR=C:/Users/natha/emsdk/node/18.20.3_64bit/bin/node.exe
+CMAKE_CTEST_COMMAND=C:/Program Files/CMake/bin/ctest.exe
+CMAKE_CURRENT_BINARY_DIR=C:/Users/natha/Desktop/statics/opencv/static_build
+CMAKE_CURRENT_FUNCTION=ocv_cmake_dump_vars
+CMAKE_CURRENT_FUNCTION_LIST_DIR=C:/Users/natha/Desktop/statics/opencv/cmake
+CMAKE_CURRENT_FUNCTION_LIST_FILE=C:/Users/natha/Desktop/statics/opencv/cmake/OpenCVUtils.cmake
+CMAKE_CURRENT_FUNCTION_LIST_LINE=8
+CMAKE_CURRENT_LIST_DIR=C:/Users/natha/Desktop/statics/opencv
+CMAKE_CURRENT_LIST_FILE=C:/Users/natha/Desktop/statics/opencv/CMakeLists.txt
+CMAKE_CURRENT_SOURCE_DIR=C:/Users/natha/Desktop/statics/opencv
+CMAKE_CXX11_COMPILE_FEATURES=cxx_std_11;cxx_alias_templates;cxx_alignas;cxx_alignof;cxx_attributes;cxx_auto_type;cxx_constexpr;cxx_decltype;cxx_decltype_incomplete_return_types;cxx_default_function_template_args;cxx_defaulted_functions;cxx_defaulted_move_initializers;cxx_delegating_constructors;cxx_deleted_functions;cxx_enum_forward_declarations;cxx_explicit_conversions;cxx_extended_friend_declarations;cxx_extern_templates;cxx_final;cxx_func_identifier;cxx_generalized_initializers;cxx_inheriting_constructors;cxx_inline_namespaces;cxx_lambdas;cxx_local_type_template_args;cxx_long_long_type;cxx_noexcept;cxx_nonstatic_member_init;cxx_nullptr;cxx_override;cxx_range_for;cxx_raw_string_literals;cxx_reference_qualified_functions;cxx_right_angle_brackets;cxx_rvalue_references;cxx_sizeof_member;cxx_static_assert;cxx_strong_enums;cxx_thread_local;cxx_trailing_return_types;cxx_unicode_literals;cxx_uniform_initialization;cxx_unrestricted_unions;cxx_user_literals;cxx_variadic_macros;cxx_variadic_templates
+CMAKE_CXX11_EXTENSION_COMPILE_OPTION=-std=gnu++11
+CMAKE_CXX11_STANDARD_COMPILE_OPTION=-std=c++11
+CMAKE_CXX11_STANDARD__HAS_FULL_SUPPORT=ON
+CMAKE_CXX14_COMPILE_FEATURES=cxx_std_14;cxx_aggregate_default_initializers;cxx_attribute_deprecated;cxx_binary_literals;cxx_contextual_conversions;cxx_decltype_auto;cxx_digit_separators;cxx_generic_lambdas;cxx_lambda_init_captures;cxx_relaxed_constexpr;cxx_return_type_deduction;cxx_variable_templates
+CMAKE_CXX14_EXTENSION_COMPILE_OPTION=-std=gnu++14
+CMAKE_CXX14_STANDARD_COMPILE_OPTION=-std=c++14
+CMAKE_CXX14_STANDARD__HAS_FULL_SUPPORT=ON
+CMAKE_CXX17_COMPILE_FEATURES=cxx_std_17
+CMAKE_CXX17_EXTENSION_COMPILE_OPTION=-std=gnu++17
+CMAKE_CXX17_STANDARD_COMPILE_OPTION=-std=c++17
+CMAKE_CXX20_COMPILE_FEATURES=cxx_std_20
+CMAKE_CXX20_EXTENSION_COMPILE_OPTION=-std=gnu++20
+CMAKE_CXX20_STANDARD_COMPILE_OPTION=-std=c++20
+CMAKE_CXX23_COMPILE_FEATURES=cxx_std_23
+CMAKE_CXX23_EXTENSION_COMPILE_OPTION=-std=gnu++23
+CMAKE_CXX23_STANDARD_COMPILE_OPTION=-std=c++23
+CMAKE_CXX26_COMPILE_FEATURES=
+CMAKE_CXX26_EXTENSION_COMPILE_OPTION=-std=gnu++26
+CMAKE_CXX26_STANDARD_COMPILE_OPTION=-std=c++26
+CMAKE_CXX98_COMPILE_FEATURES=cxx_std_98;cxx_template_template_parameters
+CMAKE_CXX98_EXTENSION_COMPILE_OPTION=-std=gnu++98
+CMAKE_CXX98_STANDARD_COMPILE_OPTION=-std=c++98
+CMAKE_CXX98_STANDARD__HAS_FULL_SUPPORT=ON
+CMAKE_CXX_ARCHIVE_APPEND=<CMAKE_AR> q <TARGET> <LINK_FLAGS> <OBJECTS>
+CMAKE_CXX_ARCHIVE_APPEND_IPO="C:/Users/natha/emsdk/upstream/emscripten/emar.bat" q <TARGET> <LINK_FLAGS> <OBJECTS>
+CMAKE_CXX_ARCHIVE_CREATE=<CMAKE_AR> qc <TARGET> <LINK_FLAGS> <OBJECTS>
+CMAKE_CXX_ARCHIVE_CREATE_IPO="C:/Users/natha/emsdk/upstream/emscripten/emar.bat" qc <TARGET> <LINK_FLAGS> <OBJECTS>
+CMAKE_CXX_ARCHIVE_FINISH=<CMAKE_RANLIB> <TARGET>
+CMAKE_CXX_ARCHIVE_FINISH_IPO="C:/Users/natha/emsdk/upstream/emscripten/emranlib.bat" <TARGET>
+CMAKE_CXX_BYTE_ORDER=LITTLE_ENDIAN
+CMAKE_CXX_CL_SHOWINCLUDES_PREFIX=
+CMAKE_CXX_COMPILER=C:/Users/natha/emsdk/upstream/emscripten/em++.bat
+CMAKE_CXX_COMPILER=C:/Users/natha/emsdk/upstream/emscripten/em++.bat
+CMAKE_CXX_COMPILER_ABI=
+CMAKE_CXX_COMPILER_AR=C:/Users/natha/emsdk/upstream/emscripten/emar.bat
+CMAKE_CXX_COMPILER_AR=C:/Users/natha/emsdk/upstream/emscripten/emar.bat
+CMAKE_CXX_COMPILER_ARG1=
+CMAKE_CXX_COMPILER_CLANG_RESOURCE_DIR=
+CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS=CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND
+CMAKE_CXX_COMPILER_ENV_VAR=CXX
+CMAKE_CXX_COMPILER_FORCED=TRUE
+CMAKE_CXX_COMPILER_FRONTEND_VARIANT=GNU
+CMAKE_CXX_COMPILER_ID=Clang
+CMAKE_CXX_COMPILER_ID_RUN=TRUE
+CMAKE_CXX_COMPILER_ID_TEST_FLAGS=-c;--c++;--ec++;--target=arm-arm-none-eabi -mcpu=cortex-m3;-c -I__does_not_exist__
+CMAKE_CXX_COMPILER_IMPORT_STD=
+CMAKE_CXX_COMPILER_LINKER=
+CMAKE_CXX_COMPILER_LINKER_ID=
+CMAKE_CXX_COMPILER_LOADED=1
+CMAKE_CXX_COMPILER_NAMES=CC
+CMAKE_CXX_COMPILER_PREDEFINES_COMMAND=C:/Users/natha/emsdk/upstream/emscripten/em++.bat;-dM;-E;-c;C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+CMAKE_CXX_COMPILER_RANLIB=C:/Users/natha/emsdk/upstream/emscripten/emranlib.bat
+CMAKE_CXX_COMPILER_RANLIB=C:/Users/natha/emsdk/upstream/emscripten/emranlib.bat
+CMAKE_CXX_COMPILER_VERSION=20.0.0
+CMAKE_CXX_COMPILER_VERSION_INTERNAL=
+CMAKE_CXX_COMPILER_WORKS=TRUE
+CMAKE_CXX_COMPILER_WRAPPER=
+CMAKE_CXX_COMPILE_FEATURES=cxx_std_98;cxx_template_template_parameters;cxx_std_11;cxx_alias_templates;cxx_alignas;cxx_alignof;cxx_attributes;cxx_auto_type;cxx_constexpr;cxx_decltype;cxx_decltype_incomplete_return_types;cxx_default_function_template_args;cxx_defaulted_functions;cxx_defaulted_move_initializers;cxx_delegating_constructors;cxx_deleted_functions;cxx_enum_forward_declarations;cxx_explicit_conversions;cxx_extended_friend_declarations;cxx_extern_templates;cxx_final;cxx_func_identifier;cxx_generalized_initializers;cxx_inheriting_constructors;cxx_inline_namespaces;cxx_lambdas;cxx_local_type_template_args;cxx_long_long_type;cxx_noexcept;cxx_nonstatic_member_init;cxx_nullptr;cxx_override;cxx_range_for;cxx_raw_string_literals;cxx_reference_qualified_functions;cxx_right_angle_brackets;cxx_rvalue_references;cxx_sizeof_member;cxx_static_assert;cxx_strong_enums;cxx_thread_local;cxx_trailing_return_types;cxx_unicode_literals;cxx_uniform_initialization;cxx_unrestricted_unions;cxx_user_literals;cxx_variadic_macros;cxx_variadic_templates;cxx_std_14;cxx_aggregate_default_initializers;cxx_attribute_deprecated;cxx_binary_literals;cxx_contextual_conversions;cxx_decltype_auto;cxx_digit_separators;cxx_generic_lambdas;cxx_lambda_init_captures;cxx_relaxed_constexpr;cxx_return_type_deduction;cxx_variable_templates;cxx_std_17;cxx_std_20;cxx_std_23
+CMAKE_CXX_COMPILE_OBJECT=<CMAKE_CXX_COMPILER> <DEFINES> <INCLUDES> <FLAGS> -o <OBJECT> -c <SOURCE>
+CMAKE_CXX_COMPILE_OPTIONS_COLOR_DIAGNOSTICS=-fansi-escape-codes;-fcolor-diagnostics
+CMAKE_CXX_COMPILE_OPTIONS_COLOR_DIAGNOSTICS_OFF=-fno-color-diagnostics
+CMAKE_CXX_COMPILE_OPTIONS_CREATE_PCH=-Xclang;-emit-pch;-Xclang;-include;-Xclang;<PCH_HEADER>;-x;c++-header
+CMAKE_CXX_COMPILE_OPTIONS_EXPLICIT_LANGUAGE=-x;c++
+CMAKE_CXX_COMPILE_OPTIONS_EXTERNAL_TOOLCHAIN=--gcc-toolchain=
+CMAKE_CXX_COMPILE_OPTIONS_INSTANTIATE_TEMPLATES_PCH=-fpch-instantiate-templates
+CMAKE_CXX_COMPILE_OPTIONS_INVALID_PCH=-Winvalid-pch
+CMAKE_CXX_COMPILE_OPTIONS_IPO=-flto=thin
+CMAKE_CXX_COMPILE_OPTIONS_PIC=-fPIC
+CMAKE_CXX_COMPILE_OPTIONS_PIE=-fPIE
+CMAKE_CXX_COMPILE_OPTIONS_SYSROOT=--sysroot=
+CMAKE_CXX_COMPILE_OPTIONS_TARGET=--target=
+CMAKE_CXX_COMPILE_OPTIONS_USE_PCH=-Xclang;-include-pch;-Xclang;<PCH_FILE>;-Xclang;-include;-Xclang;<PCH_HEADER>
+CMAKE_CXX_COMPILE_OPTIONS_VISIBILITY=-fvisibility=
+CMAKE_CXX_COMPILE_OPTIONS_VISIBILITY_INLINES_HIDDEN=-fvisibility-inlines-hidden
+CMAKE_CXX_COMPILE_OPTIONS_WARNING_AS_ERROR=-Werror
+CMAKE_CXX_CREATE_ASSEMBLY_SOURCE=<CMAKE_CXX_COMPILER> <DEFINES> <INCLUDES> <FLAGS> -S <SOURCE> -o <ASSEMBLY_SOURCE>
+CMAKE_CXX_CREATE_PREPROCESSED_SOURCE=<CMAKE_CXX_COMPILER> <DEFINES> <INCLUDES> <FLAGS> -E <SOURCE> > <PREPROCESSED_SOURCE>
+CMAKE_CXX_CREATE_SHARED_LIBRARY=<CMAKE_CXX_COMPILER> <CMAKE_SHARED_LIBRARY_CXX_FLAGS> <LANGUAGE_COMPILE_FLAGS> <LINK_FLAGS> <CMAKE_SHARED_LIBRARY_CREATE_CXX_FLAGS> <SONAME_FLAG><TARGET_SONAME> -o <TARGET> <OBJECTS> <LINK_LIBRARIES>
+CMAKE_CXX_CREATE_SHARED_MODULE=<CMAKE_CXX_COMPILER> <CMAKE_SHARED_LIBRARY_CXX_FLAGS> <LANGUAGE_COMPILE_FLAGS> <LINK_FLAGS> <CMAKE_SHARED_LIBRARY_CREATE_CXX_FLAGS> <SONAME_FLAG><TARGET_SONAME> -o <TARGET> <OBJECTS> <LINK_LIBRARIES>
+CMAKE_CXX_EXTENSIONS=OFF
+CMAKE_CXX_EXTENSIONS_COMPUTED_DEFAULT=
+CMAKE_CXX_EXTENSIONS_DEFAULT=ON
+CMAKE_CXX_FLAGS=   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden
+CMAKE_CXX_FLAGS=   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden
+CMAKE_CXX_FLAGS_DEBUG=-g  -O0 -DDEBUG -D_DEBUG
+CMAKE_CXX_FLAGS_DEBUG=-g  -O0 -DDEBUG -D_DEBUG
+CMAKE_CXX_FLAGS_DEBUG_INIT= -g
+CMAKE_CXX_FLAGS_INIT=  
+CMAKE_CXX_FLAGS_MINSIZEREL=-Os -DNDEBUG
+CMAKE_CXX_FLAGS_MINSIZEREL_INIT= -Os -DNDEBUG
+CMAKE_CXX_FLAGS_RELEASE=-O3 -DNDEBUG  -DNDEBUG
+CMAKE_CXX_FLAGS_RELEASE=-O3 -DNDEBUG  -DNDEBUG
+CMAKE_CXX_FLAGS_RELEASE_INIT= -O3 -DNDEBUG
+CMAKE_CXX_FLAGS_RELWITHDEBINFO=-O2 -g -DNDEBUG
+CMAKE_CXX_FLAGS_RELWITHDEBINFO_INIT= -O2 -g -DNDEBUG
+CMAKE_CXX_IGNORE_EXTENSIONS=inl;h;hpp;HPP;H;o;O;obj;OBJ;def;DEF;rc;RC
+CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES=C:/Users/natha/emsdk/upstream/emscripten/cache/sysroot/include
+CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES=
+CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES=
+CMAKE_CXX_IMPLICIT_LINK_LIBRARIES=
+CMAKE_CXX_INFORMATION_LOADED=1
+CMAKE_CXX_LIBRARY_ARCHITECTURE=
+CMAKE_CXX_LINKER_INFORMATION_LOADED=1
+CMAKE_CXX_LINKER_PREFERENCE=30
+CMAKE_CXX_LINKER_PREFERENCE_PROPAGATES=1
+CMAKE_CXX_LINKER_WRAPPER_FLAG=-Xlinker; 
+CMAKE_CXX_LINK_EXECUTABLE=<CMAKE_CXX_COMPILER> <FLAGS> <CMAKE_CXX_LINK_FLAGS> <LINK_FLAGS> <OBJECTS> -o <TARGET> <LINK_LIBRARIES>
+CMAKE_CXX_LINK_OPTIONS_NO_PIE=-no-pie
+CMAKE_CXX_LINK_OPTIONS_PIE=-fPIE;-pie
+CMAKE_CXX_MODULE_BMI_ONLY_FLAG=--precompile
+CMAKE_CXX_MODULE_MAP_FLAG=@<MODULE_MAP_FILE>
+CMAKE_CXX_MODULE_MAP_FORMAT=clang
+CMAKE_CXX_OUTPUT_EXTENSION=.o
+CMAKE_CXX_PLATFORM_ID=emscripten
+CMAKE_CXX_RESPONSE_FILE_LINK_FLAG=@
+CMAKE_CXX_SCANDEP_SOURCE="CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND" -format=p1689 -- <CMAKE_CXX_COMPILER> <DEFINES> <INCLUDES> <FLAGS> -x c++ <SOURCE> -c -o <OBJECT> -MT <DYNDEP_FILE> -MD -MF <DEP_FILE> > <DYNDEP_FILE>.tmp && "C:/Program Files/CMake/bin/cmake.exe" -E rename <DYNDEP_FILE>.tmp <DYNDEP_FILE>
+CMAKE_CXX_SIMULATE_ID=
+CMAKE_CXX_SIMULATE_VERSION=
+CMAKE_CXX_SIZEOF_DATA_PTR=4
+CMAKE_CXX_SOURCE_FILE_EXTENSIONS=C;M;c++;cc;cpp;cxx;m;mm;mpp;CPP;ixx;cppm;ccm;cxxm;c++m
+CMAKE_CXX_STANDARD=11
+CMAKE_CXX_STANDARD_COMPUTED_DEFAULT=98
+CMAKE_CXX_STANDARD_DEFAULT=98
+CMAKE_CXX_STANDARD_LATEST=26
+CMAKE_CXX_STANDARD_REQUIRED=TRUE
+CMAKE_CXX_USE_RESPONSE_FILE_FOR_INCLUDES=1
+CMAKE_CXX_USE_RESPONSE_FILE_FOR_LIBRARIES=1
+CMAKE_CXX_USE_RESPONSE_FILE_FOR_OBJECTS=1
+CMAKE_CXX_VERBOSE_FLAG=-v
+CMAKE_C_ARCHIVE_APPEND=<CMAKE_AR> q <TARGET> <LINK_FLAGS> <OBJECTS>
+CMAKE_C_ARCHIVE_APPEND_IPO="C:/Users/natha/emsdk/upstream/emscripten/emar.bat" q <TARGET> <LINK_FLAGS> <OBJECTS>
+CMAKE_C_ARCHIVE_CREATE=<CMAKE_AR> qc <TARGET> <LINK_FLAGS> <OBJECTS>
+CMAKE_C_ARCHIVE_CREATE_IPO="C:/Users/natha/emsdk/upstream/emscripten/emar.bat" qc <TARGET> <LINK_FLAGS> <OBJECTS>
+CMAKE_C_ARCHIVE_FINISH=<CMAKE_RANLIB> <TARGET>
+CMAKE_C_ARCHIVE_FINISH_IPO="C:/Users/natha/emsdk/upstream/emscripten/emranlib.bat" <TARGET>
+CMAKE_C_BYTE_ORDER=LITTLE_ENDIAN
+CMAKE_C_CL_SHOWINCLUDES_PREFIX=
+CMAKE_C_COMPILER=C:/Users/natha/emsdk/upstream/emscripten/emcc.bat
+CMAKE_C_COMPILER=C:/Users/natha/emsdk/upstream/emscripten/emcc.bat
+CMAKE_C_COMPILER_ABI=
+CMAKE_C_COMPILER_AR=C:/Users/natha/emsdk/upstream/emscripten/emar.bat
+CMAKE_C_COMPILER_AR=C:/Users/natha/emsdk/upstream/emscripten/emar.bat
+CMAKE_C_COMPILER_ARG1=
+CMAKE_C_COMPILER_CLANG_SCAN_DEPS=CMAKE_C_COMPILER_CLANG_SCAN_DEPS-NOTFOUND
+CMAKE_C_COMPILER_ENV_VAR=CC
+CMAKE_C_COMPILER_FORCED=TRUE
+CMAKE_C_COMPILER_FRONTEND_VARIANT=GNU
+CMAKE_C_COMPILER_ID=Clang
+CMAKE_C_COMPILER_ID_RUN=TRUE
+CMAKE_C_COMPILER_ID_TEST_FLAGS=-c;-Aa;-D__CLASSIC_C__;--target=arm-arm-none-eabi -mcpu=cortex-m3;-c -I__does_not_exist__
+CMAKE_C_COMPILER_LINKER=
+CMAKE_C_COMPILER_LINKER_ID=
+CMAKE_C_COMPILER_LOADED=1
+CMAKE_C_COMPILER_NAMES=cc
+CMAKE_C_COMPILER_RANLIB=C:/Users/natha/emsdk/upstream/emscripten/emranlib.bat
+CMAKE_C_COMPILER_RANLIB=C:/Users/natha/emsdk/upstream/emscripten/emranlib.bat
+CMAKE_C_COMPILER_VERSION=20.0.0
+CMAKE_C_COMPILER_VERSION_INTERNAL=
+CMAKE_C_COMPILER_WORKS=TRUE
+CMAKE_C_COMPILER_WRAPPER=
+CMAKE_C_COMPILE_FEATURES=c_std_90;c_function_prototypes;c_std_99;c_restrict;c_variadic_macros;c_std_11;c_static_assert;c_std_17;c_std_23
+CMAKE_C_COMPILE_OBJECT=<CMAKE_C_COMPILER> <DEFINES> <INCLUDES> <FLAGS> -o <OBJECT> -c <SOURCE>
+CMAKE_C_COMPILE_OPTIONS_COLOR_DIAGNOSTICS=-fansi-escape-codes;-fcolor-diagnostics
+CMAKE_C_COMPILE_OPTIONS_COLOR_DIAGNOSTICS_OFF=-fno-color-diagnostics
+CMAKE_C_COMPILE_OPTIONS_CREATE_PCH=-Xclang;-emit-pch;-Xclang;-include;-Xclang;<PCH_HEADER>;-x;c-header
+CMAKE_C_COMPILE_OPTIONS_EXPLICIT_LANGUAGE=-x;c
+CMAKE_C_COMPILE_OPTIONS_EXTERNAL_TOOLCHAIN=--gcc-toolchain=
+CMAKE_C_COMPILE_OPTIONS_INSTANTIATE_TEMPLATES_PCH=-fpch-instantiate-templates
+CMAKE_C_COMPILE_OPTIONS_INVALID_PCH=-Winvalid-pch
+CMAKE_C_COMPILE_OPTIONS_IPO=-flto=thin
+CMAKE_C_COMPILE_OPTIONS_PIC=-fPIC
+CMAKE_C_COMPILE_OPTIONS_PIE=-fPIE
+CMAKE_C_COMPILE_OPTIONS_SYSROOT=--sysroot=
+CMAKE_C_COMPILE_OPTIONS_TARGET=--target=
+CMAKE_C_COMPILE_OPTIONS_USE_PCH=-Xclang;-include-pch;-Xclang;<PCH_FILE>;-Xclang;-include;-Xclang;<PCH_HEADER>
+CMAKE_C_COMPILE_OPTIONS_VISIBILITY=-fvisibility=
+CMAKE_C_COMPILE_OPTIONS_WARNING_AS_ERROR=-Werror
+CMAKE_C_CREATE_ASSEMBLY_SOURCE=<CMAKE_C_COMPILER> <DEFINES> <INCLUDES> <FLAGS> -S <SOURCE> -o <ASSEMBLY_SOURCE>
+CMAKE_C_CREATE_PREPROCESSED_SOURCE=<CMAKE_C_COMPILER> <DEFINES> <INCLUDES> <FLAGS> -E <SOURCE> > <PREPROCESSED_SOURCE>
+CMAKE_C_CREATE_SHARED_LIBRARY=<CMAKE_C_COMPILER> <CMAKE_SHARED_LIBRARY_C_FLAGS> <LANGUAGE_COMPILE_FLAGS> <LINK_FLAGS> <CMAKE_SHARED_LIBRARY_CREATE_C_FLAGS> <SONAME_FLAG><TARGET_SONAME> -o <TARGET> <OBJECTS> <LINK_LIBRARIES>
+CMAKE_C_CREATE_SHARED_MODULE=<CMAKE_C_COMPILER> <CMAKE_SHARED_LIBRARY_C_FLAGS> <LANGUAGE_COMPILE_FLAGS> <LINK_FLAGS> <CMAKE_SHARED_LIBRARY_CREATE_C_FLAGS> <SONAME_FLAG><TARGET_SONAME> -o <TARGET> <OBJECTS> <LINK_LIBRARIES>
+CMAKE_C_EXTENSIONS_COMPUTED_DEFAULT=
+CMAKE_C_EXTENSIONS_DEFAULT=ON
+CMAKE_C_FLAGS=   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden
+CMAKE_C_FLAGS=   -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden
+CMAKE_C_FLAGS_DEBUG=-g  -O0 -DDEBUG -D_DEBUG
+CMAKE_C_FLAGS_DEBUG=-g  -O0 -DDEBUG -D_DEBUG
+CMAKE_C_FLAGS_DEBUG_INIT= -g
+CMAKE_C_FLAGS_INIT=  
+CMAKE_C_FLAGS_MINSIZEREL=-Os -DNDEBUG
+CMAKE_C_FLAGS_MINSIZEREL_INIT= -Os -DNDEBUG
+CMAKE_C_FLAGS_RELEASE=-O3 -DNDEBUG  -DNDEBUG
+CMAKE_C_FLAGS_RELEASE=-O3 -DNDEBUG  -DNDEBUG
+CMAKE_C_FLAGS_RELEASE_INIT= -O3 -DNDEBUG
+CMAKE_C_FLAGS_RELWITHDEBINFO=-O2 -g -DNDEBUG
+CMAKE_C_FLAGS_RELWITHDEBINFO_INIT= -O2 -g -DNDEBUG
+CMAKE_C_IGNORE_EXTENSIONS=h;H;o;O;obj;OBJ;def;DEF;rc;RC
+CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES=C:/Users/natha/emsdk/upstream/emscripten/cache/sysroot/include
+CMAKE_C_IMPLICIT_LINK_DIRECTORIES=
+CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES=
+CMAKE_C_IMPLICIT_LINK_LIBRARIES=
+CMAKE_C_INFORMATION_LOADED=1
+CMAKE_C_LIBRARY_ARCHITECTURE=
+CMAKE_C_LINKER_INFORMATION_LOADED=1
+CMAKE_C_LINKER_PREFERENCE=10
+CMAKE_C_LINKER_WRAPPER_FLAG=-Xlinker; 
+CMAKE_C_LINK_EXECUTABLE=<CMAKE_C_COMPILER> <FLAGS> <CMAKE_C_LINK_FLAGS> <LINK_FLAGS> <OBJECTS> -o <TARGET> <LINK_LIBRARIES>
+CMAKE_C_LINK_OPTIONS_NO_PIE=-no-pie
+CMAKE_C_LINK_OPTIONS_PIE=-fPIE;-pie
+CMAKE_C_OUTPUT_EXTENSION=.o
+CMAKE_C_PLATFORM_ID=emscripten
+CMAKE_C_RESPONSE_FILE_LINK_FLAG=@
+CMAKE_C_SIMULATE_ID=
+CMAKE_C_SIMULATE_VERSION=
+CMAKE_C_SIZEOF_DATA_PTR=4
+CMAKE_C_SOURCE_FILE_EXTENSIONS=c;m
+CMAKE_C_STANDARD_COMPUTED_DEFAULT=11
+CMAKE_C_STANDARD_DEFAULT=17
+CMAKE_C_STANDARD_LATEST=23
+CMAKE_C_USE_RESPONSE_FILE_FOR_INCLUDES=1
+CMAKE_C_USE_RESPONSE_FILE_FOR_LIBRARIES=1
+CMAKE_C_USE_RESPONSE_FILE_FOR_OBJECTS=1
+CMAKE_C_VERBOSE_FLAG=-v
+CMAKE_DEPFILE_FLAGS_C=-MD -MT <DEP_TARGET> -MF <DEP_FILE>
+CMAKE_DEPFILE_FLAGS_CXX=-MD -MT <DEP_TARGET> -MF <DEP_FILE>
+CMAKE_DLLTOOL=C:/msys64/ucrt64/bin/dlltool.exe
+CMAKE_EFFECTIVE_SYSTEM_NAME=Emscripten
+CMAKE_EXECUTABLE_SUFFIX=.js
+CMAKE_EXE_LINKER_FLAGS=  -Wl,--gc-sections
+CMAKE_EXE_LINKER_FLAGS=  -Wl,--gc-sections
+CMAKE_EXE_LINKER_FLAGS_DEBUG= 
+CMAKE_EXE_LINKER_FLAGS_DEBUG= 
+CMAKE_EXE_LINKER_FLAGS_INIT=  
+CMAKE_EXE_LINKER_FLAGS_MINSIZEREL=
+CMAKE_EXE_LINKER_FLAGS_RELEASE= 
+CMAKE_EXE_LINKER_FLAGS_RELEASE= 
+CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO=
+CMAKE_EXPORT_BUILD_DATABASE=
+CMAKE_EXPORT_COMPILE_COMMANDS=
+CMAKE_EXTRA_GENERATOR=
+CMAKE_FILES_DIRECTORY=/CMakeFiles
+CMAKE_FIND_LIBRARY_PREFIXES=lib
+CMAKE_FIND_LIBRARY_SUFFIXES=.so;.a
+CMAKE_FIND_PACKAGE_REDIRECTS_DIR=C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/pkgRedirects
+CMAKE_FIND_ROOT_PATH=C:/Users/natha/emsdk/upstream/emscripten/cache/sysroot;C:/Users/natha/emsdk/upstream/emscripten/cache/sysroot;C:/Users/natha/emsdk/upstream/emscripten/cache/sysroot;C:/Users/natha/emsdk/upstream/emscripten/cache/sysroot;C:/Users/natha/emsdk/upstream/emscripten/cache/sysroot
+CMAKE_FIND_ROOT_PATH_MODE_INCLUDE=ONLY
+CMAKE_FIND_ROOT_PATH_MODE_LIBRARY=ONLY
+CMAKE_FIND_ROOT_PATH_MODE_PACKAGE=ONLY
+CMAKE_FIND_ROOT_PATH_MODE_PROGRAM=NEVER
+CMAKE_GENERATOR=Ninja
+CMAKE_GENERATOR_INSTANCE=
+CMAKE_GENERATOR_PLATFORM=
+CMAKE_GENERATOR_TOOLSET=
+CMAKE_HAVE_LIBC_PTHREAD=1
+CMAKE_HAVE_LIMITS_H=1
+CMAKE_HAVE_PTHREAD_H=1
+CMAKE_HAVE_SYS_PRCTL_H=1
+CMAKE_HAVE_UNISTD_H=1
+CMAKE_HOME_DIRECTORY=C:/Users/natha/Desktop/statics/opencv
+CMAKE_HOST_EXECUTABLE_SUFFIX=.exe
+CMAKE_HOST_SYSTEM=Windows-10.0.22631
+CMAKE_HOST_SYSTEM_NAME=Windows
+CMAKE_HOST_SYSTEM_PROCESSOR=AMD64
+CMAKE_HOST_SYSTEM_VERSION=10.0.22631
+CMAKE_HOST_WIN32=1
+CMAKE_INCLUDE_FLAG_C=-I
+CMAKE_INCLUDE_FLAG_CXX=-I
+CMAKE_INCLUDE_SYSTEM_FLAG_C=-isystem 
+CMAKE_INCLUDE_SYSTEM_FLAG_CXX=-isystem 
+CMAKE_INSTALL_BINDIR=bin
+CMAKE_INSTALL_DATADIR=share
+CMAKE_INSTALL_DATADIR=share
+CMAKE_INSTALL_DATAROOTDIR=share
+CMAKE_INSTALL_DEFAULT_COMPONENT_NAME=Unspecified
+CMAKE_INSTALL_DOCDIR=share/doc/OpenCV
+CMAKE_INSTALL_DOCDIR=share/doc/OpenCV
+CMAKE_INSTALL_FULL_BINDIR=C:/Users/natha/Desktop/statics/opencv/static_build/install/bin
+CMAKE_INSTALL_FULL_DATADIR=C:/Users/natha/Desktop/statics/opencv/static_build/install/share
+CMAKE_INSTALL_FULL_DATAROOTDIR=C:/Users/natha/Desktop/statics/opencv/static_build/install/share
+CMAKE_INSTALL_FULL_DOCDIR=C:/Users/natha/Desktop/statics/opencv/static_build/install/share/doc/OpenCV
+CMAKE_INSTALL_FULL_INCLUDEDIR=C:/Users/natha/Desktop/statics/opencv/static_build/install/include
+CMAKE_INSTALL_FULL_INFODIR=C:/Users/natha/Desktop/statics/opencv/static_build/install/share/info
+CMAKE_INSTALL_FULL_LIBDIR=C:/Users/natha/Desktop/statics/opencv/static_build/install/lib
+CMAKE_INSTALL_FULL_LIBEXECDIR=C:/Users/natha/Desktop/statics/opencv/static_build/install/libexec
+CMAKE_INSTALL_FULL_LOCALEDIR=C:/Users/natha/Desktop/statics/opencv/static_build/install/share/locale
+CMAKE_INSTALL_FULL_LOCALSTATEDIR=C:/Users/natha/Desktop/statics/opencv/static_build/install/var
+CMAKE_INSTALL_FULL_MANDIR=C:/Users/natha/Desktop/statics/opencv/static_build/install/share/man
+CMAKE_INSTALL_FULL_OLDINCLUDEDIR=/usr/include
+CMAKE_INSTALL_FULL_RUNSTATEDIR=C:/Users/natha/Desktop/statics/opencv/static_build/install/var/run
+CMAKE_INSTALL_FULL_SBINDIR=C:/Users/natha/Desktop/statics/opencv/static_build/install/sbin
+CMAKE_INSTALL_FULL_SHAREDSTATEDIR=C:/Users/natha/Desktop/statics/opencv/static_build/install/com
+CMAKE_INSTALL_FULL_SYSCONFDIR=C:/Users/natha/Desktop/statics/opencv/static_build/install/etc
+CMAKE_INSTALL_INCLUDEDIR=include
+CMAKE_INSTALL_INFODIR=share/info
+CMAKE_INSTALL_INFODIR=share/info
+CMAKE_INSTALL_LIBDIR=lib
+CMAKE_INSTALL_LIBEXECDIR=libexec
+CMAKE_INSTALL_LOCALEDIR=share/locale
+CMAKE_INSTALL_LOCALEDIR=share/locale
+CMAKE_INSTALL_LOCALSTATEDIR=var
+CMAKE_INSTALL_MANDIR=share/man
+CMAKE_INSTALL_MANDIR=share/man
+CMAKE_INSTALL_OLDINCLUDEDIR=/usr/include
+CMAKE_INSTALL_PREFIX=C:/Users/natha/Desktop/statics/opencv/static_build/install
+CMAKE_INSTALL_RPATH=C:/Users/natha/Desktop/statics/opencv/static_build/install/lib
+CMAKE_INSTALL_RPATH_USE_LINK_PATH=TRUE
+CMAKE_INSTALL_RUNSTATEDIR=var/run
+CMAKE_INSTALL_RUNSTATEDIR=var/run
+CMAKE_INSTALL_SBINDIR=sbin
+CMAKE_INSTALL_SHAREDSTATEDIR=com
+CMAKE_INSTALL_SYSCONFDIR=etc
+CMAKE_LIBRARY_ARCHITECTURE=wasm32-emscripten
+CMAKE_LIBRARY_PATH_FLAG=-L
+CMAKE_LIBRARY_PATH_TERMINATOR=
+CMAKE_LINKER=C:/msys64/ucrt64/bin/ld.exe
+CMAKE_LINKER=C:/msys64/ucrt64/bin/ld.exe
+CMAKE_LINKER_LINK=
+CMAKE_LINKER_LLD=
+CMAKE_LINK_LIBRARY_FLAG=-l
+CMAKE_LINK_LIBRARY_SUFFIX=
+CMAKE_LINK_LIBRARY_USING_DEFAULT_SUPPORTED=TRUE
+CMAKE_MAJOR_VERSION=3
+CMAKE_MAKE_PROGRAM=C:/ninja-win/ninja.exe
+CMAKE_MATCH_0=
+CMAKE_MATCH_1=
+CMAKE_MATCH_2=
+CMAKE_MATCH_COUNT=0
+CMAKE_MINIMUM_REQUIRED_VERSION=3.7
+CMAKE_MINOR_VERSION=31
+CMAKE_MODULE_LINKER_FLAGS=  -Wl,--gc-sections
+CMAKE_MODULE_LINKER_FLAGS=  -Wl,--gc-sections
+CMAKE_MODULE_LINKER_FLAGS_DEBUG= 
+CMAKE_MODULE_LINKER_FLAGS_DEBUG= 
+CMAKE_MODULE_LINKER_FLAGS_INIT=  
+CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL=
+CMAKE_MODULE_LINKER_FLAGS_RELEASE= 
+CMAKE_MODULE_LINKER_FLAGS_RELEASE= 
+CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO=
+CMAKE_MODULE_PATH=C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules
+CMAKE_MT=
+CMAKE_NM=C:/Users/natha/emsdk/upstream/emscripten/emnm.bat
+CMAKE_OBJCOPY=C:/msys64/ucrt64/bin/objcopy.exe
+CMAKE_OBJDUMP=C:/msys64/ucrt64/bin/objdump.exe
+CMAKE_PARENT_LIST_FILE=C:/Users/natha/Desktop/statics/opencv/CMakeLists.txt
+CMAKE_PATCH_VERSION=0
+CMAKE_PCH_EXTENSION=.pch
+CMAKE_PCH_PROLOGUE=#pragma clang system_header
+CMAKE_PLATFORM_INFO_DIR=C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/3.31.0-rc1
+CMAKE_PLATFORM_INFO_INITIALIZED=1
+CMAKE_POSITION_INDEPENDENT_CODE=ON
+CMAKE_PROJECT_DESCRIPTION=
+CMAKE_PROJECT_HOMEPAGE_URL=
+CMAKE_PROJECT_NAME=OpenCV
+CMAKE_RANLIB=C:/Users/natha/emsdk/upstream/emscripten/emranlib.bat
+CMAKE_READELF=C:/msys64/ucrt64/bin/readelf.exe
+CMAKE_REQUIRED_QUIET=TRUE
+CMAKE_ROOT=C:/Program Files/CMake/share/cmake-3.31
+CMAKE_SHARED_LIBRARY_CREATE_CXX_FLAGS=-shared
+CMAKE_SHARED_LIBRARY_CREATE_C_FLAGS=-shared
+CMAKE_SHARED_LIBRARY_CXX_FLAGS=-fPIC
+CMAKE_SHARED_LIBRARY_C_FLAGS=-fPIC
+CMAKE_SHARED_LIBRARY_LINK_C_FLAGS=
+CMAKE_SHARED_LIBRARY_PREFIX=lib
+CMAKE_SHARED_LIBRARY_RUNTIME_C_FLAG=
+CMAKE_SHARED_LIBRARY_RUNTIME_C_FLAG_SEP=
+CMAKE_SHARED_LIBRARY_SONAME_CXX_FLAG=-Wl,-soname,
+CMAKE_SHARED_LIBRARY_SONAME_C_FLAG=-Wl,-soname,
+CMAKE_SHARED_LIBRARY_SUFFIX=.so
+CMAKE_SHARED_LINKER_FLAGS=  -Wl,--gc-sections
+CMAKE_SHARED_LINKER_FLAGS=  -Wl,--gc-sections
+CMAKE_SHARED_LINKER_FLAGS_DEBUG= 
+CMAKE_SHARED_LINKER_FLAGS_DEBUG= 
+CMAKE_SHARED_LINKER_FLAGS_INIT=  
+CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL=
+CMAKE_SHARED_LINKER_FLAGS_RELEASE= 
+CMAKE_SHARED_LINKER_FLAGS_RELEASE= 
+CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO=
+CMAKE_SHARED_MODULE_CREATE_CXX_FLAGS=-shared
+CMAKE_SHARED_MODULE_CREATE_C_FLAGS=-shared
+CMAKE_SHARED_MODULE_CXX_FLAGS=-fPIC
+CMAKE_SHARED_MODULE_C_FLAGS=-fPIC
+CMAKE_SHARED_MODULE_PREFIX=lib
+CMAKE_SHARED_MODULE_SUFFIX=.so
+CMAKE_SIZEOF_CHAR=1
+CMAKE_SIZEOF_DOUBLE=8
+CMAKE_SIZEOF_FLOAT=4
+CMAKE_SIZEOF_INT=4
+CMAKE_SIZEOF_LONG=4
+CMAKE_SIZEOF_SHORT=2
+CMAKE_SIZEOF_UNSIGNED_INT=4
+CMAKE_SIZEOF_UNSIGNED_LONG=4
+CMAKE_SIZEOF_UNSIGNED_SHORT=2
+CMAKE_SIZEOF_VOID_P=4
+CMAKE_SKIP_COMPATIBILITY_TESTS=1
+CMAKE_SKIP_INSTALL_RPATH=NO
+CMAKE_SKIP_RPATH=NO
+CMAKE_SOURCE_DIR=C:/Users/natha/Desktop/statics/opencv
+CMAKE_STATIC_LIBRARY_PREFIX=lib
+CMAKE_STATIC_LIBRARY_SUFFIX=.a
+CMAKE_STATIC_LINKER_FLAGS=
+CMAKE_STATIC_LINKER_FLAGS_DEBUG=
+CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL=
+CMAKE_STATIC_LINKER_FLAGS_RELEASE=
+CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO=
+CMAKE_STRIP=C:/msys64/ucrt64/bin/strip.exe
+CMAKE_SYSTEM=Emscripten-1
+CMAKE_SYSTEM_INFO_FILE=Platform/Emscripten
+CMAKE_SYSTEM_LOADED=1
+CMAKE_SYSTEM_NAME=Emscripten
+CMAKE_SYSTEM_PREFIX_PATH=/;/;/;/;/
+CMAKE_SYSTEM_PROCESSOR=x86
+CMAKE_SYSTEM_SPECIFIC_INFORMATION_LOADED=1
+CMAKE_SYSTEM_SPECIFIC_INITIALIZE_LOADED=1
+CMAKE_SYSTEM_VERSION=1
+CMAKE_TAPI=CMAKE_TAPI-NOTFOUND
+CMAKE_TAPI=CMAKE_TAPI-NOTFOUND
+CMAKE_TESTING_ENABLED=1
+CMAKE_THREAD_LIBS_INIT=
+CMAKE_TOOLCHAIN_FILE=C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake
+CMAKE_TRY_COMPILE_CONFIGURATION=Release
+CMAKE_TWEAK_VERSION=0
+CMAKE_USE_PTHREADS_INIT=1
+CMAKE_VERBOSE_MAKEFILE=FALSE
+CMAKE_VERSION=3.31.0-rc1
+CMAKE_WORDS_BIGENDIAN=0
+COMPILER_BASENAME=emcc.bat
+CPACK_BINARY_DEB=OFF
+CPACK_BINARY_FREEBSD=OFF
+CPACK_BINARY_IFW=OFF
+CPACK_BINARY_NSIS=OFF
+CPACK_BINARY_RPM=OFF
+CPACK_BINARY_STGZ=ON
+CPACK_BINARY_TBZ2=OFF
+CPACK_BINARY_TGZ=ON
+CPACK_BINARY_TXZ=OFF
+CPACK_BINARY_TZ=ON
+CPACK_BUILD_SOURCE_DIRS=C:/Users/natha/Desktop/statics/opencv;C:/Users/natha/Desktop/statics/opencv/static_build
+CPACK_CMAKE_GENERATOR=Ninja
+CPACK_COMPONENTS_ALL=dev;libs;licenses;scripts
+CPACK_COMPONENT_DEV_CONFLICTS=libopencv-dev, libopencv-core-dev, libopencv-imgproc-dev
+CPACK_COMPONENT_DEV_DEPENDS=libs
+CPACK_COMPONENT_DEV_DESCRIPTION=Development files for Open Source Computer Vision Library
+CPACK_COMPONENT_DEV_DISPLAY_NAME=Development files
+CPACK_COMPONENT_DEV_PROVIDES=libopencv-dev, libopencv-core-dev, libopencv-imgproc-dev
+CPACK_COMPONENT_DEV_REPLACES=libopencv-dev, libopencv-core-dev, libopencv-imgproc-dev
+CPACK_COMPONENT_DOCS_CONFLICTS=opencv-doc
+CPACK_COMPONENT_DOCS_DEPENDS=libs
+CPACK_COMPONENT_DOCS_DESCRIPTION=Documentation for Open Source Computer Vision Library
+CPACK_COMPONENT_DOCS_DISPLAY_NAME=Documentation
+CPACK_COMPONENT_JAVA_CONFLICTS=libopencv4.0-java, libopencv4.0-jni
+CPACK_COMPONENT_JAVA_DEPENDS=libs
+CPACK_COMPONENT_JAVA_DESCRIPTION=Java bindings for Open Source Computer Vision Library
+CPACK_COMPONENT_JAVA_DISPLAY_NAME=Java bindings
+CPACK_COMPONENT_JAVA_PROVIDES=libopencv4.0-java, libopencv4.0-jni
+CPACK_COMPONENT_JAVA_REPLACES=libopencv4.0-java, libopencv4.0-jni
+CPACK_COMPONENT_LIBS_CONFLICTS=opencv-data, libopencv-core4.0, libopencv-imgproc4.0
+CPACK_COMPONENT_LIBS_DESCRIPTION=Open Computer Vision Library
+CPACK_COMPONENT_LIBS_DISPLAY_NAME=Libraries and data
+CPACK_COMPONENT_LIBS_PROVIDES=opencv-data, libopencv-core4.0, libopencv-imgproc4.0
+CPACK_COMPONENT_LIBS_REPLACES=opencv-data, libopencv-core4.0, libopencv-imgproc4.0
+CPACK_COMPONENT_LIBS_REQUIRED=TRUE
+CPACK_COMPONENT_PYTHON_CONFLICTS=python-opencv
+CPACK_COMPONENT_PYTHON_DEPENDS=libs
+CPACK_COMPONENT_PYTHON_DESCRIPTION=Python bindings for Open Source Computer Vision Library
+CPACK_COMPONENT_PYTHON_DISPLAY_NAME=Python bindings
+CPACK_COMPONENT_PYTHON_PROVIDES=python-opencv
+CPACK_COMPONENT_PYTHON_REPLACES=python-opencv
+CPACK_COMPONENT_SAMPLES_CONFLICTS=opencv-doc
+CPACK_COMPONENT_SAMPLES_DEPENDS=libs
+CPACK_COMPONENT_SAMPLES_DESCRIPTION=Samples for Open Source Computer Vision Library
+CPACK_COMPONENT_SAMPLES_DISPLAY_NAME=Samples
+CPACK_COMPONENT_TESTS_DEPENDS=libs
+CPACK_COMPONENT_TESTS_DESCRIPTION=Accuracy and performance tests for Open Source Computer Vision Library
+CPACK_COMPONENT_TESTS_DISPLAY_NAME=Tests
+CPACK_COMPONENT_UNSPECIFIED_HIDDEN=TRUE
+CPACK_COMPONENT_UNSPECIFIED_REQUIRED=TRUE
+CPACK_DEBIAN_COMPONENT_DEV_NAME=libOpenCV-dev
+CPACK_DEBIAN_COMPONENT_DOCS_NAME=libOpenCV-docs
+CPACK_DEBIAN_COMPONENT_JAVA_NAME=libOpenCV-java
+CPACK_DEBIAN_COMPONENT_LIBS_NAME=libOpenCV
+CPACK_DEBIAN_COMPONENT_PYTHON_NAME=libOpenCV-python
+CPACK_DEBIAN_COMPONENT_SAMPLES_NAME=libOpenCV-samples
+CPACK_DEBIAN_COMPONENT_TESTS_NAME=libOpenCV-tests
+CPACK_DEBIAN_PACKAGE_ARCHITECTURE=i386
+CPACK_DEBIAN_PACKAGE_HOMEPAGE=http://opencv.org
+CPACK_DEBIAN_PACKAGE_PRIORITY=optional
+CPACK_DEBIAN_PACKAGE_SECTION=libs
+CPACK_DEBIAN_PACKAGE_SHLIBDEPS=TRUE
+CPACK_DEB_COMPONENT_INSTALL=TRUE
+CPACK_DEFAULT_PACKAGE_DESCRIPTION_FILE=C:/Program Files/CMake/share/cmake-3.31/Templates/CPack.GenericDescription.txt
+CPACK_DEFAULT_PACKAGE_DESCRIPTION_SUMMARY=OpenCV built using CMake
+CPACK_DMG_SLA_USE_RESOURCE_FILE_LICENSE=ON
+CPACK_GENERATOR=TBZ2;TGZ;TXZ;TZ
+CPACK_IGNORE_FILES=/CVS/;/\\.svn/;/\\.bzr/;/\\.hg/;/\\.git/;\\.swp\$;\\.#;/#
+CPACK_INNOSETUP_ARCHITECTURE=x86
+CPACK_INSTALLED_DIRECTORIES=C:/Users/natha/Desktop/statics/opencv;/
+CPACK_INSTALL_CMAKE_PROJECTS=
+CPACK_INSTALL_PREFIX=C:/Users/natha/Desktop/statics/opencv/static_build/install
+CPACK_MODULE_PATH=C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules
+CPACK_NSIS_DISPLAY_NAME=OpenCV 4.10.0-390-g4866811933-dirty
+CPACK_NSIS_INSTALLER_ICON_CODE=
+CPACK_NSIS_INSTALLER_MUI_ICON_CODE=
+CPACK_NSIS_INSTALL_ROOT=$PROGRAMFILES
+CPACK_NSIS_PACKAGE_NAME=OpenCV 4.10.0-390-g4866811933-dirty
+CPACK_NSIS_UNINSTALL_NAME=Uninstall
+CPACK_OBJCOPY_EXECUTABLE=C:/msys64/ucrt64/bin/objcopy.exe
+CPACK_OBJDUMP_EXECUTABLE=C:/msys64/ucrt64/bin/objdump.exe
+CPACK_OUTPUT_CONFIG_FILE=C:/Users/natha/Desktop/statics/opencv/static_build/CPackConfig.cmake
+CPACK_PACKAGE_CONTACT=admin@opencv.org
+CPACK_PACKAGE_DEFAULT_LOCATION=/
+CPACK_PACKAGE_DESCRIPTION=OpenCV (Open Source Computer Vision Library) is an open source computer vision
+and machine learning software library. OpenCV was built to provide a common
+infrastructure for computer vision applications and to accelerate the use of
+machine perception in the commercial products. Being a BSD-licensed product,
+OpenCV makes it easy for businesses to utilize and modify the code.
+CPACK_PACKAGE_DESCRIPTION_FILE=C:/Program Files/CMake/share/cmake-3.31/Templates/CPack.GenericDescription.txt
+CPACK_PACKAGE_DESCRIPTION_SUMMARY=Open Computer Vision Library
+CPACK_PACKAGE_FILE_NAME=OpenCV-4.10.0-390-g4866811933-dirty-x86
+CPACK_PACKAGE_INSTALL_DIRECTORY=OpenCV 4.10.0-390-g4866811933-dirty
+CPACK_PACKAGE_INSTALL_REGISTRY_KEY=OpenCV 4.10.0-390-g4866811933-dirty
+CPACK_PACKAGE_NAME=OpenCV
+CPACK_PACKAGE_RELOCATABLE=true
+CPACK_PACKAGE_VENDOR=OpenCV Foundation
+CPACK_PACKAGE_VERSION=4.10.0-390-g4866811933-dirty
+CPACK_PACKAGE_VERSION_MAJOR=4
+CPACK_PACKAGE_VERSION_MINOR=10
+CPACK_PACKAGE_VERSION_PATCH=0
+CPACK_READELF_EXECUTABLE=C:/msys64/ucrt64/bin/readelf.exe
+CPACK_RESOURCE_FILE_LICENSE=C:/Users/natha/Desktop/statics/opencv/LICENSE
+CPACK_RESOURCE_FILE_README=C:/Program Files/CMake/share/cmake-3.31/Templates/CPack.GenericDescription.txt
+CPACK_RESOURCE_FILE_WELCOME=C:/Program Files/CMake/share/cmake-3.31/Templates/CPack.GenericWelcome.txt
+CPACK_RPM_COMPONENT_INSTALL=TRUE
+CPACK_RPM_PACKAGE_ARCHITECTURE=i686
+CPACK_RPM_PACKAGE_DESCRIPTION=OpenCV (Open Source Computer Vision Library) is an open source computer vision
+and machine learning software library. OpenCV was built to provide a common
+infrastructure for computer vision applications and to accelerate the use of
+machine perception in the commercial products. Being a BSD-licensed product,
+OpenCV makes it easy for businesses to utilize and modify the code.
+CPACK_RPM_PACKAGE_LICENSE=Apache 2.0
+CPACK_RPM_PACKAGE_SOURCES=ON
+CPACK_RPM_PACKAGE_SUMMARY=Open Computer Vision Library
+CPACK_RPM_PACKAGE_URL=http://opencv.org
+CPACK_SET_DESTDIR=OFF
+CPACK_SOURCE_GENERATOR=TBZ2;TGZ;TXZ;TZ
+CPACK_SOURCE_IGNORE_FILES=/CVS/;/\\.svn/;/\\.bzr/;/\\.hg/;/\\.git/;\\.swp\$;\\.#;/#
+CPACK_SOURCE_INSTALLED_DIRECTORIES=C:/Users/natha/Desktop/statics/opencv;/
+CPACK_SOURCE_OUTPUT_CONFIG_FILE=C:/Users/natha/Desktop/statics/opencv/static_build/CPackSourceConfig.cmake
+CPACK_SOURCE_PACKAGE_FILE_NAME=OpenCV-4.10.0-390-g4866811933-dirty-x86
+CPACK_SOURCE_RPM=OFF
+CPACK_SOURCE_TBZ2=ON
+CPACK_SOURCE_TGZ=ON
+CPACK_SOURCE_TOPLEVEL_TAG=Emscripten-Source
+CPACK_SOURCE_TXZ=ON
+CPACK_SOURCE_TZ=ON
+CPACK_SOURCE_ZIP=OFF
+CPACK_STRIP_FILES=
+CPACK_SYSTEM_NAME=Emscripten
+CPACK_THREADS=1
+CPACK_TOPLEVEL_TAG=Emscripten-Source
+CPACK_WIX_SIZEOF_VOID_P=4
+CPACK_set_DESTDIR=on
+CPU_ALL_OPTIMIZATIONS=SSE;SSE2;SSE3;SSSE3;SSE4_1;SSE4_2;POPCNT;AVX;FP16;AVX2;FMA3;AVX_512F;AVX512_COMMON;AVX512_KNL;AVX512_KNM;AVX512_SKX;AVX512_CNL;AVX512_CLX;AVX512_ICL;NEON;VFPV3;NEON_DOTPROD;NEON_FP16;NEON_BF16;MSA;VSX;VSX3;RVV;LSX;LASX
+CPU_AVX2_FLAGS_ON=-mavx2
+CPU_AVX2_FORCE=AVX;FMA3;FP16
+CPU_AVX2_IMPLIES=AVX;FMA3;FP16
+CPU_AVX2_TEST_FILE=C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_avx2.cpp
+CPU_AVX2_USAGE_COUNT=0
+CPU_AVX512_CLX_FLAGS_ON=-mavx512f -mavx512cd -mavx512vl -mavx512bw -mavx512dq -mavx512vnni
+CPU_AVX512_CLX_FORCE=AVX512_SKX
+CPU_AVX512_CLX_GROUP=AVX512_SKX;AVX_512VNNI
+CPU_AVX512_CLX_IMPLIES=AVX512_SKX
+CPU_AVX512_CLX_TEST_FILE=C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_avx512clx.cpp
+CPU_AVX512_CLX_USAGE_COUNT=0
+CPU_AVX512_CNL_FLAGS_ON=-mavx512f -mavx512cd -mavx512vl -mavx512bw -mavx512dq -mavx512ifma -mavx512vbmi
+CPU_AVX512_CNL_FORCE=AVX512_SKX
+CPU_AVX512_CNL_GROUP=AVX512_SKX;AVX_512IFMA;AVX_512VBMI
+CPU_AVX512_CNL_IMPLIES=AVX512_SKX
+CPU_AVX512_CNL_TEST_FILE=C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_avx512cnl.cpp
+CPU_AVX512_CNL_USAGE_COUNT=0
+CPU_AVX512_COMMON_FLAGS_ON=-mavx512f -mavx512cd
+CPU_AVX512_COMMON_FORCE=AVX_512F
+CPU_AVX512_COMMON_GROUP=AVX_512F;AVX_512CD
+CPU_AVX512_COMMON_IMPLIES=AVX_512F
+CPU_AVX512_COMMON_TEST_FILE=C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_avx512common.cpp
+CPU_AVX512_COMMON_USAGE_COUNT=0
+CPU_AVX512_ICL_FLAGS_ON=-mavx512f -mavx512cd -mavx512vl -mavx512bw -mavx512dq -mavx512ifma -mavx512vbmi -mavx512vnni -mavx512vbmi2 -mavx512bitalg -mavx512vpopcntdq
+CPU_AVX512_ICL_FORCE=AVX512_SKX
+CPU_AVX512_ICL_GROUP=AVX512_SKX;AVX_512IFMA;AVX_512VBMI;AVX_512VNNI;AVX_512VBMI2;AVX_512BITALG;AVX_512VPOPCNTDQ
+CPU_AVX512_ICL_IMPLIES=AVX512_SKX
+CPU_AVX512_ICL_TEST_FILE=C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_avx512icl.cpp
+CPU_AVX512_ICL_USAGE_COUNT=0
+CPU_AVX512_KNL_EXTRA_FLAGS_ON=-mavx512er -mavx512pf
+CPU_AVX512_KNL_FLAGS_ON=-mavx512f -mavx512cd -mavx512er -mavx512pf
+CPU_AVX512_KNL_FORCE=AVX512_COMMON
+CPU_AVX512_KNL_GROUP=AVX512_COMMON;AVX512_KNL_EXTRA
+CPU_AVX512_KNL_IMPLIES=AVX512_COMMON
+CPU_AVX512_KNL_TEST_FILE=C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_avx512knl.cpp
+CPU_AVX512_KNL_USAGE_COUNT=0
+CPU_AVX512_KNM_EXTRA_FLAGS_ON=-mavx5124fmaps -mavx5124vnniw
+CPU_AVX512_KNM_FLAGS_ON=-mavx512f -mavx512cd -mavx512er -mavx512pf -mavx5124fmaps -mavx5124vnniw -mavx512vpopcntdq
+CPU_AVX512_KNM_FORCE=AVX512_KNL
+CPU_AVX512_KNM_GROUP=AVX512_KNL;AVX512_KNM_EXTRA;AVX_512VPOPCNTDQ
+CPU_AVX512_KNM_IMPLIES=AVX512_KNL
+CPU_AVX512_KNM_TEST_FILE=C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_avx512knm.cpp
+CPU_AVX512_KNM_USAGE_COUNT=0
+CPU_AVX512_SKX_FLAGS_ON=-mavx512f -mavx512cd -mavx512vl -mavx512bw -mavx512dq
+CPU_AVX512_SKX_FORCE=AVX512_COMMON
+CPU_AVX512_SKX_GROUP=AVX512_COMMON;AVX_512VL;AVX_512BW;AVX_512DQ
+CPU_AVX512_SKX_IMPLIES=AVX512_COMMON
+CPU_AVX512_SKX_TEST_FILE=C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_avx512skx.cpp
+CPU_AVX512_SKX_USAGE_COUNT=0
+CPU_AVX_512BITALG_FLAGS_ON=-mavx512bitalg
+CPU_AVX_512BW_FLAGS_ON=-mavx512bw
+CPU_AVX_512CD_FLAGS_ON=-mavx512cd
+CPU_AVX_512DQ_FLAGS_ON=-mavx512dq
+CPU_AVX_512F_FLAGS_ON=-mavx512f
+CPU_AVX_512F_FORCE=
+CPU_AVX_512F_IMPLIES=AVX2
+CPU_AVX_512F_TEST_FILE=C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_avx512.cpp
+CPU_AVX_512F_USAGE_COUNT=0
+CPU_AVX_512IFMA_FLAGS_ON=-mavx512ifma
+CPU_AVX_512VBMI2_FLAGS_ON=-mavx512vbmi2
+CPU_AVX_512VBMI_FLAGS_ON=-mavx512vbmi
+CPU_AVX_512VL_FLAGS_ON=-mavx512vl
+CPU_AVX_512VNNI_FLAGS_ON=-mavx512vnni
+CPU_AVX_512VPOPCNTDQ_FLAGS_ON=-mavx512vpopcntdq
+CPU_AVX_FLAGS_ON=-mavx
+CPU_AVX_FORCE=SSE4_2
+CPU_AVX_IMPLIES=SSE4_2
+CPU_AVX_TEST_FILE=C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_avx.cpp
+CPU_AVX_USAGE_COUNT=0
+CPU_BASELINE=SSE2
+CPU_BASELINE_FINAL=
+CPU_BASELINE_FLAGS=
+CPU_DISPATCH=SSE4_1;SSE4_2;AVX;FP16
+CPU_DISPATCH_FINAL=
+CPU_FMA3_FLAGS_ON=-mfma
+CPU_FMA3_FORCE=
+CPU_FMA3_IMPLIES=AVX2
+CPU_FMA3_USAGE_COUNT=0
+CPU_FP16_FLAGS_ON=-mf16c
+CPU_FP16_FORCE=
+CPU_FP16_IMPLIES=AVX
+CPU_FP16_TEST_FILE=C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_fp16.cpp
+CPU_FP16_USAGE_COUNT=0
+CPU_KNOWN_OPTIMIZATIONS=SSE;SSE2;SSE3;SSSE3;SSE4_1;POPCNT;SSE4_2;AVX;FP16;AVX2;FMA3;AVX_512F;AVX512_COMMON;AVX512_KNL;AVX512_KNM;AVX512_SKX;AVX512_CNL;AVX512_CLX;AVX512_ICL
+CPU_POPCNT_FLAGS_ON=-mpopcnt
+CPU_POPCNT_FORCE=
+CPU_POPCNT_IMPLIES=SSE4_1
+CPU_POPCNT_TEST_FILE=C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_popcnt.cpp
+CPU_POPCNT_USAGE_COUNT=0
+CPU_SSE2_FLAGS_ON=-msse2
+CPU_SSE2_FORCE=SSE
+CPU_SSE2_IMPLIES=SSE
+CPU_SSE2_TEST_FILE=C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse2.cpp
+CPU_SSE2_USAGE_COUNT=0
+CPU_SSE3_FLAGS_ON=-msse3
+CPU_SSE3_FORCE=SSE2
+CPU_SSE3_IMPLIES=SSE2
+CPU_SSE3_TEST_FILE=C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse3.cpp
+CPU_SSE3_USAGE_COUNT=0
+CPU_SSE4_1_FLAGS_ON=-msse4.1
+CPU_SSE4_1_FORCE=SSE3;SSSE3
+CPU_SSE4_1_IMPLIES=SSE3;SSSE3
+CPU_SSE4_1_TEST_FILE=C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse41.cpp
+CPU_SSE4_1_USAGE_COUNT=0
+CPU_SSE4_2_FLAGS_ON=-msse4.2
+CPU_SSE4_2_FORCE=SSE4_1;POPCNT
+CPU_SSE4_2_IMPLIES=SSE4_1;POPCNT
+CPU_SSE4_2_TEST_FILE=C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse42.cpp
+CPU_SSE4_2_USAGE_COUNT=0
+CPU_SSE_FLAGS_ON=-msse
+CPU_SSE_FORCE=
+CPU_SSE_TEST_FILE=C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_sse.cpp
+CPU_SSE_USAGE_COUNT=0
+CPU_SSSE3_FLAGS_ON=-mssse3
+CPU_SSSE3_FORCE=SSE3
+CPU_SSSE3_IMPLIES=SSE3
+CPU_SSSE3_TEST_FILE=C:/Users/natha/Desktop/statics/opencv/cmake/checks/cpu_ssse3.cpp
+CPU_SSSE3_USAGE_COUNT=0
+CPU_VFPV3_FEATURE_ALIAS=
+CPackComponent_CMake_INCLUDED=1
+CPack_CMake_INCLUDED=1
+CUSTOM_STATUS=protobuf;flatbuffers
+CUSTOM_STATUS_flatbuffers=    Flatbuffers:;builtin/3rdparty (23.5.9)
+CUSTOM_STATUS_protobuf=    Protobuf:;BUILD_PROTOBUF;THEN;build (3.19.1);ELSE; (3.19.1)
+CV_CLANG=1
+CV_DISABLE_OPTIMIZATION=OFF
+CV_ENABLE_INTRINSICS=OFF
+CV_ENABLE_UNROLLED=1
+CV_TRACE=ON
+C_HAS_inline=1
+DNN_ENABLE_PLUGINS=OFF
+DNN_PLUGIN_LIST=
+DNN_PLUGIN_LIST=
+EMCC_SUFFIX=.bat
+EMSCRIPTEN=1
+EMSCRIPTEN_FORCE_COMPILERS=ON
+EMSCRIPTEN_GENERATE_BITCODE_STATIC_LIBRARIES=OFF
+EMSCRIPTEN_ROOT_PATH=C:/Users/natha/emsdk/upstream/emscripten
+EMSCRIPTEN_SYSROOT=C:/Users/natha/emsdk/upstream/emscripten/cache/sysroot
+EMSCRIPTEN_SYSTEM_PROCESSOR=x86
+EMSCRIPTEN_VERSION=3.1.65
+ENABLE_BUILD_HARDENING=OFF
+ENABLE_CCACHE=ON
+ENABLE_CONFIG_VERIFICATION=OFF
+ENABLE_FAST_MATH=OFF
+ENABLE_IMPL_COLLECTION=OFF
+ENABLE_INSTRUMENTATION=OFF
+ENABLE_LIBJPEG_TURBO_SIMD=ON
+ENABLE_NOISY_WARNINGS=OFF
+ENABLE_PIC=ON
+ENABLE_PLUGINS_DEFAULT=OFF
+ENABLE_PRECOMPILED_HEADERS=OFF
+ENABLE_SOLUTION_FOLDERS=OFF
+ENABLE_THIN_LTO=OFF
+EXECUTABLE_OUTPUT_PATH=C:/Users/natha/Desktop/statics/opencv/static_build/bin
+FILE=
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp=[C:/Users/natha/AppData/Local/Programs/Python/Python312/python.exe][v3.12.4(3.2)]
+FIND_PACKAGE_MESSAGE_DETAILS_Threads=[TRUE][v()]
+FIXED_ORDER_MODULES=core;imgproc;imgcodecs;videoio;highgui;video;calib3d;features2d;objdetect;dnn;ml;flann;photo;stitching
+GENERATE_ABI_DESCRIPTOR=OFF
+GIT_EXECUTABLE=C:/Program Files/Git/mingw64/bin/git.exe
+GIT_FOUND=TRUE
+GIT_RESULT=0
+GIT_VERSION_STRING=2.45.2.windows.1
+GUESS_EMSCRIPTEN_ROOT_PATH=C:/Users/natha/emsdk/upstream/emscripten
+Git_FOUND=TRUE
+HAVE_ASSERT_H=1
+HAVE_ATOMIC_LONG_LONG=ON
+HAVE_CAMV4L2=
+HAVE_CAMV4L2_OBSENSOR=
+HAVE_CONCURRENCY=0
+HAVE_CPU_BASELINE_FLAGS=1
+HAVE_CPU_SSE2_SUPPORT=
+HAVE_CPU_SSE_SUPPORT=
+HAVE_CTYPE_H=1
+HAVE_CXX11=ON
+HAVE_CXX_FDATA_SECTIONS=1
+HAVE_CXX_FDIAGNOSTICS_SHOW_OPTION=1
+HAVE_CXX_FFUNCTION_SECTIONS=1
+HAVE_CXX_FSIGNED_CHAR=1
+HAVE_CXX_FVISIBILITY_HIDDEN=1
+HAVE_CXX_FVISIBILITY_INLINES_HIDDEN=1
+HAVE_CXX_MAVX=
+HAVE_CXX_MF16C=
+HAVE_CXX_MFPMATH_387=
+HAVE_CXX_MPOPCNT=
+HAVE_CXX_MSSE=
+HAVE_CXX_MSSE2=
+HAVE_CXX_MSSE3=
+HAVE_CXX_MSSE4_1=
+HAVE_CXX_MSSE4_2=
+HAVE_CXX_MSSSE3=
+HAVE_CXX_QUNUSED_ARGUMENTS=1
+HAVE_CXX_W=1
+HAVE_CXX_WADDRESS=1
+HAVE_CXX_WALL=1
+HAVE_CXX_WFORMAT=1
+HAVE_CXX_WFORMAT_SECURITY=1
+HAVE_CXX_WINCONSISTENT_MISSING_OVERRIDE=1
+HAVE_CXX_WINIT_SELF=1
+HAVE_CXX_WMISSING_DECLARATIONS=1
+HAVE_CXX_WMISSING_PROTOTYPES=1
+HAVE_CXX_WNON_VIRTUAL_DTOR=1
+HAVE_CXX_WNO_ARRAY_BOUNDS=1
+HAVE_CXX_WNO_COMMA=1
+HAVE_CXX_WNO_COMMENT=1
+HAVE_CXX_WNO_DELETE_NON_VIRTUAL_DTOR=1
+HAVE_CXX_WNO_DEPRECATED=1
+HAVE_CXX_WNO_DEPRECATED_ANON_ENUM_ENUM_CONVERSION=1
+HAVE_CXX_WNO_DEPRECATED_ENUM_ENUM_CONVERSION=1
+HAVE_CXX_WNO_ENUM_COMPARE_SWITCH=1
+HAVE_CXX_WNO_EXTRA=1
+HAVE_CXX_WNO_EXTRA_SEMI=1
+HAVE_CXX_WNO_IGNORED_QUALIFIERS=1
+HAVE_CXX_WNO_IMPLICIT_FALLTHROUGH=1
+HAVE_CXX_WNO_INCONSISTENT_MISSING_OVERRIDE=1
+HAVE_CXX_WNO_INVALID_OFFSETOF=1
+HAVE_CXX_WNO_MISSING_DECLARATIONS=1
+HAVE_CXX_WNO_MISSING_PROTOTYPES=1
+HAVE_CXX_WNO_SHADOW=1
+HAVE_CXX_WNO_SHORTEN_64_TO_32=1
+HAVE_CXX_WNO_SIGN_COMPARE=1
+HAVE_CXX_WNO_SIGN_PROMO=1
+HAVE_CXX_WNO_STRINGOP_OVERFLOW=
+HAVE_CXX_WNO_STRINGOP_OVERREAD=
+HAVE_CXX_WNO_SUGGEST_OVERRIDE=1
+HAVE_CXX_WNO_TAUTOLOGICAL_UNDEFINED_COMPARE=1
+HAVE_CXX_WNO_UNDEF=1
+HAVE_CXX_WNO_UNNAMED_TYPE_TEMPLATE_ARGS=1
+HAVE_CXX_WNO_UNUSED_CONST_VARIABLE=1
+HAVE_CXX_WNO_UNUSED_FUNCTION=1
+HAVE_CXX_WNO_UNUSED_LOCAL_TYPEDEFS=1
+HAVE_CXX_WNO_UNUSED_PARAMETER=1
+HAVE_CXX_WPOINTER_ARITH=1
+HAVE_CXX_WRETURN_TYPE=1
+HAVE_CXX_WSEQUENCE_POINT=1
+HAVE_CXX_WSHADOW=1
+HAVE_CXX_WSIGN_PROMO=1
+HAVE_CXX_WSTRICT_PROTOTYPES=1
+HAVE_CXX_WUNDEF=1
+HAVE_CXX_WUNINITIALIZED=1
+HAVE_C_FDATA_SECTIONS=1
+HAVE_C_FDIAGNOSTICS_SHOW_OPTION=1
+HAVE_C_FFUNCTION_SECTIONS=1
+HAVE_C_FSIGNED_CHAR=1
+HAVE_C_FVISIBILITY_HIDDEN=1
+HAVE_C_FVISIBILITY_INLINES_HIDDEN=1
+HAVE_C_MFPMATH_387=
+HAVE_C_QUNUSED_ARGUMENTS=1
+HAVE_C_W=1
+HAVE_C_WADDRESS=1
+HAVE_C_WALL=1
+HAVE_C_WFORMAT=1
+HAVE_C_WFORMAT_SECURITY=1
+HAVE_C_WINCONSISTENT_MISSING_OVERRIDE=1
+HAVE_C_WINIT_SELF=1
+HAVE_C_WMISSING_DECLARATIONS=1
+HAVE_C_WMISSING_PROTOTYPES=1
+HAVE_C_WNON_VIRTUAL_DTOR=1
+HAVE_C_WNO_ARRAY_PARAMETER=1
+HAVE_C_WNO_ATTRIBUTES=1
+HAVE_C_WNO_CAST_ALIGN=1
+HAVE_C_WNO_CAST_FUNCTION_TYPE=1
+HAVE_C_WNO_COMMENT=1
+HAVE_C_WNO_DELETE_NON_VIRTUAL_DTOR=1
+HAVE_C_WNO_DEPRECATED_ANON_ENUM_ENUM_CONVERSION=1
+HAVE_C_WNO_DEPRECATED_ENUM_ENUM_CONVERSION=1
+HAVE_C_WNO_DOCUMENTATION=1
+HAVE_C_WNO_IMPLICIT_CONST_INT_FLOAT_CONVERSION=1
+HAVE_C_WNO_IMPLICIT_FALLTHROUGH=1
+HAVE_C_WNO_INT_TO_POINTER_CAST=1
+HAVE_C_WNO_MAYBE_UNINITIALIZED=
+HAVE_C_WNO_MISLEADING_INDENTATION=1
+HAVE_C_WNO_MISSING_DECLARATIONS=1
+HAVE_C_WNO_MISSING_PROTOTYPES=1
+HAVE_C_WNO_NULL_POINTER_SUBTRACTION=1
+HAVE_C_WNO_POINTER_TO_INT_CAST=1
+HAVE_C_WNO_SHADOW=1
+HAVE_C_WNO_SHIFT_NEGATIVE_VALUE=1
+HAVE_C_WNO_SHORTEN_64_TO_32=1
+HAVE_C_WNO_SIGN_COMPARE=1
+HAVE_C_WNO_STRICT_PROTOTYPES=1
+HAVE_C_WNO_UNDEF=1
+HAVE_C_WNO_UNNAMED_TYPE_TEMPLATE_ARGS=1
+HAVE_C_WNO_UNUSED=1
+HAVE_C_WNO_UNUSED_BUT_SET_VARIABLE=1
+HAVE_C_WNO_UNUSED_FUNCTION=1
+HAVE_C_WNO_UNUSED_PARAMETER=1
+HAVE_C_WNO_UNUSED_VARIABLE=1
+HAVE_C_WPOINTER_ARITH=1
+HAVE_C_WRETURN_TYPE=1
+HAVE_C_WSEQUENCE_POINT=1
+HAVE_C_WSHADOW=1
+HAVE_C_WSIGN_PROMO=1
+HAVE_C_WSTRICT_PROTOTYPES=1
+HAVE_C_WUNDEF=1
+HAVE_C_WUNINITIALIZED=1
+HAVE_DLFCN_H=1
+HAVE_FCNTL_H=1
+HAVE_FLATBUFFERS=1
+HAVE_FLOAT_H=1
+HAVE_FLOOR=1
+HAVE_FSEEKO=1
+HAVE_GCD=0
+HAVE_GETOPT=1
+HAVE_IEEEFP=1
+HAVE_IMGCODEC_HDR=ON
+HAVE_IMGCODEC_PFM=ON
+HAVE_IMGCODEC_PXM=ON
+HAVE_IMGCODEC_SUNRASTER=ON
+HAVE_INTTYPES_H=1
+HAVE_IO_H=
+HAVE_ISASCII=1
+HAVE_JPEG=YES
+HAVE_LFIND=1
+HAVE_LIBJPEG_TURBO_SIMD=0
+HAVE_LIMITS_H=1
+HAVE_LINK_NO_UNDEFINED=
+HAVE_LOCALE_H=1
+HAVE_MALLOC_H=1
+HAVE_MATH_H=1
+HAVE_MEMALIGN=1
+HAVE_MEMMOVE=1
+HAVE_MEMORY_H=1
+HAVE_MEMSET=1
+HAVE_MKL=OFF
+HAVE_MMAP=1
+HAVE_OFF64_T=FALSE
+HAVE_OPENCL=1
+HAVE_OPENCL_STATIC=OFF
+HAVE_OPENJPEG=YES
+HAVE_PNG=YES
+HAVE_POSIX_MEMALIGN=1
+HAVE_POW=1
+HAVE_PROTOBUF=TRUE
+HAVE_PTHREAD=1
+HAVE_PTHREADS_PF=0
+HAVE_SEARCH_H=1
+HAVE_SETMODE=
+HAVE_SIZEOF_PTRDIFF_T=TRUE
+HAVE_SIZEOF_SIGNED_INT=TRUE
+HAVE_SIZEOF_SIGNED_LONG=TRUE
+HAVE_SIZEOF_SIGNED_LONG_LONG=TRUE
+HAVE_SIZEOF_SIGNED_SHORT=TRUE
+HAVE_SIZEOF_SIZE_T=TRUE
+HAVE_SIZEOF_UNSIGNED_CHAR_P=TRUE
+HAVE_SIZEOF_UNSIGNED_INT=TRUE
+HAVE_SIZEOF_UNSIGNED_LONG=TRUE
+HAVE_SIZEOF_UNSIGNED_LONG_LONG=TRUE
+HAVE_SIZEOF_UNSIGNED_SHORT=TRUE
+HAVE_SIZE_T=TRUE
+HAVE_SQRT=1
+HAVE_STDARG_H=1
+HAVE_STDDEF_H=1
+HAVE_STDINT_H=1
+HAVE_STDIO_H=1
+HAVE_STDLIB_H=1
+HAVE_STRCASECMP=1
+HAVE_STRCHR=1
+HAVE_STRINGS_H=1
+HAVE_STRING_H=1
+HAVE_STRRCHR=1
+HAVE_STRSTR=1
+HAVE_STRTOL=1
+HAVE_STRTOUL=1
+HAVE_STRTOULL=1
+HAVE_SYS_STAT_H=1
+HAVE_SYS_TIME_H=1
+HAVE_SYS_TYPES_H=1
+HAVE_TIFF=YES
+HAVE_TIME_H=1
+HAVE_UNISTD_H=1
+HAVE_UNSIGNED_LONG=TRUE
+HAVE_VA=FALSE
+HAVE_VIDEOIO=
+HAVE_WEBP=1
+HAVE_int16=FALSE
+HAVE_int32=FALSE
+HAVE_int8=FALSE
+HAVE_opencv_calib3d=OFF
+HAVE_opencv_core=ON
+HAVE_opencv_dnn=OFF
+HAVE_opencv_features2d=OFF
+HAVE_opencv_flann=OFF
+HAVE_opencv_gapi=OFF
+HAVE_opencv_highgui=OFF
+HAVE_opencv_imgcodecs=OFF
+HAVE_opencv_imgproc=ON
+HAVE_opencv_java=OFF
+HAVE_opencv_java_bindings_generator=OFF
+HAVE_opencv_js_bindings_generator=OFF
+HAVE_opencv_ml=OFF
+HAVE_opencv_objc_bindings_generator=OFF
+HAVE_opencv_objdetect=OFF
+HAVE_opencv_photo=OFF
+HAVE_opencv_python2=OFF
+HAVE_opencv_python3=OFF
+HAVE_opencv_python_bindings_generator=OFF
+HAVE_opencv_python_tests=OFF
+HAVE_opencv_stitching=OFF
+HAVE_opencv_ts=OFF
+HAVE_opencv_video=OFF
+HAVE_opencv_videoio=OFF
+HAVE_opencv_world=OFF
+HELP_CPU_BASELINE=Specify list of enabled baseline CPU optimizations
+HELP_CPU_BASELINE_DISABLE=Specify list of forbidden baseline CPU optimizations
+HELP_CPU_BASELINE_REQUIRE=Specify list of required baseline CPU optimizations
+HELP_CPU_DISPATCH=Specify list of dispatched CPU optimizations
+HELP_CPU_DISPATCH_REQUIRE=Specify list of required dispatched CPU optimizations
+HELP_OPENCV_DOWNLOAD_PATH=Cache directory for downloaded files
+HIGHGUI_ENABLE_PLUGINS=OFF
+HIGHGUI_PLUGIN_LIST=
+HIGHGUI_PLUGIN_LIST=
+HOST_BIG_ENDIAN=OFF
+HOST_FILLORDER=FILLORDER_LSB2MSB
+INCLUDE_CMAKE_TOOLCHAIN_FILE_IF_REQUIRED=include("C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake")
+INSTALL_CREATE_DISTRIB=OFF
+INSTALL_C_EXAMPLES=OFF
+INSTALL_PYTHON_EXAMPLES=OFF
+INSTALL_TESTS=OFF
+JPEG_FOUND=FALSE
+JPEG_INCLUDE_DIR=C:/Users/natha/Desktop/statics/opencv/3rdparty/libjpeg-turbo/src
+JPEG_INCLUDE_DIRS=C:/Users/natha/Desktop/statics/opencv/3rdparty/libjpeg-turbo/src
+JPEG_LIBRARIES=libjpeg-turbo
+JPEG_LIBRARY=libjpeg-turbo
+JPEG_LIBRARY_DEBUG=JPEG_LIBRARY_DEBUG-NOTFOUND
+JPEG_LIBRARY_RELEASE=JPEG_LIBRARY_RELEASE-NOTFOUND
+JPEG_LIB_VERSION=3.0.3-70
+LAPACK_CBLAS_H=
+LAPACK_FOUND=FALSE
+LAPACK_IMPL=Unknown
+LAPACK_INCLUDE_DIR=
+LAPACK_LAPACKE_H=
+LAPACK_LIBRARIES=
+LIBRARY_OUTPUT_PATH=C:/Users/natha/Desktop/statics/opencv/static_build/lib
+LOOKED_FOR=Atlas_CBLAS_INCLUDE_DIR;Atlas_CLAPACK_INCLUDE_DIR;Atlas_CBLAS_LIBRARY;Atlas_BLAS_LIBRARY;Atlas_LAPACK_LIBRARY
+MIN_VER_CMAKE=3.7
+MIN_VER_CUDA=6.5
+MIN_VER_CUDNN=7.5
+MIN_VER_PYTHON2=2.7
+MIN_VER_PYTHON3=3.2
+MIN_VER_ZLIB=1.2.3
+MKL_ROOT_DIR=MKL_ROOT_DIR-NOTFOUND
+MKL_USE_SINGLE_DYNAMIC_LIBRARY=OFF
+MKL_WITH_OPENMP=OFF
+MKL_WITH_TBB=OFF
+M_LIBRARY=M_LIBRARY-NOTFOUND
+NEED_SYS_TYPES_H=1
+OBSENSOR_USE_ORBBEC_SDK=OFF
+OCV_CAN_BUILD_OPENJPEG=TRUE
+OCV_COMPILER_FAIL_REGEX=argument .* is not valid;command[- ]line option .* is valid for .* but not for C\+\+;command[- ]line option .* is valid for .* but not for C;unrecognized .*option;unknown .*option;ignoring unknown option;warning D9002;option .*not supported;[Uu]nknown option;[Ww]arning: [Oo]ption;command option .* is not recognized;not supported in this configuration, ignored;File with unknown suffix passed to linker;WARNING: unknown flag:
+OCV_DOWNLOAD_ADE_HASH_3rdparty_ade_v0_1_2e_zip=962ce79e0b95591f226431f7b5f152cd
+OFF64_T=
+OPENCL_FOUND=ON
+OPENCL_INCLUDE_DIR=C:/Users/natha/Desktop/statics/opencv/3rdparty/include/opencl/1.2
+OPENCL_INCLUDE_DIRS=C:/Users/natha/Desktop/statics/opencv/3rdparty/include/opencl/1.2
+OPENCL_LIBRARY=
+OPENCV_3P_LIB_INSTALL_PATH=lib/opencv4/3rdparty
+OPENCV_3RDPARTY_EXCLUDE_FROM_ALL=EXCLUDE_FROM_ALL
+OPENCV_BIN_INSTALL_PATH=bin
+OPENCV_BUILD_INFO_FILE=C:/Users/natha/Desktop/statics/opencv/static_build/version_string.tmp
+OPENCV_CMAKE_SYSTEM_FILE=C:/Users/natha/Desktop/statics/opencv/cmake/platforms/OpenCV-Emscripten.cmake
+OPENCV_COMPILER_STR=C:/Users/natha/emsdk/upstream/emscripten/em++.bat  (ver 20.0.0)
+OPENCV_CONFIG_FILE_INCLUDE_DIR=C:/Users/natha/Desktop/statics/opencv/static_build
+OPENCV_CONFIG_INSTALL_PATH=lib/cmake/opencv4
+OPENCV_CPU_BASELINE_DEFINITIONS_CONFIGMAKE=
+#define CV_CPU_BASELINE_FEATURES 0 \
+
+OPENCV_CPU_CONTROL_DEFINITIONS_CONFIGMAKE=// AUTOGENERATED, DO NOT EDIT
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_SSE
+#  define CV_TRY_SSE 1
+#  define CV_CPU_FORCE_SSE 1
+#  define CV_CPU_HAS_SUPPORT_SSE 1
+#  define CV_CPU_CALL_SSE(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_SSE_(fn, args) return (opt_SSE::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_SSE
+#  define CV_TRY_SSE 1
+#  define CV_CPU_FORCE_SSE 0
+#  define CV_CPU_HAS_SUPPORT_SSE (cv::checkHardwareSupport(CV_CPU_SSE))
+#  define CV_CPU_CALL_SSE(fn, args) if (CV_CPU_HAS_SUPPORT_SSE) return (opt_SSE::fn args)
+#  define CV_CPU_CALL_SSE_(fn, args) if (CV_CPU_HAS_SUPPORT_SSE) return (opt_SSE::fn args)
+#else
+#  define CV_TRY_SSE 0
+#  define CV_CPU_FORCE_SSE 0
+#  define CV_CPU_HAS_SUPPORT_SSE 0
+#  define CV_CPU_CALL_SSE(fn, args)
+#  define CV_CPU_CALL_SSE_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_SSE(fn, args, mode, ...)  CV_CPU_CALL_SSE(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_SSE2
+#  define CV_TRY_SSE2 1
+#  define CV_CPU_FORCE_SSE2 1
+#  define CV_CPU_HAS_SUPPORT_SSE2 1
+#  define CV_CPU_CALL_SSE2(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_SSE2_(fn, args) return (opt_SSE2::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_SSE2
+#  define CV_TRY_SSE2 1
+#  define CV_CPU_FORCE_SSE2 0
+#  define CV_CPU_HAS_SUPPORT_SSE2 (cv::checkHardwareSupport(CV_CPU_SSE2))
+#  define CV_CPU_CALL_SSE2(fn, args) if (CV_CPU_HAS_SUPPORT_SSE2) return (opt_SSE2::fn args)
+#  define CV_CPU_CALL_SSE2_(fn, args) if (CV_CPU_HAS_SUPPORT_SSE2) return (opt_SSE2::fn args)
+#else
+#  define CV_TRY_SSE2 0
+#  define CV_CPU_FORCE_SSE2 0
+#  define CV_CPU_HAS_SUPPORT_SSE2 0
+#  define CV_CPU_CALL_SSE2(fn, args)
+#  define CV_CPU_CALL_SSE2_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_SSE2(fn, args, mode, ...)  CV_CPU_CALL_SSE2(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_SSE3
+#  define CV_TRY_SSE3 1
+#  define CV_CPU_FORCE_SSE3 1
+#  define CV_CPU_HAS_SUPPORT_SSE3 1
+#  define CV_CPU_CALL_SSE3(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_SSE3_(fn, args) return (opt_SSE3::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_SSE3
+#  define CV_TRY_SSE3 1
+#  define CV_CPU_FORCE_SSE3 0
+#  define CV_CPU_HAS_SUPPORT_SSE3 (cv::checkHardwareSupport(CV_CPU_SSE3))
+#  define CV_CPU_CALL_SSE3(fn, args) if (CV_CPU_HAS_SUPPORT_SSE3) return (opt_SSE3::fn args)
+#  define CV_CPU_CALL_SSE3_(fn, args) if (CV_CPU_HAS_SUPPORT_SSE3) return (opt_SSE3::fn args)
+#else
+#  define CV_TRY_SSE3 0
+#  define CV_CPU_FORCE_SSE3 0
+#  define CV_CPU_HAS_SUPPORT_SSE3 0
+#  define CV_CPU_CALL_SSE3(fn, args)
+#  define CV_CPU_CALL_SSE3_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_SSE3(fn, args, mode, ...)  CV_CPU_CALL_SSE3(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_SSSE3
+#  define CV_TRY_SSSE3 1
+#  define CV_CPU_FORCE_SSSE3 1
+#  define CV_CPU_HAS_SUPPORT_SSSE3 1
+#  define CV_CPU_CALL_SSSE3(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_SSSE3_(fn, args) return (opt_SSSE3::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_SSSE3
+#  define CV_TRY_SSSE3 1
+#  define CV_CPU_FORCE_SSSE3 0
+#  define CV_CPU_HAS_SUPPORT_SSSE3 (cv::checkHardwareSupport(CV_CPU_SSSE3))
+#  define CV_CPU_CALL_SSSE3(fn, args) if (CV_CPU_HAS_SUPPORT_SSSE3) return (opt_SSSE3::fn args)
+#  define CV_CPU_CALL_SSSE3_(fn, args) if (CV_CPU_HAS_SUPPORT_SSSE3) return (opt_SSSE3::fn args)
+#else
+#  define CV_TRY_SSSE3 0
+#  define CV_CPU_FORCE_SSSE3 0
+#  define CV_CPU_HAS_SUPPORT_SSSE3 0
+#  define CV_CPU_CALL_SSSE3(fn, args)
+#  define CV_CPU_CALL_SSSE3_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_SSSE3(fn, args, mode, ...)  CV_CPU_CALL_SSSE3(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_SSE4_1
+#  define CV_TRY_SSE4_1 1
+#  define CV_CPU_FORCE_SSE4_1 1
+#  define CV_CPU_HAS_SUPPORT_SSE4_1 1
+#  define CV_CPU_CALL_SSE4_1(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_SSE4_1_(fn, args) return (opt_SSE4_1::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_SSE4_1
+#  define CV_TRY_SSE4_1 1
+#  define CV_CPU_FORCE_SSE4_1 0
+#  define CV_CPU_HAS_SUPPORT_SSE4_1 (cv::checkHardwareSupport(CV_CPU_SSE4_1))
+#  define CV_CPU_CALL_SSE4_1(fn, args) if (CV_CPU_HAS_SUPPORT_SSE4_1) return (opt_SSE4_1::fn args)
+#  define CV_CPU_CALL_SSE4_1_(fn, args) if (CV_CPU_HAS_SUPPORT_SSE4_1) return (opt_SSE4_1::fn args)
+#else
+#  define CV_TRY_SSE4_1 0
+#  define CV_CPU_FORCE_SSE4_1 0
+#  define CV_CPU_HAS_SUPPORT_SSE4_1 0
+#  define CV_CPU_CALL_SSE4_1(fn, args)
+#  define CV_CPU_CALL_SSE4_1_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_SSE4_1(fn, args, mode, ...)  CV_CPU_CALL_SSE4_1(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_SSE4_2
+#  define CV_TRY_SSE4_2 1
+#  define CV_CPU_FORCE_SSE4_2 1
+#  define CV_CPU_HAS_SUPPORT_SSE4_2 1
+#  define CV_CPU_CALL_SSE4_2(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_SSE4_2_(fn, args) return (opt_SSE4_2::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_SSE4_2
+#  define CV_TRY_SSE4_2 1
+#  define CV_CPU_FORCE_SSE4_2 0
+#  define CV_CPU_HAS_SUPPORT_SSE4_2 (cv::checkHardwareSupport(CV_CPU_SSE4_2))
+#  define CV_CPU_CALL_SSE4_2(fn, args) if (CV_CPU_HAS_SUPPORT_SSE4_2) return (opt_SSE4_2::fn args)
+#  define CV_CPU_CALL_SSE4_2_(fn, args) if (CV_CPU_HAS_SUPPORT_SSE4_2) return (opt_SSE4_2::fn args)
+#else
+#  define CV_TRY_SSE4_2 0
+#  define CV_CPU_FORCE_SSE4_2 0
+#  define CV_CPU_HAS_SUPPORT_SSE4_2 0
+#  define CV_CPU_CALL_SSE4_2(fn, args)
+#  define CV_CPU_CALL_SSE4_2_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_SSE4_2(fn, args, mode, ...)  CV_CPU_CALL_SSE4_2(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_POPCNT
+#  define CV_TRY_POPCNT 1
+#  define CV_CPU_FORCE_POPCNT 1
+#  define CV_CPU_HAS_SUPPORT_POPCNT 1
+#  define CV_CPU_CALL_POPCNT(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_POPCNT_(fn, args) return (opt_POPCNT::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_POPCNT
+#  define CV_TRY_POPCNT 1
+#  define CV_CPU_FORCE_POPCNT 0
+#  define CV_CPU_HAS_SUPPORT_POPCNT (cv::checkHardwareSupport(CV_CPU_POPCNT))
+#  define CV_CPU_CALL_POPCNT(fn, args) if (CV_CPU_HAS_SUPPORT_POPCNT) return (opt_POPCNT::fn args)
+#  define CV_CPU_CALL_POPCNT_(fn, args) if (CV_CPU_HAS_SUPPORT_POPCNT) return (opt_POPCNT::fn args)
+#else
+#  define CV_TRY_POPCNT 0
+#  define CV_CPU_FORCE_POPCNT 0
+#  define CV_CPU_HAS_SUPPORT_POPCNT 0
+#  define CV_CPU_CALL_POPCNT(fn, args)
+#  define CV_CPU_CALL_POPCNT_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_POPCNT(fn, args, mode, ...)  CV_CPU_CALL_POPCNT(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_AVX
+#  define CV_TRY_AVX 1
+#  define CV_CPU_FORCE_AVX 1
+#  define CV_CPU_HAS_SUPPORT_AVX 1
+#  define CV_CPU_CALL_AVX(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_AVX_(fn, args) return (opt_AVX::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_AVX
+#  define CV_TRY_AVX 1
+#  define CV_CPU_FORCE_AVX 0
+#  define CV_CPU_HAS_SUPPORT_AVX (cv::checkHardwareSupport(CV_CPU_AVX))
+#  define CV_CPU_CALL_AVX(fn, args) if (CV_CPU_HAS_SUPPORT_AVX) return (opt_AVX::fn args)
+#  define CV_CPU_CALL_AVX_(fn, args) if (CV_CPU_HAS_SUPPORT_AVX) return (opt_AVX::fn args)
+#else
+#  define CV_TRY_AVX 0
+#  define CV_CPU_FORCE_AVX 0
+#  define CV_CPU_HAS_SUPPORT_AVX 0
+#  define CV_CPU_CALL_AVX(fn, args)
+#  define CV_CPU_CALL_AVX_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_AVX(fn, args, mode, ...)  CV_CPU_CALL_AVX(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_FP16
+#  define CV_TRY_FP16 1
+#  define CV_CPU_FORCE_FP16 1
+#  define CV_CPU_HAS_SUPPORT_FP16 1
+#  define CV_CPU_CALL_FP16(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_FP16_(fn, args) return (opt_FP16::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_FP16
+#  define CV_TRY_FP16 1
+#  define CV_CPU_FORCE_FP16 0
+#  define CV_CPU_HAS_SUPPORT_FP16 (cv::checkHardwareSupport(CV_CPU_FP16))
+#  define CV_CPU_CALL_FP16(fn, args) if (CV_CPU_HAS_SUPPORT_FP16) return (opt_FP16::fn args)
+#  define CV_CPU_CALL_FP16_(fn, args) if (CV_CPU_HAS_SUPPORT_FP16) return (opt_FP16::fn args)
+#else
+#  define CV_TRY_FP16 0
+#  define CV_CPU_FORCE_FP16 0
+#  define CV_CPU_HAS_SUPPORT_FP16 0
+#  define CV_CPU_CALL_FP16(fn, args)
+#  define CV_CPU_CALL_FP16_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_FP16(fn, args, mode, ...)  CV_CPU_CALL_FP16(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_AVX2
+#  define CV_TRY_AVX2 1
+#  define CV_CPU_FORCE_AVX2 1
+#  define CV_CPU_HAS_SUPPORT_AVX2 1
+#  define CV_CPU_CALL_AVX2(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_AVX2_(fn, args) return (opt_AVX2::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_AVX2
+#  define CV_TRY_AVX2 1
+#  define CV_CPU_FORCE_AVX2 0
+#  define CV_CPU_HAS_SUPPORT_AVX2 (cv::checkHardwareSupport(CV_CPU_AVX2))
+#  define CV_CPU_CALL_AVX2(fn, args) if (CV_CPU_HAS_SUPPORT_AVX2) return (opt_AVX2::fn args)
+#  define CV_CPU_CALL_AVX2_(fn, args) if (CV_CPU_HAS_SUPPORT_AVX2) return (opt_AVX2::fn args)
+#else
+#  define CV_TRY_AVX2 0
+#  define CV_CPU_FORCE_AVX2 0
+#  define CV_CPU_HAS_SUPPORT_AVX2 0
+#  define CV_CPU_CALL_AVX2(fn, args)
+#  define CV_CPU_CALL_AVX2_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_AVX2(fn, args, mode, ...)  CV_CPU_CALL_AVX2(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_FMA3
+#  define CV_TRY_FMA3 1
+#  define CV_CPU_FORCE_FMA3 1
+#  define CV_CPU_HAS_SUPPORT_FMA3 1
+#  define CV_CPU_CALL_FMA3(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_FMA3_(fn, args) return (opt_FMA3::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_FMA3
+#  define CV_TRY_FMA3 1
+#  define CV_CPU_FORCE_FMA3 0
+#  define CV_CPU_HAS_SUPPORT_FMA3 (cv::checkHardwareSupport(CV_CPU_FMA3))
+#  define CV_CPU_CALL_FMA3(fn, args) if (CV_CPU_HAS_SUPPORT_FMA3) return (opt_FMA3::fn args)
+#  define CV_CPU_CALL_FMA3_(fn, args) if (CV_CPU_HAS_SUPPORT_FMA3) return (opt_FMA3::fn args)
+#else
+#  define CV_TRY_FMA3 0
+#  define CV_CPU_FORCE_FMA3 0
+#  define CV_CPU_HAS_SUPPORT_FMA3 0
+#  define CV_CPU_CALL_FMA3(fn, args)
+#  define CV_CPU_CALL_FMA3_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_FMA3(fn, args, mode, ...)  CV_CPU_CALL_FMA3(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_AVX_512F
+#  define CV_TRY_AVX_512F 1
+#  define CV_CPU_FORCE_AVX_512F 1
+#  define CV_CPU_HAS_SUPPORT_AVX_512F 1
+#  define CV_CPU_CALL_AVX_512F(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_AVX_512F_(fn, args) return (opt_AVX_512F::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_AVX_512F
+#  define CV_TRY_AVX_512F 1
+#  define CV_CPU_FORCE_AVX_512F 0
+#  define CV_CPU_HAS_SUPPORT_AVX_512F (cv::checkHardwareSupport(CV_CPU_AVX_512F))
+#  define CV_CPU_CALL_AVX_512F(fn, args) if (CV_CPU_HAS_SUPPORT_AVX_512F) return (opt_AVX_512F::fn args)
+#  define CV_CPU_CALL_AVX_512F_(fn, args) if (CV_CPU_HAS_SUPPORT_AVX_512F) return (opt_AVX_512F::fn args)
+#else
+#  define CV_TRY_AVX_512F 0
+#  define CV_CPU_FORCE_AVX_512F 0
+#  define CV_CPU_HAS_SUPPORT_AVX_512F 0
+#  define CV_CPU_CALL_AVX_512F(fn, args)
+#  define CV_CPU_CALL_AVX_512F_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_AVX_512F(fn, args, mode, ...)  CV_CPU_CALL_AVX_512F(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_AVX512_COMMON
+#  define CV_TRY_AVX512_COMMON 1
+#  define CV_CPU_FORCE_AVX512_COMMON 1
+#  define CV_CPU_HAS_SUPPORT_AVX512_COMMON 1
+#  define CV_CPU_CALL_AVX512_COMMON(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_AVX512_COMMON_(fn, args) return (opt_AVX512_COMMON::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_AVX512_COMMON
+#  define CV_TRY_AVX512_COMMON 1
+#  define CV_CPU_FORCE_AVX512_COMMON 0
+#  define CV_CPU_HAS_SUPPORT_AVX512_COMMON (cv::checkHardwareSupport(CV_CPU_AVX512_COMMON))
+#  define CV_CPU_CALL_AVX512_COMMON(fn, args) if (CV_CPU_HAS_SUPPORT_AVX512_COMMON) return (opt_AVX512_COMMON::fn args)
+#  define CV_CPU_CALL_AVX512_COMMON_(fn, args) if (CV_CPU_HAS_SUPPORT_AVX512_COMMON) return (opt_AVX512_COMMON::fn args)
+#else
+#  define CV_TRY_AVX512_COMMON 0
+#  define CV_CPU_FORCE_AVX512_COMMON 0
+#  define CV_CPU_HAS_SUPPORT_AVX512_COMMON 0
+#  define CV_CPU_CALL_AVX512_COMMON(fn, args)
+#  define CV_CPU_CALL_AVX512_COMMON_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_AVX512_COMMON(fn, args, mode, ...)  CV_CPU_CALL_AVX512_COMMON(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_AVX512_KNL
+#  define CV_TRY_AVX512_KNL 1
+#  define CV_CPU_FORCE_AVX512_KNL 1
+#  define CV_CPU_HAS_SUPPORT_AVX512_KNL 1
+#  define CV_CPU_CALL_AVX512_KNL(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_AVX512_KNL_(fn, args) return (opt_AVX512_KNL::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_AVX512_KNL
+#  define CV_TRY_AVX512_KNL 1
+#  define CV_CPU_FORCE_AVX512_KNL 0
+#  define CV_CPU_HAS_SUPPORT_AVX512_KNL (cv::checkHardwareSupport(CV_CPU_AVX512_KNL))
+#  define CV_CPU_CALL_AVX512_KNL(fn, args) if (CV_CPU_HAS_SUPPORT_AVX512_KNL) return (opt_AVX512_KNL::fn args)
+#  define CV_CPU_CALL_AVX512_KNL_(fn, args) if (CV_CPU_HAS_SUPPORT_AVX512_KNL) return (opt_AVX512_KNL::fn args)
+#else
+#  define CV_TRY_AVX512_KNL 0
+#  define CV_CPU_FORCE_AVX512_KNL 0
+#  define CV_CPU_HAS_SUPPORT_AVX512_KNL 0
+#  define CV_CPU_CALL_AVX512_KNL(fn, args)
+#  define CV_CPU_CALL_AVX512_KNL_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_AVX512_KNL(fn, args, mode, ...)  CV_CPU_CALL_AVX512_KNL(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_AVX512_KNM
+#  define CV_TRY_AVX512_KNM 1
+#  define CV_CPU_FORCE_AVX512_KNM 1
+#  define CV_CPU_HAS_SUPPORT_AVX512_KNM 1
+#  define CV_CPU_CALL_AVX512_KNM(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_AVX512_KNM_(fn, args) return (opt_AVX512_KNM::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_AVX512_KNM
+#  define CV_TRY_AVX512_KNM 1
+#  define CV_CPU_FORCE_AVX512_KNM 0
+#  define CV_CPU_HAS_SUPPORT_AVX512_KNM (cv::checkHardwareSupport(CV_CPU_AVX512_KNM))
+#  define CV_CPU_CALL_AVX512_KNM(fn, args) if (CV_CPU_HAS_SUPPORT_AVX512_KNM) return (opt_AVX512_KNM::fn args)
+#  define CV_CPU_CALL_AVX512_KNM_(fn, args) if (CV_CPU_HAS_SUPPORT_AVX512_KNM) return (opt_AVX512_KNM::fn args)
+#else
+#  define CV_TRY_AVX512_KNM 0
+#  define CV_CPU_FORCE_AVX512_KNM 0
+#  define CV_CPU_HAS_SUPPORT_AVX512_KNM 0
+#  define CV_CPU_CALL_AVX512_KNM(fn, args)
+#  define CV_CPU_CALL_AVX512_KNM_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_AVX512_KNM(fn, args, mode, ...)  CV_CPU_CALL_AVX512_KNM(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_AVX512_SKX
+#  define CV_TRY_AVX512_SKX 1
+#  define CV_CPU_FORCE_AVX512_SKX 1
+#  define CV_CPU_HAS_SUPPORT_AVX512_SKX 1
+#  define CV_CPU_CALL_AVX512_SKX(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_AVX512_SKX_(fn, args) return (opt_AVX512_SKX::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_AVX512_SKX
+#  define CV_TRY_AVX512_SKX 1
+#  define CV_CPU_FORCE_AVX512_SKX 0
+#  define CV_CPU_HAS_SUPPORT_AVX512_SKX (cv::checkHardwareSupport(CV_CPU_AVX512_SKX))
+#  define CV_CPU_CALL_AVX512_SKX(fn, args) if (CV_CPU_HAS_SUPPORT_AVX512_SKX) return (opt_AVX512_SKX::fn args)
+#  define CV_CPU_CALL_AVX512_SKX_(fn, args) if (CV_CPU_HAS_SUPPORT_AVX512_SKX) return (opt_AVX512_SKX::fn args)
+#else
+#  define CV_TRY_AVX512_SKX 0
+#  define CV_CPU_FORCE_AVX512_SKX 0
+#  define CV_CPU_HAS_SUPPORT_AVX512_SKX 0
+#  define CV_CPU_CALL_AVX512_SKX(fn, args)
+#  define CV_CPU_CALL_AVX512_SKX_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_AVX512_SKX(fn, args, mode, ...)  CV_CPU_CALL_AVX512_SKX(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_AVX512_CNL
+#  define CV_TRY_AVX512_CNL 1
+#  define CV_CPU_FORCE_AVX512_CNL 1
+#  define CV_CPU_HAS_SUPPORT_AVX512_CNL 1
+#  define CV_CPU_CALL_AVX512_CNL(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_AVX512_CNL_(fn, args) return (opt_AVX512_CNL::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_AVX512_CNL
+#  define CV_TRY_AVX512_CNL 1
+#  define CV_CPU_FORCE_AVX512_CNL 0
+#  define CV_CPU_HAS_SUPPORT_AVX512_CNL (cv::checkHardwareSupport(CV_CPU_AVX512_CNL))
+#  define CV_CPU_CALL_AVX512_CNL(fn, args) if (CV_CPU_HAS_SUPPORT_AVX512_CNL) return (opt_AVX512_CNL::fn args)
+#  define CV_CPU_CALL_AVX512_CNL_(fn, args) if (CV_CPU_HAS_SUPPORT_AVX512_CNL) return (opt_AVX512_CNL::fn args)
+#else
+#  define CV_TRY_AVX512_CNL 0
+#  define CV_CPU_FORCE_AVX512_CNL 0
+#  define CV_CPU_HAS_SUPPORT_AVX512_CNL 0
+#  define CV_CPU_CALL_AVX512_CNL(fn, args)
+#  define CV_CPU_CALL_AVX512_CNL_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_AVX512_CNL(fn, args, mode, ...)  CV_CPU_CALL_AVX512_CNL(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_AVX512_CLX
+#  define CV_TRY_AVX512_CLX 1
+#  define CV_CPU_FORCE_AVX512_CLX 1
+#  define CV_CPU_HAS_SUPPORT_AVX512_CLX 1
+#  define CV_CPU_CALL_AVX512_CLX(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_AVX512_CLX_(fn, args) return (opt_AVX512_CLX::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_AVX512_CLX
+#  define CV_TRY_AVX512_CLX 1
+#  define CV_CPU_FORCE_AVX512_CLX 0
+#  define CV_CPU_HAS_SUPPORT_AVX512_CLX (cv::checkHardwareSupport(CV_CPU_AVX512_CLX))
+#  define CV_CPU_CALL_AVX512_CLX(fn, args) if (CV_CPU_HAS_SUPPORT_AVX512_CLX) return (opt_AVX512_CLX::fn args)
+#  define CV_CPU_CALL_AVX512_CLX_(fn, args) if (CV_CPU_HAS_SUPPORT_AVX512_CLX) return (opt_AVX512_CLX::fn args)
+#else
+#  define CV_TRY_AVX512_CLX 0
+#  define CV_CPU_FORCE_AVX512_CLX 0
+#  define CV_CPU_HAS_SUPPORT_AVX512_CLX 0
+#  define CV_CPU_CALL_AVX512_CLX(fn, args)
+#  define CV_CPU_CALL_AVX512_CLX_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_AVX512_CLX(fn, args, mode, ...)  CV_CPU_CALL_AVX512_CLX(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_AVX512_ICL
+#  define CV_TRY_AVX512_ICL 1
+#  define CV_CPU_FORCE_AVX512_ICL 1
+#  define CV_CPU_HAS_SUPPORT_AVX512_ICL 1
+#  define CV_CPU_CALL_AVX512_ICL(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_AVX512_ICL_(fn, args) return (opt_AVX512_ICL::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_AVX512_ICL
+#  define CV_TRY_AVX512_ICL 1
+#  define CV_CPU_FORCE_AVX512_ICL 0
+#  define CV_CPU_HAS_SUPPORT_AVX512_ICL (cv::checkHardwareSupport(CV_CPU_AVX512_ICL))
+#  define CV_CPU_CALL_AVX512_ICL(fn, args) if (CV_CPU_HAS_SUPPORT_AVX512_ICL) return (opt_AVX512_ICL::fn args)
+#  define CV_CPU_CALL_AVX512_ICL_(fn, args) if (CV_CPU_HAS_SUPPORT_AVX512_ICL) return (opt_AVX512_ICL::fn args)
+#else
+#  define CV_TRY_AVX512_ICL 0
+#  define CV_CPU_FORCE_AVX512_ICL 0
+#  define CV_CPU_HAS_SUPPORT_AVX512_ICL 0
+#  define CV_CPU_CALL_AVX512_ICL(fn, args)
+#  define CV_CPU_CALL_AVX512_ICL_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_AVX512_ICL(fn, args, mode, ...)  CV_CPU_CALL_AVX512_ICL(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_NEON
+#  define CV_TRY_NEON 1
+#  define CV_CPU_FORCE_NEON 1
+#  define CV_CPU_HAS_SUPPORT_NEON 1
+#  define CV_CPU_CALL_NEON(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_NEON_(fn, args) return (opt_NEON::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_NEON
+#  define CV_TRY_NEON 1
+#  define CV_CPU_FORCE_NEON 0
+#  define CV_CPU_HAS_SUPPORT_NEON (cv::checkHardwareSupport(CV_CPU_NEON))
+#  define CV_CPU_CALL_NEON(fn, args) if (CV_CPU_HAS_SUPPORT_NEON) return (opt_NEON::fn args)
+#  define CV_CPU_CALL_NEON_(fn, args) if (CV_CPU_HAS_SUPPORT_NEON) return (opt_NEON::fn args)
+#else
+#  define CV_TRY_NEON 0
+#  define CV_CPU_FORCE_NEON 0
+#  define CV_CPU_HAS_SUPPORT_NEON 0
+#  define CV_CPU_CALL_NEON(fn, args)
+#  define CV_CPU_CALL_NEON_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_NEON(fn, args, mode, ...)  CV_CPU_CALL_NEON(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_NEON_DOTPROD
+#  define CV_TRY_NEON_DOTPROD 1
+#  define CV_CPU_FORCE_NEON_DOTPROD 1
+#  define CV_CPU_HAS_SUPPORT_NEON_DOTPROD 1
+#  define CV_CPU_CALL_NEON_DOTPROD(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_NEON_DOTPROD_(fn, args) return (opt_NEON_DOTPROD::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_NEON_DOTPROD
+#  define CV_TRY_NEON_DOTPROD 1
+#  define CV_CPU_FORCE_NEON_DOTPROD 0
+#  define CV_CPU_HAS_SUPPORT_NEON_DOTPROD (cv::checkHardwareSupport(CV_CPU_NEON_DOTPROD))
+#  define CV_CPU_CALL_NEON_DOTPROD(fn, args) if (CV_CPU_HAS_SUPPORT_NEON_DOTPROD) return (opt_NEON_DOTPROD::fn args)
+#  define CV_CPU_CALL_NEON_DOTPROD_(fn, args) if (CV_CPU_HAS_SUPPORT_NEON_DOTPROD) return (opt_NEON_DOTPROD::fn args)
+#else
+#  define CV_TRY_NEON_DOTPROD 0
+#  define CV_CPU_FORCE_NEON_DOTPROD 0
+#  define CV_CPU_HAS_SUPPORT_NEON_DOTPROD 0
+#  define CV_CPU_CALL_NEON_DOTPROD(fn, args)
+#  define CV_CPU_CALL_NEON_DOTPROD_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_NEON_DOTPROD(fn, args, mode, ...)  CV_CPU_CALL_NEON_DOTPROD(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_NEON_FP16
+#  define CV_TRY_NEON_FP16 1
+#  define CV_CPU_FORCE_NEON_FP16 1
+#  define CV_CPU_HAS_SUPPORT_NEON_FP16 1
+#  define CV_CPU_CALL_NEON_FP16(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_NEON_FP16_(fn, args) return (opt_NEON_FP16::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_NEON_FP16
+#  define CV_TRY_NEON_FP16 1
+#  define CV_CPU_FORCE_NEON_FP16 0
+#  define CV_CPU_HAS_SUPPORT_NEON_FP16 (cv::checkHardwareSupport(CV_CPU_NEON_FP16))
+#  define CV_CPU_CALL_NEON_FP16(fn, args) if (CV_CPU_HAS_SUPPORT_NEON_FP16) return (opt_NEON_FP16::fn args)
+#  define CV_CPU_CALL_NEON_FP16_(fn, args) if (CV_CPU_HAS_SUPPORT_NEON_FP16) return (opt_NEON_FP16::fn args)
+#else
+#  define CV_TRY_NEON_FP16 0
+#  define CV_CPU_FORCE_NEON_FP16 0
+#  define CV_CPU_HAS_SUPPORT_NEON_FP16 0
+#  define CV_CPU_CALL_NEON_FP16(fn, args)
+#  define CV_CPU_CALL_NEON_FP16_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_NEON_FP16(fn, args, mode, ...)  CV_CPU_CALL_NEON_FP16(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_NEON_BF16
+#  define CV_TRY_NEON_BF16 1
+#  define CV_CPU_FORCE_NEON_BF16 1
+#  define CV_CPU_HAS_SUPPORT_NEON_BF16 1
+#  define CV_CPU_CALL_NEON_BF16(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_NEON_BF16_(fn, args) return (opt_NEON_BF16::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_NEON_BF16
+#  define CV_TRY_NEON_BF16 1
+#  define CV_CPU_FORCE_NEON_BF16 0
+#  define CV_CPU_HAS_SUPPORT_NEON_BF16 (cv::checkHardwareSupport(CV_CPU_NEON_BF16))
+#  define CV_CPU_CALL_NEON_BF16(fn, args) if (CV_CPU_HAS_SUPPORT_NEON_BF16) return (opt_NEON_BF16::fn args)
+#  define CV_CPU_CALL_NEON_BF16_(fn, args) if (CV_CPU_HAS_SUPPORT_NEON_BF16) return (opt_NEON_BF16::fn args)
+#else
+#  define CV_TRY_NEON_BF16 0
+#  define CV_CPU_FORCE_NEON_BF16 0
+#  define CV_CPU_HAS_SUPPORT_NEON_BF16 0
+#  define CV_CPU_CALL_NEON_BF16(fn, args)
+#  define CV_CPU_CALL_NEON_BF16_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_NEON_BF16(fn, args, mode, ...)  CV_CPU_CALL_NEON_BF16(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_MSA
+#  define CV_TRY_MSA 1
+#  define CV_CPU_FORCE_MSA 1
+#  define CV_CPU_HAS_SUPPORT_MSA 1
+#  define CV_CPU_CALL_MSA(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_MSA_(fn, args) return (opt_MSA::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_MSA
+#  define CV_TRY_MSA 1
+#  define CV_CPU_FORCE_MSA 0
+#  define CV_CPU_HAS_SUPPORT_MSA (cv::checkHardwareSupport(CV_CPU_MSA))
+#  define CV_CPU_CALL_MSA(fn, args) if (CV_CPU_HAS_SUPPORT_MSA) return (opt_MSA::fn args)
+#  define CV_CPU_CALL_MSA_(fn, args) if (CV_CPU_HAS_SUPPORT_MSA) return (opt_MSA::fn args)
+#else
+#  define CV_TRY_MSA 0
+#  define CV_CPU_FORCE_MSA 0
+#  define CV_CPU_HAS_SUPPORT_MSA 0
+#  define CV_CPU_CALL_MSA(fn, args)
+#  define CV_CPU_CALL_MSA_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_MSA(fn, args, mode, ...)  CV_CPU_CALL_MSA(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_VSX
+#  define CV_TRY_VSX 1
+#  define CV_CPU_FORCE_VSX 1
+#  define CV_CPU_HAS_SUPPORT_VSX 1
+#  define CV_CPU_CALL_VSX(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_VSX_(fn, args) return (opt_VSX::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_VSX
+#  define CV_TRY_VSX 1
+#  define CV_CPU_FORCE_VSX 0
+#  define CV_CPU_HAS_SUPPORT_VSX (cv::checkHardwareSupport(CV_CPU_VSX))
+#  define CV_CPU_CALL_VSX(fn, args) if (CV_CPU_HAS_SUPPORT_VSX) return (opt_VSX::fn args)
+#  define CV_CPU_CALL_VSX_(fn, args) if (CV_CPU_HAS_SUPPORT_VSX) return (opt_VSX::fn args)
+#else
+#  define CV_TRY_VSX 0
+#  define CV_CPU_FORCE_VSX 0
+#  define CV_CPU_HAS_SUPPORT_VSX 0
+#  define CV_CPU_CALL_VSX(fn, args)
+#  define CV_CPU_CALL_VSX_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_VSX(fn, args, mode, ...)  CV_CPU_CALL_VSX(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_VSX3
+#  define CV_TRY_VSX3 1
+#  define CV_CPU_FORCE_VSX3 1
+#  define CV_CPU_HAS_SUPPORT_VSX3 1
+#  define CV_CPU_CALL_VSX3(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_VSX3_(fn, args) return (opt_VSX3::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_VSX3
+#  define CV_TRY_VSX3 1
+#  define CV_CPU_FORCE_VSX3 0
+#  define CV_CPU_HAS_SUPPORT_VSX3 (cv::checkHardwareSupport(CV_CPU_VSX3))
+#  define CV_CPU_CALL_VSX3(fn, args) if (CV_CPU_HAS_SUPPORT_VSX3) return (opt_VSX3::fn args)
+#  define CV_CPU_CALL_VSX3_(fn, args) if (CV_CPU_HAS_SUPPORT_VSX3) return (opt_VSX3::fn args)
+#else
+#  define CV_TRY_VSX3 0
+#  define CV_CPU_FORCE_VSX3 0
+#  define CV_CPU_HAS_SUPPORT_VSX3 0
+#  define CV_CPU_CALL_VSX3(fn, args)
+#  define CV_CPU_CALL_VSX3_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_VSX3(fn, args, mode, ...)  CV_CPU_CALL_VSX3(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_RVV
+#  define CV_TRY_RVV 1
+#  define CV_CPU_FORCE_RVV 1
+#  define CV_CPU_HAS_SUPPORT_RVV 1
+#  define CV_CPU_CALL_RVV(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_RVV_(fn, args) return (opt_RVV::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_RVV
+#  define CV_TRY_RVV 1
+#  define CV_CPU_FORCE_RVV 0
+#  define CV_CPU_HAS_SUPPORT_RVV (cv::checkHardwareSupport(CV_CPU_RVV))
+#  define CV_CPU_CALL_RVV(fn, args) if (CV_CPU_HAS_SUPPORT_RVV) return (opt_RVV::fn args)
+#  define CV_CPU_CALL_RVV_(fn, args) if (CV_CPU_HAS_SUPPORT_RVV) return (opt_RVV::fn args)
+#else
+#  define CV_TRY_RVV 0
+#  define CV_CPU_FORCE_RVV 0
+#  define CV_CPU_HAS_SUPPORT_RVV 0
+#  define CV_CPU_CALL_RVV(fn, args)
+#  define CV_CPU_CALL_RVV_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_RVV(fn, args, mode, ...)  CV_CPU_CALL_RVV(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_LSX
+#  define CV_TRY_LSX 1
+#  define CV_CPU_FORCE_LSX 1
+#  define CV_CPU_HAS_SUPPORT_LSX 1
+#  define CV_CPU_CALL_LSX(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_LSX_(fn, args) return (opt_LSX::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_LSX
+#  define CV_TRY_LSX 1
+#  define CV_CPU_FORCE_LSX 0
+#  define CV_CPU_HAS_SUPPORT_LSX (cv::checkHardwareSupport(CV_CPU_LSX))
+#  define CV_CPU_CALL_LSX(fn, args) if (CV_CPU_HAS_SUPPORT_LSX) return (opt_LSX::fn args)
+#  define CV_CPU_CALL_LSX_(fn, args) if (CV_CPU_HAS_SUPPORT_LSX) return (opt_LSX::fn args)
+#else
+#  define CV_TRY_LSX 0
+#  define CV_CPU_FORCE_LSX 0
+#  define CV_CPU_HAS_SUPPORT_LSX 0
+#  define CV_CPU_CALL_LSX(fn, args)
+#  define CV_CPU_CALL_LSX_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_LSX(fn, args, mode, ...)  CV_CPU_CALL_LSX(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#if !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_COMPILE_LASX
+#  define CV_TRY_LASX 1
+#  define CV_CPU_FORCE_LASX 1
+#  define CV_CPU_HAS_SUPPORT_LASX 1
+#  define CV_CPU_CALL_LASX(fn, args) return (cpu_baseline::fn args)
+#  define CV_CPU_CALL_LASX_(fn, args) return (opt_LASX::fn args)
+#elif !defined CV_DISABLE_OPTIMIZATION && defined CV_ENABLE_INTRINSICS && defined CV_CPU_DISPATCH_COMPILE_LASX
+#  define CV_TRY_LASX 1
+#  define CV_CPU_FORCE_LASX 0
+#  define CV_CPU_HAS_SUPPORT_LASX (cv::checkHardwareSupport(CV_CPU_LASX))
+#  define CV_CPU_CALL_LASX(fn, args) if (CV_CPU_HAS_SUPPORT_LASX) return (opt_LASX::fn args)
+#  define CV_CPU_CALL_LASX_(fn, args) if (CV_CPU_HAS_SUPPORT_LASX) return (opt_LASX::fn args)
+#else
+#  define CV_TRY_LASX 0
+#  define CV_CPU_FORCE_LASX 0
+#  define CV_CPU_HAS_SUPPORT_LASX 0
+#  define CV_CPU_CALL_LASX(fn, args)
+#  define CV_CPU_CALL_LASX_(fn, args)
+#endif
+#define __CV_CPU_DISPATCH_CHAIN_LASX(fn, args, mode, ...)  CV_CPU_CALL_LASX(fn, args); __CV_EXPAND(__CV_CPU_DISPATCH_CHAIN_ ## mode(fn, args, __VA_ARGS__))
+
+#define CV_CPU_CALL_BASELINE(fn, args) return (cpu_baseline::fn args)
+#define __CV_CPU_DISPATCH_CHAIN_BASELINE(fn, args, mode, ...)  CV_CPU_CALL_BASELINE(fn, args) /* last in sequence */
+
+OPENCV_CPU_DISPATCH_DEFINITIONS_CONFIGMAKE=
+
+
+#define CV_CPU_DISPATCH_FEATURES 0 \
+
+OPENCV_DEBUG_POSTFIX=
+OPENCV_DEPHELPER=C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/dephelper
+OPENCV_DISABLE_ENV_SUPPORT=OFF
+OPENCV_DISABLE_FILESYSTEM_SUPPORT=OFF
+OPENCV_DISABLE_THREAD_SUPPORT=
+OPENCV_DLLVERSION=
+OPENCV_DOC_INSTALL_PATH=share/doc/opencv4
+OPENCV_DOWNLOAD_LOG=C:/Users/natha/Desktop/statics/opencv/static_build/CMakeDownloadLog.txt
+OPENCV_DOWNLOAD_MIRROR_ID=github
+OPENCV_DOWNLOAD_PARAMS=INACTIVITY_TIMEOUT;60;TIMEOUT;600
+OPENCV_DOWNLOAD_PATH=C:/Users/natha/Desktop/statics/opencv/.cache
+OPENCV_DOWNLOAD_TRIES_LIST=1
+OPENCV_DOWNLOAD_WITH_CURL=C:/Users/natha/Desktop/statics/opencv/static_build/download_with_curl.sh
+OPENCV_DOWNLOAD_WITH_WGET=C:/Users/natha/Desktop/statics/opencv/static_build/download_with_wget.sh
+OPENCV_DUMP_HOOKS_FLOW=OFF
+OPENCV_ENABLE_ALLOCATOR_STATS=ON
+OPENCV_ENABLE_ATOMIC_LONG_LONG=ON
+OPENCV_ENABLE_MEMALIGN=ON
+OPENCV_ENABLE_MEMORY_SANITIZER=OFF
+OPENCV_ENABLE_NONFREE=OFF
+OPENCV_EXTRA_CXX_FLAGS= -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden
+OPENCV_EXTRA_C_FLAGS= -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden
+OPENCV_EXTRA_EXE_LINKER_FLAGS= -Wl,--gc-sections
+OPENCV_EXTRA_FLAGS_DEBUG= -O0 -DDEBUG -D_DEBUG
+OPENCV_EXTRA_FLAGS_RELEASE= -DNDEBUG
+OPENCV_EXTRA_MODULES_PATH=
+OPENCV_EXTRA_MODULE_LINKER_FLAGS= -Wl,--gc-sections
+OPENCV_EXTRA_SHARED_LINKER_FLAGS= -Wl,--gc-sections
+OPENCV_FFMPEG_ENABLE_LIBAVDEVICE=OFF
+OPENCV_FORCE_3RDPARTY_BUILD=OFF
+OPENCV_GENERATE_PKGCONFIG=OFF
+OPENCV_GENERATE_SETUPVARS=ON
+OPENCV_INCLUDE_INSTALL_PATH=include/opencv4
+OPENCV_INITIAL_PASS=OFF
+OPENCV_JAR_INSTALL_PATH=share/java/opencv4
+OPENCV_JNI_BIN_INSTALL_PATH=share/java/opencv4
+OPENCV_JNI_INSTALL_PATH=share/java/opencv4
+OPENCV_LIBVERSION=4.10.0
+OPENCV_LIB_ARCHIVE_INSTALL_PATH=lib
+OPENCV_LIB_INSTALL_PATH=lib
+OPENCV_LIB_RUNTIME_DIR_RELATIVE_CMAKECONFIG=../lib
+OPENCV_LICENSES_INSTALL_PATH=share/licenses/opencv4
+OPENCV_LICENSE_FILE=C:/Users/natha/Desktop/statics/opencv/LICENSE
+OPENCV_MATHJAX_RELPATH=https://cdn.jsdelivr.net/npm/mathjax@3.0.1
+OPENCV_MODULES_BUILD=opencv_core;opencv_imgproc
+OPENCV_MODULES_BUILD_ST=core;imgproc
+OPENCV_MODULES_CONFIGCMAKE=opencv_core;opencv_imgproc
+OPENCV_MODULES_DISABLED_AUTO=opencv_calib3d;opencv_dnn;opencv_features2d;opencv_flann;opencv_gapi;opencv_highgui;opencv_imgcodecs;opencv_java_bindings_generator;opencv_js_bindings_generator;opencv_ml;opencv_objc_bindings_generator;opencv_objdetect;opencv_photo;opencv_python_bindings_generator;opencv_python_tests;opencv_stitching;opencv_video;opencv_videoio
+OPENCV_MODULES_DISABLED_AUTO_ST=calib3d;dnn;features2d;flann;gapi;highgui;imgcodecs;java_bindings_generator;js_bindings_generator;ml;objc_bindings_generator;objdetect;photo;python_bindings_generator;python_tests;stitching;video;videoio
+OPENCV_MODULES_DISABLED_FORCE=opencv_java;opencv_python2;opencv_python3;opencv_ts
+OPENCV_MODULES_DISABLED_FORCE_ST=java;python2;python3;ts
+OPENCV_MODULES_DISABLED_USER=opencv_world
+OPENCV_MODULES_DISABLED_USER_ST=world
+OPENCV_MODULES_EXTRA=java_bindings_generator;js_bindings_generator;objc_bindings_generator;python2;python3;python_bindings_generator;python_tests
+OPENCV_MODULES_MAIN=core;imgproc;imgcodecs;videoio;highgui;video;calib3d;features2d;objdetect;dnn;ml;flann;photo;stitching;gapi;java;ts;world
+OPENCV_MODULES_PATH=C:/Users/natha/Desktop/statics/opencv/modules
+OPENCV_MODULES_PUBLIC=opencv_core;opencv_imgproc
+OPENCV_MODULE_DEFINITIONS_CONFIGMAKE=#define HAVE_OPENCV_CORE
+#define HAVE_OPENCV_IMGPROC
+
+
+OPENCV_MODULE_opencv_calib3d_CLASS=PUBLIC
+OPENCV_MODULE_opencv_calib3d_DESCRIPTION=Camera Calibration and 3D Reconstruction
+OPENCV_MODULE_opencv_calib3d_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_calib3d_LABEL=Main;opencv_calib3d
+OPENCV_MODULE_opencv_calib3d_LINK_DEPS=
+OPENCV_MODULE_opencv_calib3d_LOCATION=C:/Users/natha/Desktop/statics/opencv/modules/calib3d
+OPENCV_MODULE_opencv_calib3d_OPT_DEPS=
+OPENCV_MODULE_opencv_calib3d_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_calib3d_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_calib3d_REQ_DEPS=opencv_imgproc;opencv_features2d;opencv_flann
+OPENCV_MODULE_opencv_calib3d_WRAPPERS=java;objc;python;js
+OPENCV_MODULE_opencv_core_BINARY_DIR=C:/Users/natha/Desktop/statics/opencv/static_build/modules/core
+OPENCV_MODULE_opencv_core_CLASS=PUBLIC
+OPENCV_MODULE_opencv_core_DEPS=
+OPENCV_MODULE_opencv_core_DEPS_EXT=
+OPENCV_MODULE_opencv_core_DEPS_TO_LINK=
+OPENCV_MODULE_opencv_core_DESCRIPTION=The Core Functionality
+OPENCV_MODULE_opencv_core_HEADERS=C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/affine.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/async.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/base.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/bindings_utils.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/bufferpool.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/check.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/core.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/core_c.h;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda.inl.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/block.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/border_interpolate.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/color.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/common.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/datamov_utils.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/detail/color_detail.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/detail/reduce.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/detail/reduce_key_val.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/detail/transform_detail.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/detail/type_traits_detail.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/detail/vec_distance_detail.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/dynamic_smem.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/emulation.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/filters.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/funcattrib.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/functional.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/limits.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/reduce.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/saturate_cast.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/scan.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/simd_functions.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/transform.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/type_traits.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/utility.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/vec_distance.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/vec_math.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/vec_traits.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/warp.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/warp_reduce.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda/warp_shuffle.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda_stream_accessor.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cuda_types.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cv_cpu_dispatch.h;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cv_cpu_helper.h;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cvdef.h;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cvstd.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cvstd.inl.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/cvstd_wrapper.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/detail/async_promise.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/detail/dispatch_helper.impl.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/detail/exception_ptr.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/directx.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/dualquaternion.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/dualquaternion.inl.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/eigen.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/fast_math.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/hal/hal.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/hal/interface.h;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/hal/intrin.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/hal/intrin_avx.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/hal/intrin_avx512.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/hal/intrin_cpp.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/hal/intrin_forward.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/hal/intrin_lasx.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/hal/intrin_lsx.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/hal/intrin_math.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/hal/intrin_msa.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/hal/intrin_neon.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/hal/intrin_rvv071.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/hal/intrin_rvv_scalable.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/hal/intrin_sse.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/hal/intrin_sse_em.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/hal/intrin_vsx.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/hal/intrin_wasm.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/hal/msa_macros.h;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/hal/simd_utils.impl.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/mat.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/mat.inl.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/matx.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/matx.inl.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/neon_utils.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/ocl.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/ocl_genbase.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/opencl/ocl_defs.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/opencl/opencl_info.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/opencl/opencl_svm.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/opencl/runtime/autogenerated/opencl_clblas.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/opencl/runtime/autogenerated/opencl_clfft.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/opencl/runtime/autogenerated/opencl_core.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/opencl/runtime/autogenerated/opencl_core_wrappers.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/opencl/runtime/autogenerated/opencl_gl.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/opencl/runtime/autogenerated/opencl_gl_wrappers.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/opencl/runtime/opencl_clblas.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/opencl/runtime/opencl_clfft.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/opencl/runtime/opencl_core.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/opencl/runtime/opencl_core_wrappers.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/opencl/runtime/opencl_gl.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/opencl/runtime/opencl_gl_wrappers.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/opencl/runtime/opencl_svm_20.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/opencl/runtime/opencl_svm_definitions.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/opencl/runtime/opencl_svm_hsa_extension.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/opengl.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/operations.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/optim.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/ovx.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/parallel/backend/parallel_for.openmp.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/parallel/backend/parallel_for.tbb.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/parallel/parallel_backend.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/persistence.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/private.cuda.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/private.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/quaternion.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/quaternion.inl.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/saturate.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/simd_intrinsics.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/softfloat.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/sse_utils.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/traits.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/types.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/types_c.h;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/utility.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/utils/allocator_stats.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/utils/allocator_stats.impl.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/utils/buffer_area.private.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/utils/configuration.private.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/utils/filesystem.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/utils/filesystem.private.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/utils/fp_control.private.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/utils/fp_control_utils.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/utils/instrumentation.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/utils/lock.private.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/utils/logger.defines.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/utils/logger.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/utils/logtag.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/utils/plugin_loader.private.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/utils/tls.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/utils/trace.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/utils/trace.private.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/va_intel.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/version.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/vsx_utils.hpp
+OPENCV_MODULE_opencv_core_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_core_LABEL=Main;opencv_core
+OPENCV_MODULE_opencv_core_LINK_DEPS=
+OPENCV_MODULE_opencv_core_LOCATION=C:/Users/natha/Desktop/statics/opencv/modules/core
+OPENCV_MODULE_opencv_core_OPT_DEPS=opencv_cudev
+OPENCV_MODULE_opencv_core_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_core_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_core_REQ_DEPS=
+OPENCV_MODULE_opencv_core_SOURCES=C:/Users/natha/Desktop/statics/opencv/static_build/modules/core/version_string.inc;C:/Users/natha/Desktop/statics/opencv/modules/core/src/algorithm.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/alloc.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/arithm.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/arithm.dispatch.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/array.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/async.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/batch_distance.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/bindings_utils.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/buffer_area.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/channels.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/check.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/command_line_parser.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/conjugate_gradient.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/convert.dispatch.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/convert_c.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/convert_scale.dispatch.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/copy.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/count_non_zero.dispatch.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/cuda_gpu_mat.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/cuda_gpu_mat_nd.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/cuda_host_mem.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/cuda_info.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/cuda_stream.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/datastructs.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/directx.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/downhill_simplex.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/dxt.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/gl_core_3_1.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/glob.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/hal_internal.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/has_non_zero.dispatch.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/kmeans.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/lapack.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/lda.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/logger.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/lpsolver.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/lut.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/mathfuncs.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/mathfuncs_core.dispatch.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/matmul.dispatch.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/matrix.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/matrix_c.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/matrix_decomp.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/matrix_expressions.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/matrix_iterator.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/matrix_operations.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/matrix_sparse.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/matrix_transform.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/matrix_wrap.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/mean.dispatch.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/merge.dispatch.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/minmax.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/norm.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/ocl.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/runtime/opencl_clblas.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/runtime/opencl_clfft.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/runtime/opencl_core.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opengl.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/out.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/ovx.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/parallel.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/parallel/parallel.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/parallel/parallel_openmp.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/parallel/parallel_tbb.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/parallel_impl.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/pca.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/persistence.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/persistence_base64_encoding.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/persistence_json.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/persistence_types.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/persistence_xml.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/persistence_yml.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/rand.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/softfloat.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/split.dispatch.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/stat.dispatch.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/stat_c.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/stl.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/sum.dispatch.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/system.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/tables.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/trace.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/types.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/umatrix.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/utils/datafile.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/utils/filesystem.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/utils/logtagconfigparser.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/utils/logtagmanager.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/utils/samples.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/va_intel.cpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/arithm.cl;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/convert.cl;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/copymakeborder.cl;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/copyset.cl;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/cvtclr_dx.cl;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/fft.cl;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/flip.cl;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/gemm.cl;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/halfconvert.cl;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/inrange.cl;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/intel_gemm.cl;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/lut.cl;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/meanstddev.cl;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/minmaxloc.cl;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/mixchannels.cl;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/mulspectrums.cl;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/normalize.cl;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/reduce.cl;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/reduce2.cl;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/repeat.cl;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/set_identity.cl;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/split_merge.cl;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/transpose.cl;C:/Users/natha/Desktop/statics/opencv/static_build/modules/core/opencl_kernels_core.cpp;C:/Users/natha/Desktop/statics/opencv/static_build/modules/core/opencl_kernels_core.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/arithm.simd.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/arithm_ipp.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/bufferpool.impl.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/convert.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/convert.simd.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/convert_scale.simd.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/count_non_zero.simd.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/directx.inc.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/gl_core_3_1.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/hal_internal.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/hal_replacement.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/has_non_zero.simd.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/intel_gpu_gemm.inl.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/mathfuncs.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/mathfuncs_core.simd.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/matmul.simd.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/mean.simd.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/merge.simd.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/ocl_disabled.impl.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/runtime/autogenerated/opencl_clblas_impl.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/runtime/autogenerated/opencl_clfft_impl.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/runtime/autogenerated/opencl_core_impl.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/runtime/autogenerated/opencl_core_static_impl.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/runtime/autogenerated/opencl_gl_impl.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/runtime/autogenerated/opencl_gl_static_impl.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/opencl/runtime/runtime_common.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/parallel/factory_parallel.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/parallel/parallel.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/parallel/plugin_parallel_api.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/parallel/plugin_parallel_wrapper.impl.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/parallel/registry_parallel.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/parallel/registry_parallel.impl.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/parallel_impl.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/persistence.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/persistence_base64_encoding.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/persistence_impl.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/precomp.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/split.simd.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/stat.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/stat.simd.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/sum.simd.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/umatrix.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/utils/logtagconfig.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/utils/logtagconfigparser.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/utils/logtagmanager.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/utils/plugin_loader.impl.hpp;C:/Users/natha/Desktop/statics/opencv/modules/core/src/va_wrapper.impl.hpp
+OPENCV_MODULE_opencv_core_WRAPPERS=java;objc;python;js
+OPENCV_MODULE_opencv_dnn_CLASS=PUBLIC
+OPENCV_MODULE_opencv_dnn_DESCRIPTION=Deep neural network module. It allows to load models from different frameworks and to make forward pass
+OPENCV_MODULE_opencv_dnn_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_dnn_LABEL=Main;opencv_dnn
+OPENCV_MODULE_opencv_dnn_LINK_DEPS=
+OPENCV_MODULE_opencv_dnn_LOCATION=C:/Users/natha/Desktop/statics/opencv/modules/dnn
+OPENCV_MODULE_opencv_dnn_OPT_DEPS=
+OPENCV_MODULE_opencv_dnn_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_dnn_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_dnn_REQ_DEPS=opencv_core;opencv_imgproc
+OPENCV_MODULE_opencv_dnn_WRAPPERS=python;java;objc;js
+OPENCV_MODULE_opencv_features2d_CLASS=PUBLIC
+OPENCV_MODULE_opencv_features2d_DESCRIPTION=2D Features Framework
+OPENCV_MODULE_opencv_features2d_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_features2d_LABEL=Main;opencv_features2d
+OPENCV_MODULE_opencv_features2d_LINK_DEPS=
+OPENCV_MODULE_opencv_features2d_LOCATION=C:/Users/natha/Desktop/statics/opencv/modules/features2d
+OPENCV_MODULE_opencv_features2d_OPT_DEPS=opencv_flann
+OPENCV_MODULE_opencv_features2d_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_features2d_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_features2d_REQ_DEPS=opencv_imgproc
+OPENCV_MODULE_opencv_features2d_WRAPPERS=java;objc;python;js
+OPENCV_MODULE_opencv_flann_CLASS=PUBLIC
+OPENCV_MODULE_opencv_flann_DESCRIPTION=Clustering and Search in Multi-Dimensional Spaces
+OPENCV_MODULE_opencv_flann_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_flann_LABEL=Main;opencv_flann
+OPENCV_MODULE_opencv_flann_LINK_DEPS=
+OPENCV_MODULE_opencv_flann_LOCATION=C:/Users/natha/Desktop/statics/opencv/modules/flann
+OPENCV_MODULE_opencv_flann_OPT_DEPS=
+OPENCV_MODULE_opencv_flann_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_flann_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_flann_REQ_DEPS=opencv_core
+OPENCV_MODULE_opencv_flann_WRAPPERS=python
+OPENCV_MODULE_opencv_gapi_CLASS=PUBLIC
+OPENCV_MODULE_opencv_gapi_DESCRIPTION=OpenCV G-API Core Module
+OPENCV_MODULE_opencv_gapi_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_gapi_LABEL=Main;opencv_gapi
+OPENCV_MODULE_opencv_gapi_LINK_DEPS=
+OPENCV_MODULE_opencv_gapi_LOCATION=C:/Users/natha/Desktop/statics/opencv/modules/gapi
+OPENCV_MODULE_opencv_gapi_OPT_DEPS=opencv_video;opencv_calib3d
+OPENCV_MODULE_opencv_gapi_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_gapi_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_gapi_REQ_DEPS=opencv_imgproc
+OPENCV_MODULE_opencv_gapi_WRAPPERS=python
+OPENCV_MODULE_opencv_highgui_CLASS=PUBLIC
+OPENCV_MODULE_opencv_highgui_DESCRIPTION=High-level GUI
+OPENCV_MODULE_opencv_highgui_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_highgui_LABEL=Main;opencv_highgui
+OPENCV_MODULE_opencv_highgui_LINK_DEPS=
+OPENCV_MODULE_opencv_highgui_LOCATION=C:/Users/natha/Desktop/statics/opencv/modules/highgui
+OPENCV_MODULE_opencv_highgui_OPT_DEPS=opencv_imgcodecs;opencv_videoio
+OPENCV_MODULE_opencv_highgui_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_highgui_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_highgui_REQ_DEPS=opencv_imgproc
+OPENCV_MODULE_opencv_highgui_WRAPPERS=python;java
+OPENCV_MODULE_opencv_imgcodecs_CLASS=PUBLIC
+OPENCV_MODULE_opencv_imgcodecs_DESCRIPTION=Image I/O
+OPENCV_MODULE_opencv_imgcodecs_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_imgcodecs_LABEL=Main;opencv_imgcodecs
+OPENCV_MODULE_opencv_imgcodecs_LINK_DEPS=
+OPENCV_MODULE_opencv_imgcodecs_LOCATION=C:/Users/natha/Desktop/statics/opencv/modules/imgcodecs
+OPENCV_MODULE_opencv_imgcodecs_OPT_DEPS=
+OPENCV_MODULE_opencv_imgcodecs_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_imgcodecs_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_imgcodecs_REQ_DEPS=opencv_imgproc
+OPENCV_MODULE_opencv_imgcodecs_WRAPPERS=java;objc;python
+OPENCV_MODULE_opencv_imgproc_BINARY_DIR=C:/Users/natha/Desktop/statics/opencv/static_build/modules/imgproc
+OPENCV_MODULE_opencv_imgproc_CLASS=PUBLIC
+OPENCV_MODULE_opencv_imgproc_DEPS=opencv_core
+OPENCV_MODULE_opencv_imgproc_DEPS_EXT=
+OPENCV_MODULE_opencv_imgproc_DEPS_TO_LINK=opencv_core
+OPENCV_MODULE_opencv_imgproc_DESCRIPTION=Image Processing
+OPENCV_MODULE_opencv_imgproc_HEADERS=C:/Users/natha/Desktop/statics/opencv/modules/imgproc/include/opencv2/imgproc.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/include/opencv2/imgproc/bindings.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/include/opencv2/imgproc/detail/gcgraph.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/include/opencv2/imgproc/detail/legacy.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/include/opencv2/imgproc/hal/hal.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/include/opencv2/imgproc/hal/interface.h;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/include/opencv2/imgproc/imgproc.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/include/opencv2/imgproc/imgproc_c.h;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/include/opencv2/imgproc/segmentation.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/include/opencv2/imgproc/types_c.h
+OPENCV_MODULE_opencv_imgproc_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_imgproc_LABEL=Main;opencv_imgproc
+OPENCV_MODULE_opencv_imgproc_LINK_DEPS=
+OPENCV_MODULE_opencv_imgproc_LOCATION=C:/Users/natha/Desktop/statics/opencv/modules/imgproc
+OPENCV_MODULE_opencv_imgproc_OPT_DEPS=
+OPENCV_MODULE_opencv_imgproc_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_imgproc_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_imgproc_REQ_DEPS=opencv_core
+OPENCV_MODULE_opencv_imgproc_SOURCES=C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/accum.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/accum.dispatch.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/approx.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/bilateral_filter.dispatch.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/blend.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/box_filter.dispatch.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/canny.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/clahe.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/color.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/color_hsv.dispatch.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/color_lab.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/color_rgb.dispatch.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/color_yuv.dispatch.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/colormap.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/connectedcomponents.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/contours.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/contours_approx.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/contours_common.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/contours_link.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/contours_new.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/convhull.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/corner.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/cornersubpix.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/demosaicing.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/deriv.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/distransform.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/drawing.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/emd.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/emd_new.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/featureselect.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/filter.dispatch.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/floodfill.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/gabor.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/generalized_hough.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/geometry.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/grabcut.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/hershey_fonts.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/histogram.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/hough.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/imgwarp.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/intelligent_scissors.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/intersection.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/linefit.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/lsd.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/main.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/matchcontours.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/median_blur.dispatch.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/min_enclosing_triangle.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/moments.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/morph.dispatch.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/phasecorr.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/pyramids.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/resize.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/rotcalipers.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/samplers.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/segmentation.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/shapedescr.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/smooth.dispatch.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/spatialgradient.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/stackblur.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/subdivision2d.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/sumpixels.dispatch.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/tables.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/templmatch.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/thresh.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/utils.cpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/accumulate.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/bilateral.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/blend_linear.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/boxFilter.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/boxFilter3x3.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/calc_back_project.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/canny.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/clahe.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/color_hsv.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/color_lab.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/color_rgb.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/color_yuv.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/corner.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/covardata.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/filter2D.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/filter2DSmall.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/filterSepCol.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/filterSepRow.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/filterSep_singlePass.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/filterSmall.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/gaussianBlur3x3.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/gaussianBlur5x5.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/gftt.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/histogram.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/hough_lines.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/integral_sum.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/laplacian3.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/laplacian5.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/linearPolar.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/logPolar.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/match_template.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/medianFilter.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/moments.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/morph.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/morph3x3.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/precornerdetect.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/pyr_down.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/pyr_up.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/pyramid_up.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/remap.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/resize.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/sepFilter3x3.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/threshold.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/warp_affine.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/warp_perspective.cl;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/opencl/warp_transform.cl;C:/Users/natha/Desktop/statics/opencv/static_build/modules/imgproc/opencl_kernels_imgproc.cpp;C:/Users/natha/Desktop/statics/opencv/static_build/modules/imgproc/opencl_kernels_imgproc.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/_geom.h;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/accum.simd.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/bilateral_filter.simd.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/box_filter.simd.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/ccl_bolelli_forest.inc.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/ccl_bolelli_forest_firstline.inc.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/ccl_bolelli_forest_lastline.inc.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/ccl_bolelli_forest_singleline.inc.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/color.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/color.simd_helpers.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/color_hsv.simd.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/color_rgb.simd.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/color_yuv.simd.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/contours_common.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/corner.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/filter.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/filter.simd.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/filterengine.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/fixedpoint.inl.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/hal_replacement.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/imgwarp.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/median_blur.simd.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/morph.simd.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/precomp.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/resize.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/smooth.simd.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/sumpixels.avx512_skx.hpp;C:/Users/natha/Desktop/statics/opencv/modules/imgproc/src/sumpixels.simd.hpp
+OPENCV_MODULE_opencv_imgproc_WRAPPERS=java;objc;python;js
+OPENCV_MODULE_opencv_java_LOCATION=C:/Users/natha/Desktop/statics/opencv/modules/java
+OPENCV_MODULE_opencv_java_OPT_DEPS=opencv_core;opencv_imgproc
+OPENCV_MODULE_opencv_java_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_java_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_java_REQ_DEPS=
+OPENCV_MODULE_opencv_java_WRAPPERS=
+OPENCV_MODULE_opencv_java_bindings_generator_CLASS=INTERNAL
+OPENCV_MODULE_opencv_java_bindings_generator_DESCRIPTION=The java_bindings_generator OpenCV module
+OPENCV_MODULE_opencv_java_bindings_generator_IS_PART_OF_WORLD=OFF
+OPENCV_MODULE_opencv_java_bindings_generator_LABEL=Main;opencv_java_bindings_generator
+OPENCV_MODULE_opencv_java_bindings_generator_LINK_DEPS=
+OPENCV_MODULE_opencv_java_bindings_generator_LOCATION=C:/Users/natha/Desktop/statics/opencv/modules/java/generator
+OPENCV_MODULE_opencv_java_bindings_generator_OPT_DEPS=opencv_core;opencv_imgproc
+OPENCV_MODULE_opencv_java_bindings_generator_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_java_bindings_generator_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_java_bindings_generator_REQ_DEPS=
+OPENCV_MODULE_opencv_java_bindings_generator_WRAPPERS=
+OPENCV_MODULE_opencv_js_OPT_DEPS=opencv_core;opencv_imgproc
+OPENCV_MODULE_opencv_js_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_js_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_js_REQ_DEPS=
+OPENCV_MODULE_opencv_js_WRAPPERS=
+OPENCV_MODULE_opencv_js_bindings_generator_CLASS=INTERNAL
+OPENCV_MODULE_opencv_js_bindings_generator_DESCRIPTION=The js_bindings_generator OpenCV module
+OPENCV_MODULE_opencv_js_bindings_generator_IS_PART_OF_WORLD=OFF
+OPENCV_MODULE_opencv_js_bindings_generator_LABEL=Main;opencv_js_bindings_generator
+OPENCV_MODULE_opencv_js_bindings_generator_LINK_DEPS=
+OPENCV_MODULE_opencv_js_bindings_generator_LOCATION=C:/Users/natha/Desktop/statics/opencv/modules/js/generator
+OPENCV_MODULE_opencv_js_bindings_generator_OPT_DEPS=opencv_core;opencv_imgproc
+OPENCV_MODULE_opencv_js_bindings_generator_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_js_bindings_generator_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_js_bindings_generator_REQ_DEPS=
+OPENCV_MODULE_opencv_js_bindings_generator_WRAPPERS=
+OPENCV_MODULE_opencv_ml_CLASS=PUBLIC
+OPENCV_MODULE_opencv_ml_DESCRIPTION=Machine Learning
+OPENCV_MODULE_opencv_ml_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_ml_LABEL=Main;opencv_ml
+OPENCV_MODULE_opencv_ml_LINK_DEPS=
+OPENCV_MODULE_opencv_ml_LOCATION=C:/Users/natha/Desktop/statics/opencv/modules/ml
+OPENCV_MODULE_opencv_ml_OPT_DEPS=
+OPENCV_MODULE_opencv_ml_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_ml_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_ml_REQ_DEPS=opencv_core
+OPENCV_MODULE_opencv_ml_WRAPPERS=java;objc;python
+OPENCV_MODULE_opencv_objc_OPT_DEPS=opencv_core;opencv_imgproc
+OPENCV_MODULE_opencv_objc_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_objc_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_objc_REQ_DEPS=
+OPENCV_MODULE_opencv_objc_WRAPPERS=
+OPENCV_MODULE_opencv_objc_bindings_generator_CLASS=INTERNAL
+OPENCV_MODULE_opencv_objc_bindings_generator_DESCRIPTION=The objc_bindings_generator OpenCV module
+OPENCV_MODULE_opencv_objc_bindings_generator_IS_PART_OF_WORLD=OFF
+OPENCV_MODULE_opencv_objc_bindings_generator_LABEL=Main;opencv_objc_bindings_generator
+OPENCV_MODULE_opencv_objc_bindings_generator_LINK_DEPS=
+OPENCV_MODULE_opencv_objc_bindings_generator_LOCATION=C:/Users/natha/Desktop/statics/opencv/modules/objc/generator
+OPENCV_MODULE_opencv_objc_bindings_generator_OPT_DEPS=opencv_core;opencv_imgproc
+OPENCV_MODULE_opencv_objc_bindings_generator_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_objc_bindings_generator_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_objc_bindings_generator_REQ_DEPS=opencv_core;opencv_imgproc
+OPENCV_MODULE_opencv_objc_bindings_generator_WRAPPERS=
+OPENCV_MODULE_opencv_objdetect_CLASS=PUBLIC
+OPENCV_MODULE_opencv_objdetect_DESCRIPTION=Object Detection
+OPENCV_MODULE_opencv_objdetect_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_objdetect_LABEL=Main;opencv_objdetect
+OPENCV_MODULE_opencv_objdetect_LINK_DEPS=
+OPENCV_MODULE_opencv_objdetect_LOCATION=C:/Users/natha/Desktop/statics/opencv/modules/objdetect
+OPENCV_MODULE_opencv_objdetect_OPT_DEPS=opencv_dnn
+OPENCV_MODULE_opencv_objdetect_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_objdetect_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_objdetect_REQ_DEPS=opencv_core;opencv_imgproc;opencv_calib3d
+OPENCV_MODULE_opencv_objdetect_WRAPPERS=python;java;objc;js
+OPENCV_MODULE_opencv_photo_CLASS=PUBLIC
+OPENCV_MODULE_opencv_photo_DESCRIPTION=Computational Photography
+OPENCV_MODULE_opencv_photo_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_photo_LABEL=Main;opencv_photo
+OPENCV_MODULE_opencv_photo_LINK_DEPS=
+OPENCV_MODULE_opencv_photo_LOCATION=C:/Users/natha/Desktop/statics/opencv/modules/photo
+OPENCV_MODULE_opencv_photo_OPT_DEPS=opencv_cudaarithm;opencv_cudaimgproc
+OPENCV_MODULE_opencv_photo_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_photo_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_photo_REQ_DEPS=opencv_imgproc
+OPENCV_MODULE_opencv_photo_WRAPPERS=java;objc;python;js
+OPENCV_MODULE_opencv_python2_LOCATION=C:/Users/natha/Desktop/statics/opencv/modules/python/python2
+OPENCV_MODULE_opencv_python2_OPT_DEPS=opencv_core;opencv_imgproc
+OPENCV_MODULE_opencv_python2_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_python2_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_python2_REQ_DEPS=
+OPENCV_MODULE_opencv_python2_WRAPPERS=
+OPENCV_MODULE_opencv_python3_LOCATION=C:/Users/natha/Desktop/statics/opencv/modules/python/python3
+OPENCV_MODULE_opencv_python3_OPT_DEPS=opencv_core;opencv_imgproc
+OPENCV_MODULE_opencv_python3_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_python3_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_python3_REQ_DEPS=
+OPENCV_MODULE_opencv_python3_WRAPPERS=
+OPENCV_MODULE_opencv_python_bindings_generator_CLASS=INTERNAL
+OPENCV_MODULE_opencv_python_bindings_generator_DESCRIPTION=The python_bindings_generator OpenCV module
+OPENCV_MODULE_opencv_python_bindings_generator_IS_PART_OF_WORLD=OFF
+OPENCV_MODULE_opencv_python_bindings_generator_LABEL=Main;opencv_python_bindings_generator
+OPENCV_MODULE_opencv_python_bindings_generator_LINK_DEPS=
+OPENCV_MODULE_opencv_python_bindings_generator_LOCATION=C:/Users/natha/Desktop/statics/opencv/modules/python/bindings
+OPENCV_MODULE_opencv_python_bindings_generator_OPT_DEPS=opencv_core;opencv_imgproc
+OPENCV_MODULE_opencv_python_bindings_generator_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_python_bindings_generator_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_python_bindings_generator_REQ_DEPS=
+OPENCV_MODULE_opencv_python_bindings_generator_WRAPPERS=
+OPENCV_MODULE_opencv_python_tests_CLASS=INTERNAL
+OPENCV_MODULE_opencv_python_tests_DESCRIPTION=The python_tests OpenCV module
+OPENCV_MODULE_opencv_python_tests_IS_PART_OF_WORLD=OFF
+OPENCV_MODULE_opencv_python_tests_LABEL=Main;opencv_python_tests
+OPENCV_MODULE_opencv_python_tests_LINK_DEPS=
+OPENCV_MODULE_opencv_python_tests_LOCATION=C:/Users/natha/Desktop/statics/opencv/modules/python/test
+OPENCV_MODULE_opencv_python_tests_OPT_DEPS=
+OPENCV_MODULE_opencv_python_tests_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_python_tests_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_python_tests_REQ_DEPS=
+OPENCV_MODULE_opencv_python_tests_WRAPPERS=
+OPENCV_MODULE_opencv_stitching_CLASS=PUBLIC
+OPENCV_MODULE_opencv_stitching_DESCRIPTION=Images stitching
+OPENCV_MODULE_opencv_stitching_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_stitching_LABEL=Main;opencv_stitching
+OPENCV_MODULE_opencv_stitching_LINK_DEPS=
+OPENCV_MODULE_opencv_stitching_LOCATION=C:/Users/natha/Desktop/statics/opencv/modules/stitching
+OPENCV_MODULE_opencv_stitching_OPT_DEPS=opencv_cudaarithm;opencv_cudawarping;opencv_cudafeatures2d;opencv_cudalegacy;opencv_cudaimgproc;opencv_xfeatures2d
+OPENCV_MODULE_opencv_stitching_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_stitching_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_stitching_REQ_DEPS=opencv_imgproc;opencv_features2d;opencv_calib3d;opencv_flann
+OPENCV_MODULE_opencv_stitching_WRAPPERS=python
+OPENCV_MODULE_opencv_ts_LOCATION=C:/Users/natha/Desktop/statics/opencv/modules/ts
+OPENCV_MODULE_opencv_video_CLASS=PUBLIC
+OPENCV_MODULE_opencv_video_DESCRIPTION=Video Analysis
+OPENCV_MODULE_opencv_video_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_video_LABEL=Main;opencv_video
+OPENCV_MODULE_opencv_video_LINK_DEPS=
+OPENCV_MODULE_opencv_video_LOCATION=C:/Users/natha/Desktop/statics/opencv/modules/video
+OPENCV_MODULE_opencv_video_OPT_DEPS=opencv_calib3d;opencv_dnn
+OPENCV_MODULE_opencv_video_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_video_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_video_REQ_DEPS=opencv_imgproc
+OPENCV_MODULE_opencv_video_WRAPPERS=java;objc;python;js
+OPENCV_MODULE_opencv_videoio_CLASS=PUBLIC
+OPENCV_MODULE_opencv_videoio_DESCRIPTION=The videoio OpenCV module
+OPENCV_MODULE_opencv_videoio_IS_PART_OF_WORLD=ON
+OPENCV_MODULE_opencv_videoio_LABEL=Main;opencv_videoio
+OPENCV_MODULE_opencv_videoio_LINK_DEPS=
+OPENCV_MODULE_opencv_videoio_LOCATION=C:/Users/natha/Desktop/statics/opencv/modules/videoio
+OPENCV_MODULE_opencv_videoio_OPT_DEPS=
+OPENCV_MODULE_opencv_videoio_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_videoio_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_videoio_REQ_DEPS=opencv_imgproc;opencv_imgcodecs
+OPENCV_MODULE_opencv_videoio_WRAPPERS=java;objc;python
+OPENCV_MODULE_opencv_world_CLASS=PUBLIC
+OPENCV_MODULE_opencv_world_DESCRIPTION=All OpenCV modules
+OPENCV_MODULE_opencv_world_IS_PART_OF_WORLD=OFF
+OPENCV_MODULE_opencv_world_LABEL=Main;opencv_world
+OPENCV_MODULE_opencv_world_LINK_DEPS=
+OPENCV_MODULE_opencv_world_LOCATION=C:/Users/natha/Desktop/statics/opencv/modules/world
+OPENCV_MODULE_opencv_world_OPT_DEPS=opencv_calib3d;opencv_core;opencv_dnn;opencv_features2d;opencv_flann;opencv_gapi;opencv_highgui;opencv_imgcodecs;opencv_imgproc;opencv_ml;opencv_objdetect;opencv_photo;opencv_stitching;opencv_video;opencv_videoio
+OPENCV_MODULE_opencv_world_PRIVATE_OPT_DEPS=
+OPENCV_MODULE_opencv_world_PRIVATE_REQ_DEPS=
+OPENCV_MODULE_opencv_world_REQ_DEPS=opencv_core
+OPENCV_MODULE_opencv_world_WRAPPERS=
+OPENCV_MOD_LIST=opencv_core;opencv_imgproc
+OPENCV_OTHER_INSTALL_PATH=share/opencv4
+OPENCV_PACKAGE_ARCH_SUFFIX=x86
+OPENCV_PROCESSING_EXTRA_MODULES=1
+OPENCV_PYTHON3_VERSION=OFF
+OPENCV_PYTHON_DIR_RELATIVE_CMAKECONFIG=python_loader_is_not_installed
+OPENCV_SAMPLES_BIN_INSTALL_PATH=bin
+OPENCV_SAMPLES_SRC_INSTALL_PATH=share/opencv4/samples
+OPENCV_SCRIPT_EXTENSION=.sh
+OPENCV_SEMIHOSTING=
+OPENCV_SETUPVARS_FILENAME=setup_vars_opencv4.sh
+OPENCV_SETUPVARS_INSTALL_PATH=bin
+OPENCV_SETUPVARS_TEMPLATE=setup_vars_linux.sh.in
+OPENCV_SKIP_LINK_AS_NEEDED=1
+OPENCV_SOVERSION=410
+OPENCV_SUPPRESS_DEPRECATIONS=1
+OPENCV_TEST_DATA_INSTALL_PATH=share/opencv4/testdata
+OPENCV_TEST_INSTALL_PATH=bin
+OPENCV_TIMESTAMP=2024-11-15T21:07:10Z
+OPENCV_TRACE=1
+OPENCV_VCSVERSION=4.10.0-390-g4866811933-dirty
+OPENCV_VERIFICATIONS=WITH_1394;WITH_AVFOUNDATION;WITH_AVIF;WITH_CAP_IOS;WITH_CPUFEATURES;WITH_VTK;WITH_CUDA;WITH_CUFFT;WITH_CUBLAS;WITH_CUDNN;WITH_NVCUVID;WITH_NVCUVENC;WITH_EIGEN;WITH_FFMPEG;WITH_GSTREAMER;WITH_GTK;WITH_GTK_2_X;WITH_WAYLAND;WITH_IPP;WITH_HALIDE;WITH_VULKAN;WITH_OPENVINO;WITH_WEBNN;WITH_JASPER;WITH_OPENJPEG;WITH_JPEG;WITH_WEBP;WITH_OPENEXR;WITH_OPENGL;WITH_OPENVX;WITH_OPENNI;WITH_OPENNI2;WITH_PNG;WITH_SPNG;WITH_GDCM;WITH_PVAPI;WITH_ARAVIS;WITH_QT;WITH_WIN32UI;WITH_TBB;WITH_HPX;WITH_OPENMP;WITH_PTHREADS_PF;WITH_TIFF;WITH_V4L;WITH_DSHOW;WITH_MSMF;WITH_MSMF_DXVA;WITH_XIMEA;WITH_UEYE;WITH_XINE;WITH_CLP;WITH_OPENCL;WITH_OPENCL_SVM;WITH_OPENCLAMDFFT;WITH_OPENCLAMDBLAS;WITH_DIRECTX;WITH_DIRECTML;WITH_OPENCL_D3D11_NV;WITH_LIBREALSENSE;WITH_VA;WITH_VA_INTEL;WITH_MFX;WITH_GDAL;WITH_GPHOTO2;WITH_LAPACK;WITH_ITT;WITH_PROTOBUF;WITH_IMGCODEC_HDR;WITH_IMGCODEC_SUNRASTER;WITH_IMGCODEC_PXM;WITH_IMGCODEC_PFM;WITH_QUIRC;WITH_ANDROID_MEDIANDK;WITH_ANDROID_NATIVE_CAMERA;WITH_ONNX;WITH_TIMVX;WITH_OBSENSOR;WITH_CANN;WITH_FLATBUFFERS;WITH_ZLIB_NG;ENABLE_CUDA_FIRST_CLASS_LANGUAGE
+OPENCV_VERIFY_ENABLE_CUDA_FIRST_CLASS_LANGUAGE=HAVE_CUDA
+OPENCV_VERIFY_WITH_1394=HAVE_DC1394_2
+OPENCV_VERIFY_WITH_ANDROID_MEDIANDK=HAVE_ANDROID_MEDIANDK
+OPENCV_VERIFY_WITH_ANDROID_NATIVE_CAMERA=HAVE_ANDROID_NATIVE_CAMERA
+OPENCV_VERIFY_WITH_ARAVIS=HAVE_ARAVIS_API
+OPENCV_VERIFY_WITH_AVFOUNDATION=HAVE_AVFOUNDATION
+OPENCV_VERIFY_WITH_AVIF=HAVE_AVIF
+OPENCV_VERIFY_WITH_CANN=HAVE_CANN
+OPENCV_VERIFY_WITH_CAP_IOS=HAVE_CAP_IOS
+OPENCV_VERIFY_WITH_CLP=HAVE_CLP
+OPENCV_VERIFY_WITH_CPUFEATURES=HAVE_CPUFEATURES
+OPENCV_VERIFY_WITH_CUBLAS=HAVE_CUBLAS
+OPENCV_VERIFY_WITH_CUDA=HAVE_CUDA
+OPENCV_VERIFY_WITH_CUDNN=HAVE_CUDNN
+OPENCV_VERIFY_WITH_CUFFT=HAVE_CUFFT
+OPENCV_VERIFY_WITH_DIRECTML=HAVE_DIRECTML
+OPENCV_VERIFY_WITH_DIRECTX=HAVE_DIRECTX
+OPENCV_VERIFY_WITH_DSHOW=HAVE_DSHOW
+OPENCV_VERIFY_WITH_EIGEN=HAVE_EIGEN
+OPENCV_VERIFY_WITH_FFMPEG=HAVE_FFMPEG
+OPENCV_VERIFY_WITH_FLATBUFFERS=HAVE_FLATBUFFERS
+OPENCV_VERIFY_WITH_GDAL=HAVE_GDAL
+OPENCV_VERIFY_WITH_GDCM=HAVE_GDCM
+OPENCV_VERIFY_WITH_GPHOTO2=HAVE_GPHOTO2
+OPENCV_VERIFY_WITH_GSTREAMER=HAVE_GSTREAMER;AND;GSTREAMER_VERSION;VERSION_GREATER;0.99
+OPENCV_VERIFY_WITH_GTK=HAVE_GTK
+OPENCV_VERIFY_WITH_GTK_2_X=HAVE_GTK;AND;NOT;HAVE_GTK3
+OPENCV_VERIFY_WITH_HALIDE=HAVE_HALIDE
+OPENCV_VERIFY_WITH_HPX=HAVE_HPX
+OPENCV_VERIFY_WITH_IMGCODEC_HDR=HAVE_IMGCODEC_HDR
+OPENCV_VERIFY_WITH_IMGCODEC_PFM=HAVE_IMGCODEC_PFM
+OPENCV_VERIFY_WITH_IMGCODEC_PXM=HAVE_IMGCODEC_PXM
+OPENCV_VERIFY_WITH_IMGCODEC_SUNRASTER=HAVE_IMGCODEC_SUNRASTER
+OPENCV_VERIFY_WITH_IPP=HAVE_IPP
+OPENCV_VERIFY_WITH_ITT=HAVE_ITT
+OPENCV_VERIFY_WITH_JASPER=HAVE_JASPER
+OPENCV_VERIFY_WITH_JPEG=HAVE_JPEG
+OPENCV_VERIFY_WITH_LAPACK=HAVE_LAPACK
+OPENCV_VERIFY_WITH_LIBREALSENSE=HAVE_LIBREALSENSE
+OPENCV_VERIFY_WITH_MFX=HAVE_MFX
+OPENCV_VERIFY_WITH_MSMF=HAVE_MSMF
+OPENCV_VERIFY_WITH_MSMF_DXVA=HAVE_MSMF_DXVA
+OPENCV_VERIFY_WITH_NVCUVENC=HAVE_NVCUVENC
+OPENCV_VERIFY_WITH_NVCUVID=HAVE_NVCUVID
+OPENCV_VERIFY_WITH_OBSENSOR=HAVE_OBSENSOR
+OPENCV_VERIFY_WITH_ONNX=HAVE_ONNX
+OPENCV_VERIFY_WITH_OPENCL=HAVE_OPENCL
+OPENCV_VERIFY_WITH_OPENCLAMDBLAS=HAVE_CLAMDBLAS
+OPENCV_VERIFY_WITH_OPENCLAMDFFT=HAVE_CLAMDFFT
+OPENCV_VERIFY_WITH_OPENCL_D3D11_NV=HAVE_OPENCL_D3D11_NV
+OPENCV_VERIFY_WITH_OPENCL_SVM=HAVE_OPENCL_SVM
+OPENCV_VERIFY_WITH_OPENEXR=HAVE_OPENEXR
+OPENCV_VERIFY_WITH_OPENGL=HAVE_OPENGL
+OPENCV_VERIFY_WITH_OPENJPEG=HAVE_OPENJPEG
+OPENCV_VERIFY_WITH_OPENMP=HAVE_OPENMP
+OPENCV_VERIFY_WITH_OPENNI=HAVE_OPENNI
+OPENCV_VERIFY_WITH_OPENNI2=HAVE_OPENNI2
+OPENCV_VERIFY_WITH_OPENVINO=TARGET;ocv.3rdparty.openvino
+OPENCV_VERIFY_WITH_OPENVX=HAVE_OPENVX
+OPENCV_VERIFY_WITH_PNG=HAVE_PNG
+OPENCV_VERIFY_WITH_PROTOBUF=HAVE_PROTOBUF
+OPENCV_VERIFY_WITH_PTHREADS_PF=HAVE_PTHREADS_PF
+OPENCV_VERIFY_WITH_PVAPI=HAVE_PVAPI
+OPENCV_VERIFY_WITH_QT=HAVE_QT
+OPENCV_VERIFY_WITH_QUIRC=HAVE_QUIRC
+OPENCV_VERIFY_WITH_SPNG=HAVE_SPNG
+OPENCV_VERIFY_WITH_TBB=HAVE_TBB
+OPENCV_VERIFY_WITH_TIFF=HAVE_TIFF
+OPENCV_VERIFY_WITH_TIMVX=HAVE_TIMVX
+OPENCV_VERIFY_WITH_UEYE=HAVE_UEYE
+OPENCV_VERIFY_WITH_V4L=HAVE_CAMV4L;OR;HAVE_CAMV4L2;OR;HAVE_VIDEOIO
+OPENCV_VERIFY_WITH_VA=HAVE_VA
+OPENCV_VERIFY_WITH_VA_INTEL=HAVE_VA_INTEL
+OPENCV_VERIFY_WITH_VTK=HAVE_VTK
+OPENCV_VERIFY_WITH_VULKAN=HAVE_VULKAN
+OPENCV_VERIFY_WITH_WAYLAND=HAVE_WAYLAND
+OPENCV_VERIFY_WITH_WEBNN=HAVE_WEBNN
+OPENCV_VERIFY_WITH_WEBP=HAVE_WEBP
+OPENCV_VERIFY_WITH_WIN32UI=HAVE_WIN32UI
+OPENCV_VERIFY_WITH_XIMEA=HAVE_XIMEA
+OPENCV_VERIFY_WITH_XINE=HAVE_XINE
+OPENCV_VERIFY_WITH_ZLIB_NG=HAVE_ZLIB_NG
+OPENCV_VERSION=4.10.0-dev
+OPENCV_VERSION_FILE=C:/Users/natha/Desktop/statics/opencv/modules/core/include/opencv2/core/version.hpp
+OPENCV_VERSION_MAJOR=4
+OPENCV_VERSION_MINOR=10
+OPENCV_VERSION_MINOR_2DIGITS=10
+OPENCV_VERSION_PARTS=#define CV_VERSION_MAJOR    4;#define CV_VERSION_MINOR    10;#define CV_VERSION_REVISION 0;#define CV_VERSION_STATUS   "-dev"
+OPENCV_VERSION_PATCH=0
+OPENCV_VERSION_PATCH_2DIGITS=00
+OPENCV_VERSION_PLAIN=4.10.0
+OPENCV_VERSION_STATUS=-dev
+OPENCV_VS_VER_COMMENTS_STR=http://opencv.org/
+OPENCV_VS_VER_FILEVERSION_QUAD=4,10,0,0
+OPENCV_VS_VER_FILEVERSION_STR=4.10.0-dev
+OPENCV_VS_VER_PRODUCTNAME_STR=OpenCV library
+OPENCV_VS_VER_PRODUCTVERSION_QUAD=4,10,0,0
+OPENCV_VS_VER_PRODUCTVERSION_STR=4.10.0-dev
+OPENCV_WARNINGS_ARE_ERRORS=OFF
+OPENCV_WORLD_MODULES=
+OPENJPEG_BUILD_VERSION=0
+OPENJPEG_INCLUDE_DIRS=C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/openjpeg/openjp2;C:/Users/natha/Desktop/statics/opencv/3rdparty/openjpeg/openjp2;C:/Users/natha/Desktop/statics/opencv/static_build
+OPENJPEG_LIBRARIES=libopenjp2
+OPENJPEG_MAJOR_VERSION=2
+OPENJPEG_MINOR_VERSION=5
+OPENJPEG_VERSION=2.5.0
+OPJ_DISABLE_TPSOT_FIX=OFF
+OPJ_HAVE_INTTYPES_H=1
+OPJ_HAVE_MALLOC_H=1
+OPJ_HAVE_MEMALIGN=1
+OPJ_HAVE_POSIX_MEMALIGN=1
+OPJ_HAVE_STDINT_H=1
+OPJ_HAVE__ALIGNED_MALLOC=
+OPJ_USE_THREAD=ON
+OPT=
+OPT2=
+OUTPUT=Change Dir: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_f7b46
+[1/2] C:\Users\natha\emsdk\upstream\emscripten\em++.bat   -O3 -DNDEBUG -std=c++11 -fPIE -MD -MT CMakeFiles/cmTC_f7b46.dir/src.cxx.o -MF CMakeFiles\cmTC_f7b46.dir\src.cxx.o.d -o CMakeFiles/cmTC_f7b46.dir/src.cxx.o -c C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp/src.cxx
+[2/2] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\Users\natha\emsdk\upstream\emscripten\em++.bat -O3 -DNDEBUG -Wl,--no-undefined CMakeFiles/cmTC_f7b46.dir/src.cxx.o -o cmTC_f7b46.js   && cd ."
+FAILED: cmTC_f7b46.js 
+C:\WINDOWS\system32\cmd.exe /C "cd . && C:\Users\natha\emsdk\upstream\emscripten\em++.bat -O3 -DNDEBUG -Wl,--no-undefined CMakeFiles/cmTC_f7b46.dir/src.cxx.o -o cmTC_f7b46.js   && cd ."
+wasm-ld: error: unknown argument: --no-undefined
+em++: error: 'C:/Users/natha/emsdk/upstream/bin\wasm-ld.exe -o cmTC_f7b46.wasm --no-undefined -LC:\Users\natha\emsdk\upstream\emscripten\cache\sysroot\lib\wasm32-emscripten CMakeFiles/cmTC_f7b46.dir/src.cxx.o -lGL-getprocaddr -lal -lhtml5 -lstubs -lnoexit -lc -ldlmalloc -lcompiler_rt -lc++-noexcept -lc++abi-noexcept -lsockets -mllvm -combiner-global-alias-analysis=false -mllvm -enable-emscripten-sjlj -mllvm -disable-lsr C:\Users\natha\AppData\Local\Temp\tmpf9mklc6dlibemscripten_js_symbols.so --strip-debug --export=_emscripten_stack_alloc --export=__get_temp_ret --export=__set_temp_ret --export=__wasm_call_ctors --export=emscripten_stack_get_current --export=_emscripten_stack_restore --export-if-defined=__start_em_asm --export-if-defined=__stop_em_asm --export-if-defined=__start_em_lib_deps --export-if-defined=__stop_em_lib_deps --export-if-defined=__start_em_js --export-if-defined=__stop_em_js --export-if-defined=main --export-if-defined=__main_argc_argv --export-table -z stack-size=65536 --no-growable-memory --initial-heap=16777216 --no-entry --table-base=1 --global-base=1024' failed (returned 1)
+ninja: build stopped: subcommand failed.
+
+
+OUTPUT_LINES=Change Dir: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp';;Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_56f28;[1/2] C:\Users\natha\emsdk\upstream\emscripten\emcc.bat   -O3 -DNDEBUG -fPIE    -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden  -fvisibility-inlines-hidden -MD -MT CMakeFiles/cmTC_56f28.dir/src.c.o -MF CMakeFiles\cmTC_56f28.dir\src.c.o.d -o CMakeFiles/cmTC_56f28.dir/src.c.o -c C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp/src.c;C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp/src.c:1:8: warning: unknown pragma ignored [-Wunknown-pragmas];    1 | #pragma;      |        ^;1 warning generated.;[2/2] C:\WINDOWS\system32\cmd.exe /C "cd . && C:\Users\natha\emsdk\upstream\emscripten\emcc.bat -O3 -DNDEBUG  CMakeFiles/cmTC_56f28.dir/src.c.o -o cmTC_56f28.js   && cd .";;
+OpenBLAS=
+OpenBLAS_FOUND=OFF
+OpenBLAS_INCLUDE_DIR=OpenBLAS_INCLUDE_DIR-NOTFOUND
+OpenBLAS_LIB=OpenBLAS_LIB-NOTFOUND
+OpenCVModules_TARGETS=zlib;libjpeg-turbo;libtiff;libwebp;libopenjp2;libpng;libprotobuf;ade;opencv_core;opencv_imgproc
+OpenCV_BINARY_DIR=C:/Users/natha/Desktop/statics/opencv/static_build
+OpenCV_DESCRIPTION=
+OpenCV_HAL=OpenCV_HAL
+OpenCV_HAL_CONSIDERED_CONFIGS=
+OpenCV_HAL_CONSIDERED_VERSIONS=
+OpenCV_HAL_DIR=OpenCV_HAL_DIR-NOTFOUND
+OpenCV_HAL_FOUND=0
+OpenCV_HOMEPAGE_URL=
+OpenCV_INCLUDE_DIRS_CONFIGCMAKE="${OpenCV_INSTALL_PATH}/include/opencv4"
+OpenCV_INSTALL_PATH_RELATIVE_CONFIGCMAKE=../../../
+OpenCV_IS_TOP_LEVEL=ON
+OpenCV_SOURCE_DIR=C:/Users/natha/Desktop/statics/opencv
+OpenCV_STATIC=ON
+OpenCV_USE_MANGLED_PATHS_CONFIGCMAKE=FALSE
+OpenGL_GL_PREFERENCE=LEGACY
+OpenJPEG_CONSIDERED_CONFIGS=
+OpenJPEG_CONSIDERED_VERSIONS=
+OpenJPEG_DIR=OpenJPEG_DIR-NOTFOUND
+OpenJPEG_FOUND=0
+Open_BLAS_INCLUDE_SEARCH_PATHS=/include;/include/openblas;/opt/OpenBLAS/include;/usr/local/include/openblas;/usr/include/openblas;/usr/local/include/openblas-base;/usr/include/openblas-base;/usr/local/include;/usr/include
+Open_BLAS_LIB_SEARCH_PATHS=/lib;/lib;/opt/OpenBLAS/lib;/usr/local/lib64;/usr/local/lib;/lib/openblas-base;/lib64/;/lib/;/usr/lib/openblas-base;/usr/lib64;/usr/lib
+PARALLEL_ENABLE_PLUGINS=OFF
+PCHSupport_FOUND=FALSE
+PKGCONFIG_FOUND=FALSE
+PKG_CONFIG_ARGN=
+PKG_CONFIG_EXECUTABLE=PKG_CONFIG_EXECUTABLE-NOTFOUND
+PKG_CONFIG_FOUND=FALSE
+PKG_CONFIG_NAMES=pkg-config.bat;pkg-config;pkgconf
+PKG_CONFIG_VERSION=1
+PNG_DEFINITIONS=
+PNG_FOUND=FALSE
+PNG_H=#define PNG_LIBPNG_VER_STRING "1.6.43"
+PNG_HARDWARE_OPTIMIZATIONS=ON
+PNG_INCLUDE_DIR=C:/Users/natha/Desktop/statics/opencv/3rdparty/libpng
+PNG_INTEL_SSE=on
+PNG_LIBRARIES=libpng
+PNG_LIBRARY=libpng
+PNG_LIBRARY_DEBUG=PNG_LIBRARY_DEBUG-NOTFOUND
+PNG_LIBRARY_RELEASE=PNG_LIBRARY_RELEASE-NOTFOUND
+PNG_PNG_INCLUDE_DIR=PNG_PNG_INCLUDE_DIR-NOTFOUND
+PNG_VERSION_STRING=1.6.43
+PROJECT_BINARY_DIR=C:/Users/natha/Desktop/statics/opencv/static_build
+PROJECT_DESCRIPTION=
+PROJECT_HOMEPAGE_URL=
+PROJECT_IS_TOP_LEVEL=ON
+PROJECT_NAME=OpenCV
+PROJECT_SOURCE_DIR=C:/Users/natha/Desktop/statics/opencv
+PROTOBUF_UPDATE_FILES=OFF
+PTHREAD_C_CXX_TEST_SOURCE=#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+PYTHON3INTERP_FOUND=TRUE
+PYTHON3LIBS_FOUND=
+PYTHON3LIBS_VERSION_STRING=
+PYTHON3_DEBUG_LIBRARIES=
+PYTHON3_EXECUTABLE=C:/Users/natha/AppData/Local/Programs/Python/Python312/python.exe
+PYTHON3_INCLUDE_DIR=
+PYTHON3_INCLUDE_DIR2=
+PYTHON3_INCLUDE_PATH=
+PYTHON3_LIBRARIES=
+PYTHON3_LIBRARY=
+PYTHON3_LIBRARY_DEBUG=
+PYTHON3_LIMITED_API=OFF
+PYTHON3_NUMPY_INCLUDE_DIRS=
+PYTHON3_NUMPY_VERSION=
+PYTHON3_PACKAGES_PATH=C:/Users/natha/AppData/Local/Programs/Python/Python312/Lib/site-packages
+PYTHON3_VERSION_MAJOR=3
+PYTHON3_VERSION_MINOR=12
+PYTHON3_VERSION_STRING=3.12.4
+PYTHON_DEFAULT_AVAILABLE=TRUE
+PYTHON_DEFAULT_EXECUTABLE=C:/Users/natha/AppData/Local/Programs/Python/Python312/python.exe
+PYTHON_DEFAULT_VERSION=3.12.4
+PkgConfig_FOUND=FALSE
+Protobuf_LIBRARIES=libprotobuf
+Protobuf_VERSION=3.19.1
+RUN_CONFIGURE=ON
+SIZEOF_PTRDIFF_T=4
+SIZEOF_SIGNED_INT=4
+SIZEOF_SIGNED_LONG=4
+SIZEOF_SIGNED_LONG_LONG=8
+SIZEOF_SIGNED_SHORT=2
+SIZEOF_SIZE_T=4
+SIZEOF_UNSIGNED_CHAR_P=4
+SIZEOF_UNSIGNED_INT=4
+SIZEOF_UNSIGNED_LONG=4
+SIZEOF_UNSIGNED_LONG_LONG=8
+SIZEOF_UNSIGNED_SHORT=2
+SIZE_T=4
+STD_OPENCV_DEV=libopencv-dev;libopencv-core-dev;libopencv-imgproc-dev
+STD_OPENCV_LIBS=opencv-data;libopencv-core4.0;libopencv-imgproc4.0
+THREADS_FOUND=TRUE
+TIFF_BIGTIFF_VERSION=
+TIFF_FOUND=FALSE
+TIFF_INCLUDE_DIR=C:/Users/natha/Desktop/statics/opencv/3rdparty/libtiff;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/libtiff
+TIFF_LIBRARIES=libtiff
+TIFF_LIBRARY=libtiff
+TIFF_LIBRARY_DEBUG=TIFF_LIBRARY_DEBUG-NOTFOUND
+TIFF_LIBRARY_RELEASE=TIFF_LIBRARY_RELEASE-NOTFOUND
+TIFF_VERSION=42
+TIFF_VERSION_BIG=43
+TIFF_VERSION_CLASSIC=42
+TIFF_VERSION_LINES=#define TIFF_VERSION_CLASSIC 42;#define TIFF_VERSION_BIG 43
+TIFF_VERSION_STRING=4.6.0
+TRY_OUT=Change Dir: 'C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): C:/ninja-win/ninja.exe -v cmTC_6c8a3
+[1/2] C:\Users\natha\emsdk\upstream\emscripten\em++.bat  -IC:/Users/natha/Desktop/statics/opencv/3rdparty/include/opencl/1.2 -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -std=c++11 -fPIE -MD -MT CMakeFiles/cmTC_6c8a3.dir/opencl.cpp.o -MF CMakeFiles\cmTC_6c8a3.dir\opencl.cpp.o.d -o CMakeFiles/cmTC_6c8a3.dir/opencl.cpp.o -c C:/Users/natha/Desktop/statics/opencv/cmake/checks/opencl.cpp
+FAILED: CMakeFiles/cmTC_6c8a3.dir/opencl.cpp.o 
+C:\Users\natha\emsdk\upstream\emscripten\em++.bat  -IC:/Users/natha/Desktop/statics/opencv/3rdparty/include/opencl/1.2 -fsigned-char -W -Wall -Wreturn-type -Wnon-virtual-dtor -Waddress -Wsequence-point -Wformat -Wformat-security -Wmissing-declarations -Wmissing-prototypes -Wstrict-prototypes -Wundef -Winit-self -Wpointer-arith -Wshadow -Wsign-promo -Wuninitialized -Winconsistent-missing-override -Wno-delete-non-virtual-dtor -Wno-unnamed-type-template-args -Wno-comment -Wno-deprecated-enum-enum-conversion -Wno-deprecated-anon-enum-enum-conversion -fdiagnostics-show-option -Qunused-arguments -ffunction-sections -fdata-sections  -fvisibility=hidden -fvisibility-inlines-hidden  -O3 -DNDEBUG  -DNDEBUG -std=c++11 -fPIE -MD -MT CMakeFiles/cmTC_6c8a3.dir/opencl.cpp.o -MF CMakeFiles\cmTC_6c8a3.dir\opencl.cpp.o.d -o CMakeFiles/cmTC_6c8a3.dir/opencl.cpp.o -c C:/Users/natha/Desktop/statics/opencv/cmake/checks/opencl.cpp
+C:/Users/natha/Desktop/statics/opencv/cmake/checks/opencl.cpp:6:2: error: OpenCL is valid
+    6 | #error OpenCL is valid
+      |  ^
+1 error generated.
+ninja: build stopped: subcommand failed.
+
+
+Threads_FOUND=TRUE
+Tiff_CONSIDERED_CONFIGS=
+Tiff_CONSIDERED_VERSIONS=
+Tiff_DIR=Tiff_DIR-NOTFOUND
+Tiff_FOUND=0
+UNIX=1
+UNSIGNED_LONG=4
+USE_IPPICV=FALSE
+USE_IPPIW=FALSE
+USE_WIN32_FILEIO=FALSE
+VA_INCLUDE_DIR=VA_INCLUDE_DIR-NOTFOUND
+VIDEOIO_ENABLE_PLUGINS=OFF
+VIDEOIO_PLUGIN_LIST=
+WEBP_ENCODER_ABI_VERSION=0x020f
+WEBP_INCLUDE_DIR=C:/Users/natha/Desktop/statics/opencv/3rdparty/libwebp/src
+WEBP_LIBRARIES=libwebp
+WEBP_LIBRARY=libwebp
+WEBP_VERSION=encoder: 0x020f
+WITH_1394=OFF
+WITH_ADE=ON
+WITH_ARAVIS=OFF
+WITH_ARITH_DEC=ON
+WITH_ARITH_ENC=ON
+WITH_AVIF=ON
+WITH_CANN=OFF
+WITH_CLP=OFF
+WITH_CUDA=OFF
+WITH_EIGEN=OFF
+WITH_FFMPEG=ON
+WITH_FLATBUFFERS=ON
+WITH_FRAMEBUFFER=OFF
+WITH_FRAMEBUFFER_XVFB=OFF
+WITH_FREETYPE=OFF
+WITH_GDAL=OFF
+WITH_GDCM=OFF
+WITH_GPHOTO2=OFF
+WITH_GSTREAMER=ON
+WITH_GTK=ON
+WITH_GTK_2_X=OFF
+WITH_HALIDE=OFF
+WITH_HPX=OFF
+WITH_IMGCODEC_HDR=ON
+WITH_IMGCODEC_PFM=ON
+WITH_IMGCODEC_PXM=ON
+WITH_IMGCODEC_SUNRASTER=ON
+WITH_IPP=OFF
+WITH_ITT=OFF
+WITH_JASPER=ON
+WITH_JPEG=ON
+WITH_LAPACK=ON
+WITH_LIBREALSENSE=OFF
+WITH_MFX=OFF
+WITH_OAK=OFF
+WITH_OBSENSOR=ON
+WITH_ONNX=OFF
+WITH_OPENCL=ON
+WITH_OPENCLAMDBLAS=ON
+WITH_OPENCLAMDFFT=ON
+WITH_OPENCL_SVM=OFF
+WITH_OPENEXR=OFF
+WITH_OPENGL=OFF
+WITH_OPENJPEG=ON
+WITH_OPENMP=OFF
+WITH_OPENNI=OFF
+WITH_OPENNI2=OFF
+WITH_OPENVINO=OFF
+WITH_OPENVX=OFF
+WITH_PLAIDML=OFF
+WITH_PNG=ON
+WITH_PROTOBUF=ON
+WITH_PTHREADS_PF=OFF
+WITH_PVAPI=OFF
+WITH_QT=OFF
+WITH_QUIRC=OFF
+WITH_SPNG=OFF
+WITH_TBB=OFF
+WITH_TIFF=ON
+WITH_TIMVX=OFF
+WITH_UEYE=OFF
+WITH_V4L=ON
+WITH_VA=ON
+WITH_VA_INTEL=ON
+WITH_VULKAN=OFF
+WITH_WAYLAND=OFF
+WITH_WEBNN=OFF
+WITH_WEBP=ON
+WITH_XIMEA=OFF
+WITH_XINE=OFF
+WITH_ZLIB=ON
+WITH_ZLIB_NG=OFF
+WORDS_BIGENDIAN=0
+X86=1
+ZLIB_FOUND=TRUE
+ZLIB_H=#define ZLIB_VERSION "1.3.1"
+ZLIB_INCLUDE_DIR=C:/Users/natha/Desktop/statics/opencv/3rdparty/zlib;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/zlib
+ZLIB_INCLUDE_DIRS=C:/Users/natha/Desktop/statics/opencv/3rdparty/zlib;C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/zlib
+ZLIB_LIBRARIES=zlib
+ZLIB_LIBRARY=zlib
+ZLIB_LIBRARY_DEBUG=ZLIB_LIBRARY_DEBUG-NOTFOUND
+ZLIB_LIBRARY_RELEASE=ZLIB_LIBRARY_RELEASE-NOTFOUND
+ZLIB_VERSION_STRING=1.3.1
+Z_HAVE_UNISTD_H=1
+_CIF_SOURCE_CONTENT=#include <linux/videodev2.h>
+
+#ifdef __CLASSIC_C__
+int main()
+{
+  return 0;
+}
+#else
+int main(void)
+{
+  return 0;
+}
+#endif
+
+_CMAKE_CXX_IPO_MAY_BE_SUPPORTED_BY_COMPILER=YES
+_CMAKE_CXX_IPO_SUPPORTED_BY_CMAKE=YES
+_CMAKE_CXX_PIE_MAY_BE_SUPPORTED_BY_LINKER=YES
+_CMAKE_C_IPO_MAY_BE_SUPPORTED_BY_COMPILER=YES
+_CMAKE_C_IPO_SUPPORTED_BY_CMAKE=YES
+_CMAKE_C_PIE_MAY_BE_SUPPORTED_BY_LINKER=YES
+_CMAKE_LTO_THIN=TRUE
+_CMAKE_TOOLCHAIN_LOCATION=C:/Users/natha/emsdk/upstream/emscripten
+_CMAKE_USER_CXX_COMPILER_PATH=C:/Users/natha/emsdk/upstream/emscripten
+_CMAKE_USER_C_COMPILER_PATH=C:/Users/natha/emsdk/upstream/emscripten
+_CPACK_OTHER_VARIABLES_=
+set(CPACK_BINARY_DEB "OFF")
+set(CPACK_BINARY_FREEBSD "OFF")
+set(CPACK_BINARY_IFW "OFF")
+set(CPACK_BINARY_NSIS "OFF")
+set(CPACK_BINARY_RPM "OFF")
+set(CPACK_BINARY_STGZ "ON")
+set(CPACK_BINARY_TBZ2 "OFF")
+set(CPACK_BINARY_TGZ "ON")
+set(CPACK_BINARY_TXZ "OFF")
+set(CPACK_BINARY_TZ "ON")
+set(CPACK_BUILD_SOURCE_DIRS "C:/Users/natha/Desktop/statics/opencv;C:/Users/natha/Desktop/statics/opencv/static_build")
+set(CPACK_CMAKE_GENERATOR "Ninja")
+set(CPACK_COMPONENTS_ALL "dev;libs;licenses;scripts")
+set(CPACK_COMPONENT_DEV_CONFLICTS "libopencv-dev, libopencv-core-dev, libopencv-imgproc-dev")
+set(CPACK_COMPONENT_DEV_DEPENDS "libs")
+set(CPACK_COMPONENT_DEV_DESCRIPTION "Development files for Open Source Computer Vision Library")
+set(CPACK_COMPONENT_DEV_DISPLAY_NAME "Development files")
+set(CPACK_COMPONENT_DEV_PROVIDES "libopencv-dev, libopencv-core-dev, libopencv-imgproc-dev")
+set(CPACK_COMPONENT_DEV_REPLACES "libopencv-dev, libopencv-core-dev, libopencv-imgproc-dev")
+set(CPACK_COMPONENT_DOCS_CONFLICTS "opencv-doc")
+set(CPACK_COMPONENT_DOCS_DEPENDS "libs")
+set(CPACK_COMPONENT_DOCS_DESCRIPTION "Documentation for Open Source Computer Vision Library")
+set(CPACK_COMPONENT_DOCS_DISPLAY_NAME "Documentation")
+set(CPACK_COMPONENT_JAVA_CONFLICTS "libopencv4.0-java, libopencv4.0-jni")
+set(CPACK_COMPONENT_JAVA_DEPENDS "libs")
+set(CPACK_COMPONENT_JAVA_DESCRIPTION "Java bindings for Open Source Computer Vision Library")
+set(CPACK_COMPONENT_JAVA_DISPLAY_NAME "Java bindings")
+set(CPACK_COMPONENT_JAVA_PROVIDES "libopencv4.0-java, libopencv4.0-jni")
+set(CPACK_COMPONENT_JAVA_REPLACES "libopencv4.0-java, libopencv4.0-jni")
+set(CPACK_COMPONENT_LIBS_CONFLICTS "opencv-data, libopencv-core4.0, libopencv-imgproc4.0")
+set(CPACK_COMPONENT_LIBS_DESCRIPTION "Open Computer Vision Library")
+set(CPACK_COMPONENT_LIBS_DISPLAY_NAME "Libraries and data")
+set(CPACK_COMPONENT_LIBS_PROVIDES "opencv-data, libopencv-core4.0, libopencv-imgproc4.0")
+set(CPACK_COMPONENT_LIBS_REPLACES "opencv-data, libopencv-core4.0, libopencv-imgproc4.0")
+set(CPACK_COMPONENT_LIBS_REQUIRED "TRUE")
+set(CPACK_COMPONENT_PYTHON_CONFLICTS "python-opencv")
+set(CPACK_COMPONENT_PYTHON_DEPENDS "libs")
+set(CPACK_COMPONENT_PYTHON_DESCRIPTION "Python bindings for Open Source Computer Vision Library")
+set(CPACK_COMPONENT_PYTHON_DISPLAY_NAME "Python bindings")
+set(CPACK_COMPONENT_PYTHON_PROVIDES "python-opencv")
+set(CPACK_COMPONENT_PYTHON_REPLACES "python-opencv")
+set(CPACK_COMPONENT_SAMPLES_CONFLICTS "opencv-doc")
+set(CPACK_COMPONENT_SAMPLES_DEPENDS "libs")
+set(CPACK_COMPONENT_SAMPLES_DESCRIPTION "Samples for Open Source Computer Vision Library")
+set(CPACK_COMPONENT_SAMPLES_DISPLAY_NAME "Samples")
+set(CPACK_COMPONENT_TESTS_DEPENDS "libs")
+set(CPACK_COMPONENT_TESTS_DESCRIPTION "Accuracy and performance tests for Open Source Computer Vision Library")
+set(CPACK_COMPONENT_TESTS_DISPLAY_NAME "Tests")
+set(CPACK_COMPONENT_UNSPECIFIED_HIDDEN "TRUE")
+set(CPACK_COMPONENT_UNSPECIFIED_REQUIRED "TRUE")
+set(CPACK_DEBIAN_COMPONENT_DEV_NAME "libOpenCV-dev")
+set(CPACK_DEBIAN_COMPONENT_DOCS_NAME "libOpenCV-docs")
+set(CPACK_DEBIAN_COMPONENT_JAVA_NAME "libOpenCV-java")
+set(CPACK_DEBIAN_COMPONENT_LIBS_NAME "libOpenCV")
+set(CPACK_DEBIAN_COMPONENT_PYTHON_NAME "libOpenCV-python")
+set(CPACK_DEBIAN_COMPONENT_SAMPLES_NAME "libOpenCV-samples")
+set(CPACK_DEBIAN_COMPONENT_TESTS_NAME "libOpenCV-tests")
+set(CPACK_DEBIAN_PACKAGE_ARCHITECTURE "i386")
+set(CPACK_DEBIAN_PACKAGE_HOMEPAGE "http://opencv.org")
+set(CPACK_DEBIAN_PACKAGE_PRIORITY "optional")
+set(CPACK_DEBIAN_PACKAGE_SECTION "libs")
+set(CPACK_DEBIAN_PACKAGE_SHLIBDEPS "TRUE")
+set(CPACK_DEB_COMPONENT_INSTALL "TRUE")
+set(CPACK_DEFAULT_PACKAGE_DESCRIPTION_FILE "C:/Program Files/CMake/share/cmake-3.31/Templates/CPack.GenericDescription.txt")
+set(CPACK_DEFAULT_PACKAGE_DESCRIPTION_SUMMARY "OpenCV built using CMake")
+set(CPACK_DMG_SLA_USE_RESOURCE_FILE_LICENSE "ON")
+set(CPACK_GENERATOR "TBZ2;TGZ;TXZ;TZ")
+set(CPACK_IGNORE_FILES "/CVS/;/\\.svn/;/\\.bzr/;/\\.hg/;/\\.git/;\\.swp\$;\\.#;/#")
+set(CPACK_INNOSETUP_ARCHITECTURE "x86")
+set(CPACK_INSTALLED_DIRECTORIES "C:/Users/natha/Desktop/statics/opencv;/")
+set(CPACK_INSTALL_CMAKE_PROJECTS "")
+set(CPACK_INSTALL_PREFIX "C:/Users/natha/Desktop/statics/opencv/static_build/install")
+set(CPACK_MODULE_PATH "C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules;C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules")
+set(CPACK_NSIS_DISPLAY_NAME "OpenCV 4.10.0-390-g4866811933-dirty")
+set(CPACK_NSIS_INSTALLER_ICON_CODE "")
+set(CPACK_NSIS_INSTALLER_MUI_ICON_CODE "")
+set(CPACK_NSIS_INSTALL_ROOT "$PROGRAMFILES")
+set(CPACK_NSIS_PACKAGE_NAME "OpenCV 4.10.0-390-g4866811933-dirty")
+set(CPACK_NSIS_UNINSTALL_NAME "Uninstall")
+set(CPACK_OBJCOPY_EXECUTABLE "C:/msys64/ucrt64/bin/objcopy.exe")
+set(CPACK_OBJDUMP_EXECUTABLE "C:/msys64/ucrt64/bin/objdump.exe")
+set(CPACK_OUTPUT_CONFIG_FILE "C:/Users/natha/Desktop/statics/opencv/static_build/CPackConfig.cmake")
+set(CPACK_PACKAGE_CONTACT "admin@opencv.org")
+set(CPACK_PACKAGE_DEFAULT_LOCATION "/")
+set(CPACK_PACKAGE_DESCRIPTION "OpenCV (Open Source Computer Vision Library) is an open source computer vision
+and machine learning software library. OpenCV was built to provide a common
+infrastructure for computer vision applications and to accelerate the use of
+machine perception in the commercial products. Being a BSD-licensed product,
+OpenCV makes it easy for businesses to utilize and modify the code.")
+set(CPACK_PACKAGE_DESCRIPTION_FILE "C:/Program Files/CMake/share/cmake-3.31/Templates/CPack.GenericDescription.txt")
+set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "Open Computer Vision Library")
+set(CPACK_PACKAGE_FILE_NAME "OpenCV-4.10.0-390-g4866811933-dirty-x86")
+set(CPACK_PACKAGE_INSTALL_DIRECTORY "OpenCV 4.10.0-390-g4866811933-dirty")
+set(CPACK_PACKAGE_INSTALL_REGISTRY_KEY "OpenCV 4.10.0-390-g4866811933-dirty")
+set(CPACK_PACKAGE_NAME "OpenCV")
+set(CPACK_PACKAGE_RELOCATABLE "true")
+set(CPACK_PACKAGE_VENDOR "OpenCV Foundation")
+set(CPACK_PACKAGE_VERSION "4.10.0-390-g4866811933-dirty")
+set(CPACK_PACKAGE_VERSION_MAJOR "4")
+set(CPACK_PACKAGE_VERSION_MINOR "10")
+set(CPACK_PACKAGE_VERSION_PATCH "0")
+set(CPACK_READELF_EXECUTABLE "C:/msys64/ucrt64/bin/readelf.exe")
+set(CPACK_RESOURCE_FILE_LICENSE "C:/Users/natha/Desktop/statics/opencv/LICENSE")
+set(CPACK_RESOURCE_FILE_README "C:/Program Files/CMake/share/cmake-3.31/Templates/CPack.GenericDescription.txt")
+set(CPACK_RESOURCE_FILE_WELCOME "C:/Program Files/CMake/share/cmake-3.31/Templates/CPack.GenericWelcome.txt")
+set(CPACK_RPM_COMPONENT_INSTALL "TRUE")
+set(CPACK_RPM_PACKAGE_ARCHITECTURE "i686")
+set(CPACK_RPM_PACKAGE_DESCRIPTION "OpenCV (Open Source Computer Vision Library) is an open source computer vision
+and machine learning software library. OpenCV was built to provide a common
+infrastructure for computer vision applications and to accelerate the use of
+machine perception in the commercial products. Being a BSD-licensed product,
+OpenCV makes it easy for businesses to utilize and modify the code.")
+set(CPACK_RPM_PACKAGE_LICENSE "Apache 2.0")
+set(CPACK_RPM_PACKAGE_SOURCES "ON")
+set(CPACK_RPM_PACKAGE_SUMMARY "Open Computer Vision Library")
+set(CPACK_RPM_PACKAGE_URL "http://opencv.org")
+set(CPACK_SET_DESTDIR "OFF")
+set(CPACK_SOURCE_GENERATOR "TBZ2;TGZ;TXZ;TZ")
+set(CPACK_SOURCE_IGNORE_FILES "/CVS/;/\\.svn/;/\\.bzr/;/\\.hg/;/\\.git/;\\.swp\$;\\.#;/#")
+set(CPACK_SOURCE_INSTALLED_DIRECTORIES "C:/Users/natha/Desktop/statics/opencv;/")
+set(CPACK_SOURCE_OUTPUT_CONFIG_FILE "C:/Users/natha/Desktop/statics/opencv/static_build/CPackSourceConfig.cmake")
+set(CPACK_SOURCE_PACKAGE_FILE_NAME "OpenCV-4.10.0-390-g4866811933-dirty-x86")
+set(CPACK_SOURCE_RPM "OFF")
+set(CPACK_SOURCE_TBZ2 "ON")
+set(CPACK_SOURCE_TGZ "ON")
+set(CPACK_SOURCE_TOPLEVEL_TAG "Emscripten-Source")
+set(CPACK_SOURCE_TXZ "ON")
+set(CPACK_SOURCE_TZ "ON")
+set(CPACK_SOURCE_ZIP "OFF")
+set(CPACK_STRIP_FILES "")
+set(CPACK_SYSTEM_NAME "Emscripten")
+set(CPACK_THREADS "1")
+set(CPACK_TOPLEVEL_TAG "Emscripten-Source")
+set(CPACK_WIX_SIZEOF_VOID_P "4")
+set(CPACK_set_DESTDIR "on")
+_FIND_ZLIB_ARG=QUIET
+_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX=C:/Users/natha/Desktop/statics/opencv/static_build/install
+_INCLUDED_FILE=0
+_INCLUDED_SYSTEM_INFO_FILE=C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake
+_INCLUDED_TOOLCHAIN_FILE=C:/Users/natha/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake
+_IN_TC=0
+_LIBDIR_DEFAULT=lib
+_PKG_CONFIG_FAILURE_MESSAGE=
+_PNG_INCLUDE_SEARCH_NORMAL=C:\Program Files/libpng;C:\Program Files (x86)/libpng
+_PNG_LIB_SEARCH_NORMAL=C:\Program Files/libpng/lib;C:\Program Files (x86)/libpng/lib
+_POS=0
+_SET_CMAKE_CXX_COMPILER_ARCHITECTURE_ID=
+_SET_CMAKE_CXX_COMPILER_SYSROOT=
+_SET_CMAKE_C_COMPILER_ARCHITECTURE_ID=
+_SET_CMAKE_C_COMPILER_SYSROOT=
+_TIFF_INCLUDE_DIR=
+_ZLIB_SEARCHES=_ZLIB_SEARCH_NORMAL
+_ZLIB_SEARCH_NORMAL=PATHS;[HKEY_LOCAL_MACHINE\SOFTWARE\GnuWin32\Zlib;InstallPath];C:\Program Files/zlib;C:\Program Files (x86)/zlib
+_apple_device_has_required_min_os_version=OFF
+_cmake_compiler_output=emcc (Emscripten gcc/clang-like replacement + linker emulating GNU ld) 3.1.65 (7f8a05dd4e37cbd7ffde6d624f91fd545f7b52e3)
+clang version 20.0.0git (https:/github.com/llvm/llvm-project 547917aebd1e79a8929b53f0ddf3b5185ee4df74)
+Target: wasm32-unknown-emscripten
+Thread model: posix
+InstalledDir: C:\Users\natha\emsdk\upstream\bin
+
+_cmake_compiler_result=0
+_dummy_unused=clang version 20.0.0
+_emcache_output=C:/Users/natha/emsdk/upstream/emscripten/cache
+_emcache_result=0
+_fname=C:/Users/natha/Desktop/statics/opencv/static_build/CMakeFiles/CMakeTmp/src.cxx
+_isMultiConfig=0
+_lang=C
+_libname=zlib
+_line=
+_option=-Wl,--no-undefined
+_output=C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/lib
+_output_name=zlib
+_regex=
+_rev_deps=opencv_imgproc;opencv_core;opencv_core
+_saved_CMAKE_EXE_LINKER_FLAGS=
+_tc_config=RELEASE
+_type=STATIC_LIBRARY
+_var=
+_varname=HAVE_C_FVISIBILITY_INLINES_HIDDEN
+_zlib_ORIG_CMAKE_FIND_LIBRARY_PREFIXES=lib
+_zlib_ORIG_CMAKE_FIND_LIBRARY_SUFFIXES=.so;.a
+ade_filename=v0.1.2e.zip
+ade_md5=962ce79e0b95591f226431f7b5f152cd
+ade_src_dir=C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/ade
+ade_subdir=ade-0.1.2e
+appleClangPolicy=NEW
+apps_status=apps
+arg=
+bigendian=0
+ccitt=ON
+compatible_MESSAGE_NEVER=MESSAGE_NEVER
+cpack_input_file=C:/Program Files/CMake/share/cmake-3.31/Templates/CPackConfig.cmake.in
+cpack_source_input_file=C:/Program Files/CMake/share/cmake-3.31/Templates/CPackConfig.cmake.in
+dep=
+deps=opencv_core;opencv_core
+deps_3rdparty=zlib
+deps_extra=
+deps_modules=opencv_imgproc;opencv_core
+dir=
+docs_status=NO
+flatbuffers_VERSION=23.5.9
+github_path=
+hal=
+i=
+int16=
+int32=
+int8=
+item=
+lang=
+libavif_CONSIDERED_CONFIGS=
+libavif_CONSIDERED_VERSIONS=
+libavif_DIR=libavif_DIR-NOTFOUND
+libavif_FOUND=0
+libjpeg-turbo_BINARY_DIR=C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/libjpeg-turbo
+libjpeg-turbo_IS_TOP_LEVEL=OFF
+libjpeg-turbo_SOURCE_DIR=C:/Users/natha/Desktop/statics/opencv/3rdparty/libjpeg-turbo
+libopenjp2_LIB_DEPENDS=general;m;
+libpng_BINARY_DIR=C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/libpng
+libpng_IS_TOP_LEVEL=OFF
+libpng_LIB_DEPENDS=general;zlib;
+libpng_SOURCE_DIR=C:/Users/natha/Desktop/statics/opencv/3rdparty/libpng
+libprotobuf_BINARY_DIR=C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/protobuf
+libprotobuf_IS_TOP_LEVEL=OFF
+libprotobuf_SOURCE_DIR=C:/Users/natha/Desktop/statics/opencv/3rdparty/protobuf
+libtiff_BINARY_DIR=C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/libtiff
+libtiff_IS_TOP_LEVEL=OFF
+libtiff_LIB_DEPENDS=general;zlib;
+libtiff_SOURCE_DIR=C:/Users/natha/Desktop/statics/opencv/3rdparty/libtiff
+libwebp_BINARY_DIR=C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/libwebp
+libwebp_IS_TOP_LEVEL=OFF
+libwebp_SOURCE_DIR=C:/Users/natha/Desktop/statics/opencv/3rdparty/libwebp
+logluv=ON
+lst=
+lzw=ON
+m=
+mdi=ON
+mkl_root_paths=
+mod=
+module=
+name=imgproc
+next=ON
+old-jpeg=OFF
+opencl_features=no extra features
+opencv_core_BINARY_DIR=C:/Users/natha/Desktop/statics/opencv/static_build/modules/core
+opencv_core_IS_TOP_LEVEL=OFF
+opencv_core_LIB_DEPENDS=general;zlib;
+opencv_core_SOURCE_DIR=C:/Users/natha/Desktop/statics/opencv/modules/core
+opencv_imgproc_BINARY_DIR=C:/Users/natha/Desktop/statics/opencv/static_build/modules/imgproc
+opencv_imgproc_IS_TOP_LEVEL=OFF
+opencv_imgproc_LIB_DEPENDS=general;opencv_core;
+opencv_imgproc_SOURCE_DIR=C:/Users/natha/Desktop/statics/opencv/modules/imgproc
+opencv_version_BINARY_DIR=C:/Users/natha/Desktop/statics/opencv/static_build/apps/version
+opencv_version_IS_TOP_LEVEL=OFF
+opencv_version_SOURCE_DIR=C:/Users/natha/Desktop/statics/opencv/apps/version
+openjpeg_BINARY_DIR=C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/openjpeg
+openjpeg_IS_TOP_LEVEL=OFF
+openjpeg_SOURCE_DIR=C:/Users/natha/Desktop/statics/opencv/3rdparty/openjpeg
+packbits=ON
+parallel_status=none
+res=TRUE
+s=
+search=
+the_module=
+thunder=ON
+trace_status=built-in
+type=
+v=
+v4l_status=NO
+var=
+vars_regex=TIFF_VERSION_CLASSIC|TIFF_VERSION_BIG|TIFF_VERSION|TIFF_BIGTIFF_VERSION
+zlib_BINARY_DIR=C:/Users/natha/Desktop/statics/opencv/static_build/3rdparty/zlib
+zlib_IS_TOP_LEVEL=OFF
+zlib_SOURCE_DIR=C:/Users/natha/Desktop/statics/opencv/3rdparty/zlib
