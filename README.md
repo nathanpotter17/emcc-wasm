@@ -2,24 +2,23 @@
 
 ## Install Emscripten Core SDK
 
-`git clone https://github.com/emscripten-core/emsdk.git`
-
-## Install and Activate
-
 In your shell of choice, navigate to the emsdk directory and run the following commands:
+
+`git clone https://github.com/emscripten-core/emsdk.git`
 
 `./emsdk install latest`
 
 `./emsdk install activate` || `./emsdk install activate --permanent`
 
 Run `./emsdk help` for more information.
-https://emscripten.org/docs/tools_reference/emsdk.html#command-line-syntax
 
-## Start Building Examples
+See https://emscripten.org/docs/tools_reference/emsdk.html#command-line-syntax for full emsdk command list.
+
+## Start Building or Running Examples
 
 Mac / Linux / Windows: `bash build.sh`
 
-Run using VSCode's Live Server or any other server, to serve the HTML.
+Run using VSCode's Live Server or any other server, to serve the HTML file at the root. It contains all examples served from the build folder.
 
 Note: If you are using Windows, using Wasmtime to run files requires .msi installation from https://github.com/bytecodealliance/wasmtime/releases.
 
@@ -29,19 +28,21 @@ Mac / Linux: `curl https://wasmtime.dev/install.sh -sSf | bash`
 
 Otherwise, follow this guide: https://docs.wasmtime.dev/introduction.html for the most up-to-date usage of WASI.
 
-## Get Started with Emscripten Compiler - emcc will output a.out.js & a.out.wasm, which can be run with Node.
+## Get Started with Emscripten Compiler
 
 Emscripten is a compiler that allows you to compile multi-lingual code to WebAssembly Binary by being tightly coupled with LLVM, Clang, Binaryen, and Closure Compiler.
 
-For using EMCC in production, consider EMCC's compiler options and build flags, such as:
+`emcc hello.c -o out.js`
 
-https://emscripten.org/docs/tools_reference/settings_reference.html?highlight=wasi#minimal-runtime-streaming-wasm-compilation
+`node out.js`
 
 See https://emscripten.org/docs/getting_started/Tutorial.html#running-emscripten for more detail.
 
-`emcc hello.c`
+## Advanced Usage - Build Libraries for use in seperate files
 
-`node a.out.js`
+![img](src/library/wasm-track.png)
+
+See `src/library/cmake` for examples on compiling and including libraries.
 
 ## Build HTML - embedded only, no direct access to modules.
 
@@ -53,7 +54,7 @@ Note: It is recommended to pass optimization flags (O1-O3) and MINIFY_HTML=1 to 
 
 `"buildHTML": "emcc src/gol.cpp -o build/gol.html -O3 -s MINIFY_HTML=1"`
 
-## Build JS - embeddable, access to modules via Module.isRuntimeInitialized
+## Build JS - embeddable, access module via Module.isRuntimeInitialized
 
 See `build/gol.js` for example - https://webassembly.github.io/spec/js-api/#sample
 
@@ -71,7 +72,7 @@ Use wasm-dis or wasm2wat to view the binaries in text format. https://github.com
 
 `"buildWAT": "wat2wasm src/wasm/memory.wat -o build/memory.wasm"`
 
-## Example Vector Math Library - Comparison between C -> WASM Module vs Native JS (10, 50, and 100k Iterations)
+## Example Vector Math C->JS Library
 
 See `/src/js/*.js` for examples.
 
@@ -94,17 +95,5 @@ See the `src/wasi` directory for more information on WASI.
 Use wat2wasm to convert wat text file to wasm binaries. https://github.com/webassembly/wabt / https://github.com/xtuc/webassemblyjs/tree/master/packages/wast-loader
 
 `"buildWASMOnly": "wat2wasm src/simple.wat -o build/simple.wasm"`
-
-## Compile a library using the EMCC Toolchain and use it in a separate file
-
-See `/src/library/README.md` & `/src/library/htmlTestDlib/test.cpp` for more information.
-
-![compilediagram](./src/library/htmlTestDlib/readmeFiles/dlibemcc.png)
-
-Output:
-
-![dlib](dlib.png)
-
-## Community Maintained Examples
 
 To see more examples, visit https://github.com/emscripten-core/emscripten/wiki/Porting-Examples-and-Demos
