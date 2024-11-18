@@ -42,6 +42,8 @@ See https://emscripten.org/docs/getting_started/Tutorial.html#running-emscripten
 
 ![img](src/library/wasm-track.png)
 
+[PDF](src/library/dlibemcc.pdf)
+
 See `src/library/cmake` for examples on compiling and including libraries.
 
 ## Build HTML - embedded only, no direct access to modules.
