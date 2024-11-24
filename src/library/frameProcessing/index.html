@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WASM Eye Tracking</title>
+  </head>
+  <body style="background-color: darkslategray">
+    <h1 style="color: beige; font-size: 36px">Eye Tracking WASM</h1>
+    <p style="color: beige; font-size: 20px"></p>
+    <!-- JS / CCALL -->
+    <script src="build/ccall/tracking.js"></script>
+    <!-- <script>
+      Module.onRuntimeInitialized = function () {
+        console.log("WASM Module loaded and ready.");
+
+        const tracker = Module;
+
+        try {
+          console.log("WASM Eye Tracking: ", tracker);
+        } catch (error) {
+          console.error("Error calling detect_faces:", error);
+        }
+      };
+    </script> -->
+    <script>
+      Module.onRuntimeInitialized = function () {
+        console.log("WASM Module Loaded");
+
+        const canvas = document.createElement("canvas");
+        canvas.width = 320;
+        canvas.height = 240;
+        document.body.appendChild(canvas);
+        Module.canvas = canvas;
+
+        const ctx = canvas.getContext("2d");
+        const video = document.createElement("video");
+        video.autoplay = true;
+        video.playsInline = true;
+        video.style.display = "none";
+        document.body.appendChild(video);
+
+        let ptr = 0; // Pre-allocate memory pointer
+
+        navigator.mediaDevices
+          .getUserMedia({ video: true })
+          .then((stream) => {
+            video.srcObject = stream;
+
+            const processFrame = () => {
+              ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+              const imageData = ctx.getImageData(
+                0,
+                0,
+                canvas.width,
+                canvas.height
+              );
+              const byteArray = new Uint8Array(imageData.data.buffer);
+
+              if (!ptr) {
+                ptr = Module._malloc(byteArray.length);
+              }
+              Module.HEAPU8.set(byteArray, ptr);
+
+              // Call C++ function
+              Module.ccall(
+                "process_frame",
+                null,
+                ["number", "number", "number"],
+                [ptr, canvas.width, canvas.height]
+              );
+
+              setTimeout(processFrame, 100);
+            };
+
+            processFrame();
+          })
+          .catch((err) => {
+            Module._free(ptr);
+            console.error("Error accessing webcam:", err);
+          });
+      };
+    </script>
+  </body>
+</html>
