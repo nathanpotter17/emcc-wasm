@@ -1,3 +1,5 @@
+// build settings: ######## 15 FPS #########
+// emcc trackers/facedetection/trackNF.cpp -o build/ccall/tracking.js -O2 -I"/opencv/OCVEMC/CoreIMGPROCandVideoIO/install/include/opencv4" -I"/emsdk/upstream/emscripten/cache/sysroot/include" -I"/dlib/DLIBEMC/install/include" -L"/library" -lopencv_core -lopencv_imgproc -ldlib -s ALLOW_MEMORY_GROWTH=1 -s USE_CLOSURE_COMPILER=1 -s EXPORTED_FUNCTIONS=["_main","_malloc","_free","_onWebcamFrame","_process_frame"] --preload-file "build/finalTrackWASM/shape_predictor_68_face_landmarks.dat@/shape_predictor_68_face_landmarks.dat"
 #include <dlib/image_processing.h>
 #include <dlib/opencv.h>
 #include <dlib/image_processing/frontal_face_detector.h>
