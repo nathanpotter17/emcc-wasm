@@ -1,10 +1,13 @@
+// build settings: ######## 15 FPS #########
+// emcc trackers/facedetection/trackIMP.cpp -o build/ccall/tracking.js -O2 -I"opencv/OCVEMC/CoreIMGPROCandVideoIO/install/include/opencv4" -I"dlib/DLIBEMC/install/include" -L"/library" -lopencv_core -lopencv_imgproc -ldlib -s USE_CLOSURE_COMPILER=1 -s EXPORTED_FUNCTIONS="['_main', '_onWebcamFrame','_solveFrame','_malloc']"
+
 #include <opencv2/opencv.hpp>
 #include <dlib/opencv.h>
 #include <dlib/image_processing/frontal_face_detector.h>
 #include <emscripten/emscripten.h>
 #include <emscripten/html5.h>
 #include <iostream>
-#include <cstring> // For memcpy
+#include <cstring>
 
 #ifdef __cplusplus
 #define EXTERN extern "C"
@@ -42,30 +45,21 @@ EM_JS(void, initCanvasAndWebcam, (), {
 
             let sharedBuffer = null; // Persistent memory buffer
 
-            function drawToCanvas() {
-                const canvas = Module.canvas;
-                const ctx = canvas.getContext('2d', { willReadFrequently: true });
-
+            function process() {
                 ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
                 const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
 
-                // Allocate memory once and reuse the buffer
                 if (!sharedBuffer) {
-                    sharedBuffer = Module._malloc(imageData.data.length); // Allocate once
+                    sharedBuffer = Module._malloc(imageData.data.length); // Allocate memory once
                 }
 
-                // Copy the frame data to the persistent buffer
                 Module.HEAPU8.set(imageData.data, sharedBuffer);
-
-                // Call the C++ function to process the frame
                 Module._onWebcamFrame(sharedBuffer, canvas.width, canvas.height, imageData.data.length);
-                Module._solveFrame(); // Process the frame
 
-                // Optionally free the buffer if resizing occurs (not in this example)
-                
+                Module._solveFrame(); // Call rendering logic
             }
 
-            setInterval(drawToCanvas, 1000 / 15); // 15 FPS
+            setInterval(process, 1000 / 15); // Capture frame at 15 FPS
         })
         .catch(err => {
             console.error("Webcam access denied:", err);
