@@ -23,6 +23,11 @@ cv::Mat rgbaFrame(FRAME_HEIGHT, FRAME_WIDTH, CV_8UC4); // RGBA for rendering
 dlib::frontal_face_detector detector = dlib::get_frontal_face_detector();
 bool frameReady = false;
 
+// Getter to retrieve the buffer address in JavaScript, thus not exposing malloc or free to JavaScript.
+EXTERN EMSCRIPTEN_KEEPALIVE unsigned char* getSharedBuffer() {
+    return imageData;
+}
+
 // JavaScript integration to initialize canvas and webcam - Main loop is contained here in C++ Land to ensure we're in control
 // of the browser's update loop. This is a more efficient way to handle the webcam feed and rendering, as opposed to calling things from JavaScript.
 EM_JS(void, initCanvasAndWebcam, (), {
@@ -40,16 +45,12 @@ EM_JS(void, initCanvasAndWebcam, (), {
             video.srcObject = stream;
             const ctx = canvas.getContext('2d', { willReadFrequently: true });
 
-            let sharedBuffer = null; // Pointer to heap allocated memory 
+            // Retrieve the shared buffer pointer from C++
+            const sharedBuffer = Module._getSharedBuffer();
 
             function process() {
                 ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
                 const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
-                
-                // Malloc once so JS knows where to write the image data
-                if (!sharedBuffer) {
-                    sharedBuffer = Module._malloc(imageData.data.length); // Allocate memory once
-                }
 
                 Module.HEAPU8.set(imageData.data, sharedBuffer); // Copy the image data to the shared buffer
                 // Pass the shared buffer to the C++ function
@@ -123,5 +124,6 @@ int main() {
     }
     // Start processing
     initCanvasAndWebcam();
+
     return 0;
 }
