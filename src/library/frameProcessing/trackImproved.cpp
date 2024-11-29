@@ -1,6 +1,3 @@
-// build settings: ######## 15 FPS #########
-// emcc trackers/facedetection/trackIMP.cpp -o build/ccall/tracking.js -O2 -I"opencv/OCVEMC/CoreIMGPROCandVideoIO/install/include/opencv4" -I"dlib/DLIBEMC/install/include" -L"/library" -lopencv_core -lopencv_imgproc -ldlib -s USE_CLOSURE_COMPILER=1 -s EXPORTED_FUNCTIONS="['_main', '_onWebcamFrame','_solveFrame','_malloc']"
-
 #include <opencv2/opencv.hpp>
 #include <dlib/opencv.h>
 #include <dlib/image_processing/frontal_face_detector.h>
@@ -59,7 +56,7 @@ EM_JS(void, initCanvasAndWebcam, (), {
                 Module._solveFrame(); // Call rendering logic
             }
 
-            setInterval(process, 1000 / 15); // Capture frame at 15 FPS
+            setInterval(process, 1000 / 60);
         })
         .catch(err => {
             console.error("Webcam access denied:", err);

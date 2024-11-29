@@ -1,5 +1,3 @@
-// build settings: ######## 15 FPS #########
-// emcc trackers/facedetection/trackNF.cpp -o build/ccall/tracking.js -O2 -I"/opencv/OCVEMC/CoreIMGPROCandVideoIO/install/include/opencv4" -I"/emsdk/upstream/emscripten/cache/sysroot/include" -I"/dlib/DLIBEMC/install/include" -L"/library" -lopencv_core -lopencv_imgproc -ldlib -s ALLOW_MEMORY_GROWTH=1 -s USE_CLOSURE_COMPILER=1 -s EXPORTED_FUNCTIONS=["_main","_malloc","_free","_onWebcamFrame","_process_frame"] --preload-file "build/finalTrackWASM/shape_predictor_68_face_landmarks.dat@/shape_predictor_68_face_landmarks.dat"
 #include <dlib/image_processing.h>
 #include <dlib/opencv.h>
 #include <dlib/image_processing/frontal_face_detector.h>
@@ -61,8 +59,7 @@ EM_JS(void, initCanvasAndWebcam, (), {
                 Module._process_frame(); // Call rendering logic
             }
 
-            setInterval(process, 1000 / 15); // Capture frame at 15 FPS
-
+            setInterval(process, 1000 / 60); // Capture frame at 60 FPS
         })
         .catch(err => {
             console.error("Webcam access denied:", err);
@@ -105,8 +102,8 @@ EXTERN EMSCRIPTEN_KEEPALIVE void process_frame() {
         cv::Point leftPupil = std::accumulate(leftEye.begin(), leftEye.end(), cv::Point(0, 0)) / (int)leftEye.size();
         cv::Point rightPupil = std::accumulate(rightEye.begin(), rightEye.end(), cv::Point(0, 0)) / (int)rightEye.size();
 
-        cv::circle(frameBGR, leftPupil, 5, cv::Scalar(0, 0, 255), -1);
-        cv::circle(frameBGR, rightPupil, 5, cv::Scalar(0, 0, 255), -1);
+        cv::circle(frameBGR, leftPupil, 2, cv::Scalar(0, 255, 0), -1);
+        cv::circle(frameBGR, rightPupil, 2, cv::Scalar(0, 255, 0), -1);
     }
 
     // Convert the modified BGR frame back to RGBA

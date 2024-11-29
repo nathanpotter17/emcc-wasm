@@ -554,7 +554,7 @@ function initCanvasAndWebcam() {
       Module._onWebcamFrame(sharedBuffer, canvas.width, canvas.height, imageData.data.length);
       Module._solveFrame();
     }
-    setInterval(process, 1e3 / 15);
+    setInterval(process, 1e3 / 60);
   }).catch(err => {
     console.error("Webcam access denied:", err);
   });

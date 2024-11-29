@@ -36,7 +36,7 @@ if (ENVIRONMENT_IS_NODE) {}
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: C:\Users\natha\AppData\Local\Temp\tmp0qr0ahj4.js
+// include: C:\Users\natha\AppData\Local\Temp\tmpxvp11o10.js
 if (!Module["expectedDataFileDownloads"]) {
   Module["expectedDataFileDownloads"] = 0;
 }
@@ -210,7 +210,7 @@ Module["expectedDataFileDownloads"]++;
   });
 })();
 
-// end include: C:\Users\natha\AppData\Local\Temp\tmp0qr0ahj4.js
+// end include: C:\Users\natha\AppData\Local\Temp\tmpxvp11o10.js
 // Sometimes an existing Module object exists with properties
 // meant to overwrite the default module functionality. Here
 // we collect those properties and reapply _after_ we configure
@@ -741,7 +741,7 @@ function initCanvasAndWebcam() {
       Module._onWebcamFrame(sharedBuffer, canvas.width, canvas.height, imageData.data.length);
       Module._process_frame();
     }
-    setInterval(process, 1e3 / 15);
+    setInterval(process, 1e3 / 60);
   }).catch(err => {
     console.error("Webcam access denied:", err);
   });
