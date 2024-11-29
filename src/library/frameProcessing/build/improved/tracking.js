@@ -510,10 +510,10 @@ var tempI64;
 // end include: runtime_debug.js
 // === Body ===
 var ASM_CONSTS = {
-  339479: () => {
+  339425: () => {
     console.log("No new frame available");
   },
-  339522: ($0, $1, $2, $3) => {
+  339468: ($0, $1, $2, $3) => {
     const canvas = Module.canvas;
     const ctx = canvas.getContext("2d", {
       willReadFrequently: true
@@ -522,7 +522,7 @@ var ASM_CONSTS = {
     ctx.putImageData(imgData, 0, 0);
     console.log("Frame rendered");
   },
-  339779: () => {
+  339725: () => {
     console.error("Memory allocation failed");
   }
 };
@@ -543,13 +543,10 @@ function initCanvasAndWebcam() {
     const ctx = canvas.getContext("2d", {
       willReadFrequently: true
     });
-    let sharedBuffer = null;
+    const sharedBuffer = Module._getSharedBuffer();
     function process() {
       ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
       const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
-      if (!sharedBuffer) {
-        sharedBuffer = Module._malloc(imageData.data.length);
-      }
       Module.HEAPU8.set(imageData.data, sharedBuffer);
       Module._onWebcamFrame(sharedBuffer, canvas.width, canvas.height, imageData.data.length);
       Module._solveFrame();
@@ -3711,11 +3708,11 @@ var wasmExports = createWasm();
 
 var ___wasm_call_ctors = () => (___wasm_call_ctors = wasmExports["__wasm_call_ctors"])();
 
+var _getSharedBuffer = Module["_getSharedBuffer"] = () => (_getSharedBuffer = Module["_getSharedBuffer"] = wasmExports["getSharedBuffer"])();
+
 var _onWebcamFrame = Module["_onWebcamFrame"] = (a0, a1, a2, a3) => (_onWebcamFrame = Module["_onWebcamFrame"] = wasmExports["onWebcamFrame"])(a0, a1, a2, a3);
 
 var _solveFrame = Module["_solveFrame"] = () => (_solveFrame = Module["_solveFrame"] = wasmExports["solveFrame"])();
-
-var _malloc = Module["_malloc"] = a0 => (_malloc = Module["_malloc"] = wasmExports["malloc"])(a0);
 
 var _main = Module["_main"] = (a0, a1) => (_main = Module["_main"] = wasmExports["main"])(a0, a1);
 
