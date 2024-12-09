@@ -1,4 +1,4 @@
-# Emscripten Build System for WASM Based Applications
+# Emscripten Build System for WASM + JS
 
 ## Install Emscripten Core SDK
 
@@ -14,23 +14,9 @@ Run `./emsdk help` for more information.
 
 See https://emscripten.org/docs/tools_reference/emsdk.html#command-line-syntax for full emsdk command list.
 
-## Start Building or Running Examples
-
-Mac / Linux / Windows: `bash build.sh`
-
-Run using VSCode's Live Server or any other server, to serve the HTML file at the root. It contains all examples served from the build folder.
-
-Note: If you are using Windows, using Wasmtime to run files requires .msi installation from https://github.com/bytecodealliance/wasmtime/releases.
-
-Note: If you are using Windows, wat2wasm requires the WABT package from https://github.com/WebAssembly/wabt/releases and then ran via cmd. Ensure all path variables are set correctly.
-
-Mac / Linux: `curl https://wasmtime.dev/install.sh -sSf | bash`
-
-Otherwise, follow this guide: https://docs.wasmtime.dev/introduction.html for the most up-to-date usage of WASI.
-
 ## Get Started with Emscripten Compiler
 
-Emscripten is a compiler that allows you to compile multi-lingual code to WebAssembly Binary by being tightly coupled with LLVM, Clang, Binaryen, and Closure Compiler.
+Emscripten is a compiler that allows you to compile code from any LLVM based language to WebAssembly Binary by being tightly coupled with LLVM, Clang, Binaryen, and Closure Compiler.
 
 `emcc hello.c -o out.js`
 
@@ -38,11 +24,33 @@ Emscripten is a compiler that allows you to compile multi-lingual code to WebAss
 
 See https://emscripten.org/docs/getting_started/Tutorial.html#running-emscripten for more detail.
 
+## Start Building or Running Examples
+
+To start with examples:
+
+Run using VSCode's Live Server or any other server, to serve the HTML file at the root. It contains all examples served from the build folder. Uncomment the script you want to run in the HTML file.
+
+To build from source folders:
+
+Mac / Linux / Windows: `bash build.sh`
+
+Note: Not all scripts are included. Some may be specific to your OS.
+
+Grab Wasmtime:
+
+Mac / Linux: `curl https://wasmtime.dev/install.sh -sSf | bash`
+
+Note: If you are using Windows, using Wasmtime to run files requires .msi installation from https://github.com/bytecodealliance/wasmtime/releases.
+
+Note: If you are using Windows, wat2wasm requires the WABT package from https://github.com/WebAssembly/wabt/releases and then ran via cmd. Ensure all path variables are set correctly.
+
 ## Advanced Usage - Build Libraries for use in seperate files
 
-![img](src/library/wasm-track.png)
+![img](src/library/documentation/tracker.png)
 
-[PDF](src/library/dlibemcc.pdf)
+[Build Flow PDF](src/library/documentation/emcc.pdf)
+
+See `src/library` for all examples.
 
 See `src/library/cmake` for examples on compiling and including libraries.
 
@@ -61,6 +69,8 @@ Note: It is recommended to pass optimization flags (O1-O3) and MINIFY_HTML=1 to 
 See `build/gol.js` for example - https://webassembly.github.io/spec/js-api/#sample
 
 `"buildAccessor": "emcc -o build/gol.js src/gol.cpp -s EXPORTED_RUNTIME_METHODS=['ccall'] -s EXPORTED_FUNCTIONS=\_main,\_myFunction"`
+
+Note: -s USE_CLOSURE_COMPILER=1 and optimization flags like -O1, -O2, -O3 can be used further optimize the output, and are recommended.
 
 ## Build WASM - standalone & embeddable.
 
