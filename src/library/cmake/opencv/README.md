@@ -127,6 +127,10 @@ Deprecated SIMD Warnings: Update to the latest Emscripten or adjust configuratio
 
 `-DCV_ENABLE_INTRINSICS=OFF -DBUILD_WASM_INTRIN_TESTS=OFF`
 
+As of OpenCV 4.5.3, SIMD is deprecated and may cause warnings. To disable SIMD, use the flags above. For tracking this issue, see:
+
+https://stackoverflow.com/questions/79192944/build-opencvs-core-imgproc-using-emscripten-cmake/
+
 No Rule Errors: Ensure the generator clause is correct and paths are absolute. This also may happen if you try building
 OpenCV.js with build_js.py script - `emcmake prefixed build command suffers from generator clause being picked up as unrecognized argument`
 
@@ -163,3 +167,5 @@ For detailed build tutorial, check out `<opencv_src_dir>/doc/js_tutorials/js_set
 [OpenCV CMake Options](https://docs.opencv.org/4.x/db/d05/tutorial_config_reference.html)\
 [Emscripten SIMD Guide](https://emscripten.org/docs/porting/simd.html)\
 [Emscripten OpenCV.js Setup](https://docs.opencv.org/4.x/d4/da1/tutorial_js_setup.html)
+
+emcmake cmake -G Ninja -S opencv -B opencv/static_build -DBUILD_SHARED_LIBS=OFF -DCMAKE_C_COMPILER=.emsdk/upstream/emscripten/emcc -DCMAKE_CXX_COMPILER=.emsdk/upstream/emscripten/em++ -DCMAKE_MAKE_PROGRAM=C:/ninja-win/ninja.exe -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=./statics/opencv/static_build/install -DBUILD_SHARED_LIBS=OFF -DBUILD_LIST=core,imgproc,videoio -DENABLE_PIC=ON -DWITH_ZLIB=ON -DWITH_IPP=OFF -DBUILD_ITT=OFF -DBUILD_IPP_IW=OFF -DWITH_ITT=OFF -DWITH_PTHREADS_PF=OFF

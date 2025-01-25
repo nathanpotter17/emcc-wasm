@@ -1,8 +1,5 @@
 ## Compiling DLib with the Emscripten Toolchain
 
-![compilediagram](../../wasm-track.png)
-[Diagram PDF](../../dlibemcc.pdf)
-
 ## EMCCMAKE Commands For Compiling DLib
 
 1. First clone a copy of dlib from github, or use the one located in `libraries/statics`\
