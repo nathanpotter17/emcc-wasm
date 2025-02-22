@@ -1,18 +1,18 @@
 ## Welcome to the WASI section of the repository!
 
-This section of the repository contains the WebAssembly System Interface (WASI) implementation for the WebAssembly reference interpreter.
+This section of the repository contains the WebAssembly System Interface (WASI) examples and documentation.
 
 ### Requirements
 
-clang / cmake / emcc
-
 wasmtime or wasmer
-
-### Optional
 
 wat2wasm
 
-### Basic Example
+### Optional
+
+clang / cmake / emcc
+
+### Basic Example - C to WASI
 
 To get started, you will need to get the ByteCode Alliance's Wasmtime runtime installed on your machine.
 
@@ -23,13 +23,15 @@ Wasmer - https://docs.wasmer.io/install
 
 https://docs.wasmtime.dev/examples-c-wasi.html
 
+https://nodejs.org/api/wasi.html
+
 ### Building the Example
 
 Next, you will need to build the WASI example in this repository. You can do this by running the following commands, or by altering the emcc command when build wasm to use STANDALONE_WASM=1.
 
 `bash build.sh wasi` which will use wat2wasm to build the WASI example.
 
-If you need a more aggressive example, here is an example command to build a simple C file for WASI:
+If you need a different example, here is an example command to build a simple C file for WASI:
 
 `emcc src/c/hello.c -o build/demo.wasm -s PURE_WASI=1 -s EXPORT_ALL=1`
 
@@ -37,7 +39,7 @@ If you need a more aggressive example, here is an example command to build a sim
 
 ### Running the Example
 
-`wasmtime demo.wasm`
-`wasmtime demo.wat`
+`wasmtime ../wasm/demo.wat`
 
+`wat2wasm src/wasm/demo.wat -o build/demo.wasm`
 `wasmer run demo.wasm`

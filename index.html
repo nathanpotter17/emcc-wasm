@@ -132,10 +132,6 @@
       });
     </script> -->
 
-    <!-- WASI Pure and Standalone Files - Use WASI Preview Snapshot and WASI Bindings from W3C WASI ABI -->
-    <!-- Because the intended use of these files is to be run anywhere, most WASM examples are WASI enabled using emcc's STANDALONE_WASM -->
-    <!-- <script type="module" src="src/wasi/wasi.js"></script> -->
-
     <!-- Start Vector Comparisons - one works with simple 3 element allocation, then others 10k+ element allocs (see buildVEC) -->
 
     <!-- Vec Shared C - Using a larger memory structure from C instead of representing the vector as a struct -->
@@ -152,18 +148,20 @@
     <!-- End Vector Comparisons -->
 
     <!-- buildAccessor - Run Assembled JS Module & use ccall w C++ -->
-    <!-- <script src="build/gol.js"></script> -->
-    <!-- <script>
+    <!-- <script src="build/gol.js"></script>
+    <script>
+      Module.onRuntimeInitialized = function () {
+        console.log("Wasm Runtime Initialized, Module:", Module);
+      };
       function callCppFunction() {
         try {
-          console.log("Calling C++ function with the appended Module:", Module);
           Module.ccall("myFunction", null, [], []);
         } catch (error) {
           console.error("Error calling C++ function:", error);
         }
       }
-    </script> -->
-    <!-- <button onclick="callCppFunction()">Call C++ Function</button> -->
+    </script>
+    <button onclick="callCppFunction()">Call C++ Function</button> -->
 
     <!-- buildWASM - Compile and Instantiate WASM Module -->
     <!-- <script>
@@ -202,7 +200,7 @@
           console.log("Exports:", wasmInstance.exports);
           console.log("Main Func:", wasmInstance.exports.main()); // 0
 
-          console.log("Custom Function:", wasmInstance.exports.myFunction()); // 1
+          console.log("Custom Function:", wasmInstance.exports.myFunction()); // Hello from C++, 1
         } catch (error) {
           console.error("Error:", error);
         }
