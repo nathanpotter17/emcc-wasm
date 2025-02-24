@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OpenCV LIBRARY TEST</title>
+  </head>
+  <body style="background-color: darkslategray">
+    <h1 style="color: beige; font-size: 36px">
+      OpenCV WASM - Face & Eye Tracking
+    </h1>
+    <p style="color: beige; font-size: 20px"></p>
+    <!-- Face Tracking -->
+    <!-- <script src="build/improved/tracking.js"></script>
+    <script>
+      // Wait until the WASM module is fully initialized.
+      Module.onRuntimeInitialized = function () {
+        console.log('WASM Module loaded and ready.');
+        window.Module = Module; // Bind Module to window for global access
+
+        if (window.Module) {
+          try {
+            console.log('Detected OpenCV-WASM: ', window.Module);
+          } catch (error) {
+            console.error('Error detecting OpenCV-WASM:', error);
+          }
+        } else {
+          console.error(
+            'Module is not initialized yet. Cannot call exported functions.'
+          );
+        }
+      };
+    </script> -->
+    <!-- Eye Tracking -->
+    <script src="build/trackEye/tracking.js"></script>
+    <script>
+      // Wait until the WASM module is fully initialized.
+      Module.onRuntimeInitialized = function () {
+        console.log('WASM Module loaded and ready.');
+        window.Module = Module; // Bind Module to window for global access
+
+        if (window.Module) {
+          try {
+            console.log('Detected OpenCV-WASM: ', window.Module);
+          } catch (error) {
+            console.error('Error detecting OpenCV-WASM:', error);
+          }
+        } else {
+          console.error(
+            'Module is not initialized yet. Cannot call exported functions.'
+          );
+        }
+      };
+    </script>
+  </body>
+</html>

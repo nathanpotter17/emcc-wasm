@@ -6,7 +6,7 @@ See `src/library/cmake` for examples on compiling and including libraries in sou
 
 ![img](documentation/tracker.png)
 
-## Dlib Face Detection on Image loaded from EMCC's Virtual File System
+## Dlib Face Detection on Image loaded from EMCC's Virtual File System (Mona Lisa)
 
 ![img](documentation/dlib.png)
 

@@ -20,22 +20,22 @@
       };
     </script> -->
     <!-- JS + CCALL -->
-    <script src="build/ccall/ocv.js"></script>
+    <script src="build/ocv.js"></script>
     <script>
       // Wait until the WASM module is fully initialized.
       Module.onRuntimeInitialized = function () {
-        console.log("WASM Module loaded and ready.");
+        console.log('WASM Module loaded and ready.');
         window.Module = Module; // Bind Module to window for global access
 
         if (window.Module) {
           try {
-            console.log("Detected OpenCV-WASM: ", window.Module);
+            console.log('Detected OpenCV-WASM: ', window.Module);
           } catch (error) {
-            console.error("Error detecting OpenCV-WASM:", error);
+            console.error('Error detecting OpenCV-WASM:', error);
           }
         } else {
           console.error(
-            "Module is not initialized yet. Cannot call exported functions."
+            'Module is not initialized yet. Cannot call exported functions.'
           );
         }
       };

@@ -9,30 +9,30 @@
     <h1 style="color: beige; font-size: 36px">DLIB WASM</h1>
     <p style="color: beige; font-size: 20px"></p>
     <!-- JS / CCALL -->
-    <script src="cargo/ccall/face.js"></script>
+    <script src="face.js"></script>
     <script>
       // Wait until the WASM module is fully initialized.
       Module.onRuntimeInitialized = function () {
-        console.log("WASM Module loaded and ready.");
+        console.log('WASM Module loaded and ready.');
         window.Module = Module; // Bind Module to window for global access
-        console.log("Module", Module);
+        console.log('Module', Module);
 
         if (window.Module) {
           try {
             const numFaces = Module.ccall(
-              "detect_faces", // C++ function name
-              "number", // Return type
+              'detect_faces', // C++ function name
+              'number', // Return type
               [],
               []
             );
 
             console.log(`Number of faces detected: ${numFaces}`);
           } catch (error) {
-            console.error("Error calling detect_faces:", error);
+            console.error('Error calling detect_faces:', error);
           }
         } else {
           console.error(
-            "Module is not initialized yet. Cannot call detect_faces."
+            'Module is not initialized yet. Cannot call detect_faces.'
           );
         }
       };
