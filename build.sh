@@ -38,7 +38,7 @@ build_html() {
 build_wasi() {
     echo
     echo "Building WASI Example..."
-    if emcc src/c/hello.c -o build/wasiExample.wasm -s STANDALONE_WASM=1; then
+    if emcc src/wasi/c/hello.c -o src/wasi/build/wasiExample.wasm -s STANDALONE_WASM=1; then
         echo "Build successful."
     else
         echo "Build failed!" >&2
