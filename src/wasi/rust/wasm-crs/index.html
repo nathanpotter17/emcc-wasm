@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WASM-RS Test Bench</title>
+  </head>
+  <body style="background-color: darkslategray">
+    <h1 style="color: beige; font-size: 36px">WASM-RS Test Bench</h1>
+    <p style="color: beige; font-size: 20px">
+      Open the console to see the result of the WASM function call.
+    </p>
+    <script type="module">
+      // COMPILE CMD: cargo build --release --target=wasm32-unknown-unknown
+      const response = await fetch(
+        new URL('wasm/wasm_crs.wasm', import.meta.url)
+      );
+
+      const { instance } = await WebAssembly.instantiateStreaming(response);
+
+      const sum = instance.exports.add(12, 24);
+      console.log(`Summation from Rust-based WASM: 12 + 24 = ${sum}`, instance);
+    </script>
+  </body>
+</html>

@@ -4,15 +4,14 @@ This section of the repository contains the WebAssembly System Interface (WASI) 
 
 ### Requirements
 
-emcc toolchain
+- emcc toolchain
+  - cmake, ninja, make, gcc, g++, emcc, em++
+- wasmtime or wasmer
+- wat2wasm
 
-wasmtime or wasmer
+### Optional, but recommended
 
-wat2wasm
-
-### Optional
-
-clang / cmake / rustc / cargo / wasm-pack / wasm-bindgen / wasm32 targets
+- rustc, cargo, wasm-pack, wasm-bindgen, wasm32 targets
 
 ### Basic Example - C to WASI
 
@@ -20,19 +19,11 @@ To get started, you will need to get the ByteCode Alliance's Wasmtime runtime in
 
 Here, we primarily use Emscripten's STANDALONE_WASM to build the WASI example, and then run it using Wasmtime or Wasmer. This allows us to run the WASI example without a browser, in a first-principles way. This is a great way to get started with WASI, and to understand how it works.
 
-As a note, the Emscripten toolchain is not required to run the WASI example, but it is required to build the WASI example. This is because the Emscripten toolchain provides the necessary tools to build the WASI example from C to WebAssembly. You can achieve similar results by using the [wasi-sdk](https://github.com/webassembly/wasi-sdk) directly by building the toolchain & sysroot using cmake, or grab a release. This is the WASI-enabled WebAssembly C/C++ toolchain - but this is not required for the purposes of this example.
+As a note, the Emscripten toolchain is not required to run the WASI example, but it is required to build the WASI example. This is because the Emscripten toolchain provides the necessary tools to build the WASI example from C to WebAssembly. You can achieve similar results by using the [wasi-sdk](https://github.com/webassembly/wasi-sdk) directly by building the toolchain & sysroot using cmake, or grab a release.
 
 To make things easier, we will use the Emscripten toolchain to build the WASI example, and then run it using Wasmtime or Wasmer - and for Rust, we will use the latest stable Rust toolchain & `cargo component` to build WASI examples, and then run it using Wasmtime, Wasmer, or a capable host script in JS or Rust that will load and process our resulting WASM binary.
 
-See information about using WASI here, and on the V8 Dev Blog: https://github.com/bytecodealliance/wasmtime/blob/main/docs/WASI-tutorial.md - https://v8.dev/blog/emscripten-standalone-wasm
-
-[WASI](https://github.com/WebAssembly/WASI?tab=readme-ov-file)
-[Wasmtime](https://wasmtime.dev/)
-[Wasmer](https://docs.wasmer.io/install)
-
-[C Examples](https://docs.wasmtime.dev/examples-c-wasi.html)
-
-[Node.js WASI Support](https://nodejs.org/api/wasi.html)
+See information about using WASI [here](https://github.com/bytecodealliance/wasmtime/blob/main/docs/WASI-tutorial.md), and on the [V8 Dev Blog](https://v8.dev/blog/emscripten-standalone-wasm).
 
 ### Building the Example
 
@@ -50,26 +41,64 @@ If you need a different example, here is an example command to build a simple C 
 
 `wasmer run demo.wasm`
 
-## WASI with Rust
+### Resources
 
-Start here:
+- [WASI](https://github.com/WebAssembly/WASI?tab=readme-ov-file)
+- [Wasmtime](https://wasmtime.dev/)
+- [Wasmer](https://docs.wasmer.io/install)
+
+## WASM / WASI with Rust
+
+For getting started with Rust-based WASM, start here:
 
 - https://wasi.dev/
 - https://docs.rs/wasi/latest/wasi/index.html
+- https://docs.wasmtime.dev/examples-rust-wasi.html
 - https://component-model.bytecodealliance.org/language-support/rust.html
-
 - https://component-model.bytecodealliance.org/design/wit.html
-- https://component-model.bytecodealliance.org/language-support/rust.html
 - https://rustwasm.github.io/docs/book/game-of-life/setup.html
+- https://www.youtube.com/watch?v=hcA_GuZHyZM
 
-This is a great resource for getting started with WASI and Rust. It will help you to understand how to use WASI with Rust, and how to build and run a simple WASI application, and subsequently, how to use WASI with Rust in a more advanced way.
+First, we will create a simple Rust project that will compile to a WASM binary, and will load it into the web browser using JavaScript. This is the simplest way to get started with WASM / WASI and Rust, and it will help you to understand how to use WASM / WASI with Rust in a more advanced way.
 
-To take this example a step further, I've decided to use Rust and the newest preview of WASI, Preview 2, to leverage the new features and capabilities of WASI surrounding the empowerment of WebAssembly binaries with native host capabilities.
+Second, I've decided to use Rust and the newest preview of WASM / WASI target, Preview 2, to leverage the new features and capabilities of WASM / WASI surrounding the empowerment of WebAssembly binaries with native host capabilities.
 
-Grab the experimental target here, or use `rustup target add wasm32-wasip2`:
-https://doc.rust-lang.org/rustc/platform-support/wasm32-wasip2.html
+Grab the experimental target [here](https://doc.rust-lang.org/rustc/platform-support/wasm32-wasip2.html), or use `rustup target add wasm32-wasip2`. If the command fails, be sure to update your Rust toolchain to the latest version, and check available targets with `rustup target list`.
 
-### Building WASI Projects
+### Building WASM / WASI Projects
+
+To start, lets just get a simple WASM file generated for the wasm32-unknown-unknown target:
+
+`cargo init --lib --name example-name`
+`cd example-name`
+
+Add the following to your Cargo.toml:
+
+```
+[lib]
+crate-type = ["cdylib"]
+```
+
+Add the following to your src/lib.rs:
+
+```
+#[unsafe(no_mangle)]
+fn add(a: u32, b: u32) -> u32 {
+    a + b
+}
+```
+
+Build the WASM binary:
+
+`cargo build --release --target=wasm32-unknown-unknown`
+
+Then, have a look at the `index.html` file in the `example-name` directory. You can use this file to load & run the WASM binary in the browser. Check the console for the output of the WASM binary.
+
+Additionally, we can also use the --invoke flag with wasmtime to run the WASM binary from the command line. Note: logging is not enabled by default, so you will either need to enable logging or use the console.log function in the WASM binary to see the output.
+
+`wasmtime target/wasm32-unknown-unknown/release/example-name.wasm --invoke add 1 2`
+
+### Advanced Rust-based & Language Agnostic WASM / WASI
 
 We can use [wasm-pack](https://rustwasm.github.io/wasm-pack/installer/) to orchestrate the following build steps:
 
