@@ -10,16 +10,32 @@
     <p style="color: beige; font-size: 20px">
       Open the console to see the result of the WASM function call.
     </p>
+    <!-- Basic, Rusty WASM -->
     <script type="module">
-      // COMPILE CMD: cargo build --release --target=wasm32-unknown-unknown
       const response = await fetch(
-        new URL('wasm/wasm_crs.wasm', import.meta.url)
+        new URL('wasm/scratch/wasm_crs.wasm', import.meta.url)
       );
 
       const { instance } = await WebAssembly.instantiateStreaming(response);
 
       const sum = instance.exports.add(12, 24);
       console.log(`Summation from Rust-based WASM: 12 + 24 = ${sum}`, instance);
+    </script>
+
+    <!-- js-sys wasm-bindgen -->
+    <script type="module">
+      import init, {
+        invoke_test_string,
+        see_string,
+      } from './wasm/js-sys-bindgen/wasm_prs.js';
+
+      await init({});
+
+      const result = invoke_test_string();
+      console.log(result);
+
+      const string = see_string();
+      console.log(string);
     </script>
   </body>
 </html>

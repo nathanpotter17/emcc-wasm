@@ -1,15 +1,15 @@
-## Welcome to the WASI section of the repository!
+# Welcome to the WASI / Rust section of the repository!
 
-This section of the repository contains the WebAssembly System Interface (WASI) examples and documentation.
+This section of the repository contains the WebAssembly System Interface (WASI) examples, Rust examples for WASM and WASI, and documentation on build processes.
 
-### Requirements
+## Requirements
 
 - emcc toolchain
   - cmake, ninja, make, gcc, g++, emcc, em++
 - wasmtime or wasmer
 - wat2wasm
 
-### Optional, but recommended
+## Optional, but recommended
 
 - rustc, cargo, wasm-pack, wasm-bindgen, wasm32 targets
 
@@ -63,9 +63,51 @@ First, we will create a simple Rust project that will compile to a WASM binary, 
 
 Second, I've decided to use Rust and the newest preview of WASM / WASI target, Preview 2, to leverage the new features and capabilities of WASM / WASI surrounding the empowerment of WebAssembly binaries with native host capabilities.
 
-Grab the experimental target [here](https://doc.rust-lang.org/rustc/platform-support/wasm32-wasip2.html), or use `rustup target add wasm32-wasip2`. If the command fails, be sure to update your Rust toolchain to the latest version, and check available targets with `rustup target list`.
+Grab these targets from rustup:
 
-### Building WASM / WASI Projects
+`rustup target add wasm32-unknown-unknown wasm32-wasip1 wasm32-wasip2`
+
+If the command fails, be sure to update your Rust toolchain to the latest version, and check available targets.
+
+`rustup update stable`
+`rustup target list`
+
+### Building WASI CLI Apps
+
+First, initialize using cargo:
+
+`cargo init wasm-cla-example`
+
+Then, use the following to collect command line arguments using the rust standard library.
+
+```rust
+use std::env;
+
+fn main() {
+    let args: Vec<String> = env::args().collect();
+    let name: String = args[1].clone();
+
+    println!("Hello, {}", name);
+}
+```
+
+Build using the wasm32-wasip1 target.
+
+`cargo build --release --target=wasm32-wasip1`
+
+To test, use your shell of choice:
+
+```
+cargo run anystring
+
+Hello, anystring
+
+wasmtime run target/wasm32-wasip1/release/wasm-cla.wasm Nathan
+
+Hello, Nathan
+```
+
+### No Crates, just Targets (Rusty WASM)
 
 To start, lets just get a simple WASM file generated for the wasm32-unknown-unknown target:
 
@@ -92,11 +134,83 @@ Build the WASM binary:
 
 `cargo build --release --target=wasm32-unknown-unknown`
 
-Then, have a look at the `index.html` file in the `example-name` directory. You can use this file to load & run the WASM binary in the browser. Check the console for the output of the WASM binary.
+Then, have a look at the example `index.html` file in the `rust` directory. You can use this file to load & run the WASM binary in the browser. Check the console for the output of the WASM binary.
 
-Additionally, we can also use the --invoke flag with wasmtime to run the WASM binary from the command line. Note: logging is not enabled by default, so you will either need to enable logging or use the console.log function in the WASM binary to see the output.
+Additionally, we can also use the --invoke flag with wasmtime to run the WASM binary from the command line. Note: logging is not enabled by default, so you will either need to enable logging or use the console.log function in the WASM binary to see the output. Wasmer runtime has support for this.
 
 `wasmtime target/wasm32-unknown-unknown/release/example-name.wasm --invoke add 1 2`
+
+### Building using wasm_bindgen & js_sys Crates
+
+First, initialize the project & download these crates:
+
+```
+cargo install wasm-bindgen-cli
+
+cargo init --lib wasm-bindgen-example
+cd wasm-bindgen-example
+
+cargo add js-sys
+```
+
+Edit your lib.rs:
+
+```rust
+use wasm_bindgen::prelude::*;
+
+// structs
+#[wasm_bindgen]
+pub struct Facts {
+    pub count: u32,
+}
+
+// internal method
+#[wasm_bindgen]
+pub fn test_string(s: &str) -> Facts {
+    let count = s.chars().count() as u32;
+    Facts { count }
+}
+
+// The utf-8 string provided is copied to the JS heap and the string will be owned by the JS garbage collector.
+#[wasm_bindgen]
+pub fn see_string() -> JsValue {
+    let test_str = "Hello, from Rust!";
+    JsValue::from_str(test_str)
+}
+
+// Call JS Methods, like Set on an Object. Return JsValue
+#[wasm_bindgen]
+pub fn invoke_test_string() -> JsValue {
+    let test_str = "Hello, WebAssembly!";
+    let facts = test_string(test_str);
+
+    // Create a new object from inside Rust
+    let js_object = js_sys::Object::new();
+
+    // Set the 'count' property
+    js_sys::Reflect::set(&js_object, &JsValue::from_str("count"), &JsValue::from_f64(facts.count as f64)).unwrap();
+
+    // Set another property: 'message'
+    let message = format!("The message is: {}", test_str);
+    js_sys::Reflect::set(&js_object, &JsValue::from_str("message"), &JsValue::from_str(&message)).unwrap();
+
+    // Set a third property: 'is_valid'
+    js_sys::Reflect::set(&js_object, &JsValue::from_str("is_valid"), &JsValue::from_bool(true)).unwrap();
+
+    // Return the object to JavaScript
+    js_object.into()
+}
+```
+
+Next, build for release, and compile to JS with a web target.
+
+```
+cargo build --release --target=wasm32-unknown-unknown
+
+wasm-bindgen target/wasm32-unknown-unknown/release/wasm_prs.wasm --out-dir wasm --target web
+```
+
+Then, have a look at the example `index.html` file in the `rust` directory. Check the console for the output of the JS.
 
 ### Advanced Rust-based & Language Agnostic WASM / WASI
 
