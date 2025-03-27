@@ -21,20 +21,24 @@ See [this list](https://emscripten.org/docs/tools_reference/emsdk.html#command-l
 
 ## Prebuilt Examples
 
-Serve `/index.html` using VSCode's Live Server or any other server. It contains all examples served from the build folder. Uncomment the script you want to run in the HTML file, and check the console for output.
+Serve `/index.html` using VSCode's Live Server or any other server. It contains all examples served from the build folder. Uncomment the script you want to run in [the HTML file](./index.html), and check the console for output.
 
 To start from source folders, checkout `bash build.sh`.
 
-Note: Not all scripts are included; Inspect `build.sh` - Some may be specific to your OS.
+Note: Not all scripts are included; Inspect [build.sh](./build.sh) - Some may be specific to your OS.
 
-## Run Standalone WASM - Wasmer or WasmTime - WASI (WebAssembly System Interface)
+## Standalone WASM or WASI using Rust or C
 
-See the `src/wasi` directory for more information on WASI, and using Rust with WASM / WASI.
+See the [src/wasi README](src/wasi/README.md) for more information on WASI, and using Rust with WASM / WASI.
 
 ## Advanced Usage - Build C++ Libraries for Web Usage
 
-[Build Flow PDF](src/library/documentation/emcc.pdf)
+[Advanced Build Flow PDF - Frame Processing / Image Manipulation](src/library/documentation/emcc.pdf)
 
-See `src/library` for all advanced examples.
+- [Image Processing](src/library/htmlTestOpenCV/ocv.cpp)
+- [Eye Tracking / Frame Processing](src/library/frameProcessing/trackImproved.cpp)
+- [Face Detection](src/library/htmlTestDlib/test.cpp)
 
 See `src/library/cmake` for documentation on compiling and including libraries.
+
+See [src/library](src/library/README.md) for all advanced examples.
