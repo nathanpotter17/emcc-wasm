@@ -244,6 +244,16 @@ crate-type = ["cdylib"]
 
 See the `lib.rs` file under `rust/wasm-input/src` for the example code.
 
+Next, build for release, and compile to JS with a web target.
+
+```
+cargo build --release --target=wasm32-unknown-unknown
+
+mkdir wasm
+
+wasm-bindgen target/wasm32-unknown-unknown/release/wasm_prs.wasm --out-dir wasm --target web
+```
+
 Find more wasm crates here: https://rustwasm.github.io/docs/book/reference/crates.html
 
 ## Building using wasm-pack & wasm-bindgen under the hood
