@@ -11,7 +11,7 @@
       Open the console to see the result of the WASM function call.
     </p>
     <!-- Basic, Rusty WASM -->
-    <script type="module">
+    <!-- <script type="module">
       const response = await fetch(
         new URL('wasm/scratch/wasm_crs.wasm', import.meta.url)
       );
@@ -20,10 +20,10 @@
 
       const sum = instance.exports.add(12, 24);
       console.log(`Summation from Rust-based WASM: 12 + 24 = ${sum}`, instance);
-    </script>
+    </script> -->
 
     <!-- js-sys wasm-bindgen -->
-    <script type="module">
+    <!-- <script type="module">
       import init, {
         invoke_test_string,
         see_string,
@@ -36,6 +36,34 @@
 
       const string = see_string();
       console.log(string);
+    </script> -->
+
+    <!-- wasm-bindgen: web_sys & js_sys -->
+    <canvas id="canvas" width="800" height="600"></canvas>
+    <script type="module">
+      import init, { Game } from './wasm/wasm-input/wasm_gol_bindgen.js';
+
+      async function run() {
+        await init();
+
+        const game = new Game();
+        let keys = new Set();
+
+        // Handle keydown and keyup directly in JavaScript
+        window.addEventListener('keydown', (event) => keys.add(event.key));
+        window.addEventListener('keyup', (event) => keys.delete(event.key));
+
+        // Main game loop
+        function gameLoop() {
+          game.update(Array.from(keys)); // Pass the keys as an array
+          game.draw();
+          requestAnimationFrame(gameLoop);
+        }
+
+        gameLoop(); // Start the game loop
+      }
+
+      run();
     </script>
   </body>
 </html>
