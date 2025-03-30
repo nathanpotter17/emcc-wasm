@@ -58,6 +58,7 @@ For getting started with Rust-based WASM, start here:
 - https://component-model.bytecodealliance.org/design/wit.html
 - https://rustwasm.github.io/docs/book/game-of-life/setup.html
 - https://www.youtube.com/watch?v=hcA_GuZHyZM
+- https://rustwasm.github.io/wasm-bindgen/introduction.html
 
 First, we will create a simple Rust project that will compile to a WASM binary, and will load it into the web browser using JavaScript. This is the simplest way to get started with WASM / WASI and Rust, and it will help you to understand how to use WASM / WASI with Rust in a more advanced way.
 
@@ -273,6 +274,13 @@ inside a class, and how to use `wasm-pack` to build everything for you.
 
 Have a look at the example `index.html` file in the `rust/wasm/wasm-pack` directory. Serve it using
 your favorite server, and view the output on the page for a pre-built example.
+
+## Windowed
+
+https://sotrh.github.io/learn-wgpu/beginner/tutorial1-window/#boring-i-know -> https://github.com/sotrh/learn-wgpu/issues/549
+https://sotrh.github.io/learn-wgpu/beginner/tutorial2-surface#first-some-housekeeping-state
+
+winit 0.29 and 0.30 are very different, most of these examples rely on the LTS, 0.29.15.
 
 ## Advanced Rust-based & Language Agnostic WASM / WASI
 
