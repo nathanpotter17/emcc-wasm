@@ -275,13 +275,23 @@ inside a class, and how to use `wasm-pack` to build everything for you.
 Have a look at the example `index.html` file in the `rust/wasm/wasm-pack` directory. Serve it using
 your favorite server, and view the output on the page for a pre-built example.
 
-## Windowed
+## Rust + WGPU + Wasm Bindgen
 
-https://sotrh.github.io/learn-wgpu/beginner/tutorial1-window/#boring-i-know -> https://github.com/sotrh/learn-wgpu/issues/549
-https://sotrh.github.io/learn-wgpu/beginner/tutorial2-surface#first-some-housekeeping-state
+To see an example using a development pattern that puts native executables first - see `wasm-wgpu`. This example uses wgpu, winit, wasm-pack, `target_arch` macro, etc. to effectively use wgpu as a rendering backend on the web and on standard operating systems.
 
 winit 0.29 and 0.30 are very different, most of these examples rely on the LTS, 0.29.15.
+
+- https://sotrh.github.io/learn-wgpu/beginner/tutorial1-window/#boring-i-know
+- https://github.com/sotrh/learn-wgpu/issues/549
+- https://sotrh.github.io/learn-wgpu/beginner/tutorial2-surface#first-some-housekeeping-state
 
 ## Advanced Rust-based & Language Agnostic WASM / WASI
 
 Alternatively, [cargo component](https://crates.io/crates/cargo-component) can be used to build a WebAssembly component for use with the Component Model. You can subsequently use [wasm-tools](https://github.com/bytecodealliance/wasm-tools) to generate the .wit file for the component, validate the .wasm file, demangle Rust and C++ symbol names, and more.
+
+Additionally, WASM has a lot of really exciting parts to its ecosystem:
+
+- v86: v86 emulates an x86-compatible CPU and hardware. Machine code is translated to WebAssembly modules at runtime in order to achieve decent performance.
+  - https://github.com/copy/v86
+- Spacetime DB: It is a relational database system that lets you upload your application logic directly into the database by way of fancy stored procedures called "modules."
+  - https://github.com/clockworklabs/SpacetimeDB

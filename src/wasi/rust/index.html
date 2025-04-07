@@ -39,7 +39,7 @@
     </script> -->
 
     <!-- wasm-bindgen: web_sys & js_sys -->
-    <canvas id="canvas" width="800" height="600"></canvas>
+    <!-- <canvas id="canvas" width="800" height="600"></canvas>
     <script type="module">
       import init, { Game } from './wasm/wasm-input/wasm_gol_bindgen.js';
 
@@ -64,6 +64,14 @@
       }
 
       run();
+    </script> -->
+
+    <!-- wgpu -->
+    <script type="module">
+      import init from './wasm/wasm-wgpu/wasm_wgpu_w.js';
+      init().then(() => {
+        console.log('WASM Loaded');
+      });
     </script>
   </body>
 </html>
