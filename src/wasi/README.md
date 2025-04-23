@@ -52,6 +52,7 @@ If you need a different example, here is an example command to build a simple C 
 For getting started with Rust-based WASM, start here:
 
 - https://wasi.dev/
+- https://surma.dev/things/rust-to-webassembly/
 - https://docs.rs/wasi/latest/wasi/index.html
 - https://docs.wasmtime.dev/examples-rust-wasi.html
 - https://component-model.bytecodealliance.org/language-support/rust.html
@@ -265,6 +266,7 @@ Using [wasm-pack](https://rustwasm.github.io/wasm-pack/installer/), we can orche
 
 - Ensure that we have Rust 1.30 or newer and the wasm32-unknown-unknown target installed via rustup.
 - Compile our Rust sources into a WebAssembly .wasm binary via cargo.
+- Picks the properly compatible wasm32 target based on your rustc version.
 - Use wasm-bindgen to generate the JavaScript API for using our Rust-generated WebAssembly.
 
 To start, follow [this guide](https://rustwasm.github.io/docs/book/game-of-life/hello-world.html).
