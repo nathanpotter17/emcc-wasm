@@ -43,6 +43,6 @@ See `src/library/cmake` for documentation on compiling and including libraries.
 
 See [src/library](src/library/README.md) for all advanced examples.
 
-## Advanced Usage Part 2 - Building Web Graphics Engines with wgpu and Utilizing WebGPU's Compute Shaders
+## Advanced Usage Part 2 - Graphics and Compute via wgpu
 
 See my repository for a collection of [advanced examples](https://github.com/nathanpotter17/wgpu-computing/tree/main)
